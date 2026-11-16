@@ -1,4 +1,38 @@
-# Studio: three animated short films
+# Movies: original animated short films
+
+## 🎬 The Midnight Sweet Shop (finished)
+
+A 20-minute animated family film. On sweltering summer nights in an old Indian town, a shy girl finds a sweet shop that appears only at midnight, where the only currency is one true kindness. **Watch it:** download the video from this repo's **Releases** page (720p share copy, or the 1080p master).
+
+- Script: `films/midnight_sweet_shop/script/script.md`
+- Poster, thumbnail and stills: `films/midnight_sweet_shop/edit/final/`
+- Subtitles: `films/midnight_sweet_shop/edit/final/The_Midnight_Sweet_Shop_en.srt`
+
+Every frame is drawn by code in this repo: vector character rigs (`src/anim/rig`), painted sets (`src/anim/sets`), effects (`src/anim/fx.py`), and one module per scene (`src/anim/scenes`). The score and sound effects are synthesized in NumPy (`src/anim/audio`). Voices come from the open Kokoro-82M TTS model (Apache-2.0), run locally.
+
+### Rebuild the film
+
+```bash
+python3 -m venv .venv && .venv/bin/pip install -e . skia-python numpy scipy soundfile kokoro-onnx
+mkdir -p models && cd models
+curl -LO https://github.com/thewh1teagle/kokoro-onnx/releases/download/model-files-v1.0/kokoro-v1.0.onnx
+curl -LO https://github.com/thewh1teagle/kokoro-onnx/releases/download/model-files-v1.0/voices-v1.0.bin
+cd ..
+PYTHONPATH=src .venv/bin/python -m anim.render --jobs 4    # picture: ~35 min on 4 cores
+PYTHONPATH=src .venv/bin/python -m anim.audio.mix          # dialogue + score + SFX, -16/-23 LUFS
+PYTHONPATH=src .venv/bin/python -m anim.assemble           # final mp4s + subtitles
+PYTHONPATH=src .venv/bin/python -m anim.render --stills sc05   # contact sheet for reviewing one scene
+```
+
+On Linux, skia needs `libegl1` and `libgl1` installed.
+
+## Coming next
+
+*The Weather Keeper of Block C* and *The Lost Property Office*. Their briefs are in `films/*/bible/story.md`.
+
+---
+
+## Original pipeline notes
 
 | Film | Folder |
 |---|---|
