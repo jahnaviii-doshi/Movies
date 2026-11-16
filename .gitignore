@@ -10,3 +10,4 @@ films/*/assets/**/*.mp3
 films/*/assets/**/*.wav
 films/*/edit/**/*.mp4
 !films/*/.env.example
+models/
