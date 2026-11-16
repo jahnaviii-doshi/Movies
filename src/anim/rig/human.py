@@ -78,6 +78,7 @@ class Human:
     stoop = 0.0          # forward hunch (deg)
     extra_knee_spread = 0
     brow_base = 0.0
+    flat = False         # cel/flat-graphic fills (film 2); False keeps film 1 identical
     name = "human"
     seed = 0
 
@@ -152,11 +153,14 @@ class Human:
     def draw_body(self, cv, p, breath):
         base, dark = self.body_colors()
         path = self.body_path(p, breath)
-        cv.drawPath(path, K.lin((0, self.neck_y), (0, self.hem_y), [K.shade(base, 0.12), base, dark], [0, 0.4, 1]))
+        if self.flat:   # cel style: one flat fill + one flat shadow shape
+            cv.drawPath(path, fill(base))
+        else:
+            cv.drawPath(path, K.lin((0, self.neck_y), (0, self.hem_y), [K.shade(base, 0.12), base, dark], [0, 0.4, 1]))
         # side shading for volume
         cv.save()
         cv.clipPath(path, doAntiAlias=True)
-        cv.drawRect(skia.Rect.MakeLTRB(self.body_top_w * 0.35, self.neck_y, 120, 0), fill(dark, 0.35))
+        cv.drawRect(skia.Rect.MakeLTRB(self.body_top_w * 0.35, self.neck_y, 120, 0), fill(dark, 0.6 if self.flat else 0.35))
         self.body_detail(cv, p)
         cv.restore()
         cv.drawPath(path, stroke("line", self.line_w))
@@ -306,8 +310,16 @@ class Human:
             cv.drawPath(ep, fill(self.skin))
             cv.drawPath(ep, stroke("line", self.line_w * 0.9))
         head = self.head_path(p)
-        cv.drawPath(head, K.rad((-r * 0.3 + ox * 0.5, -r * 0.35), r * 1.5,
-                                [K.shade(self.skin, 0.12), self.skin, "skin_shadow"], [0, 0.6, 1]))
+        if self.flat:
+            cv.drawPath(head, fill(self.skin))
+            cv.save()
+            cv.clipPath(head, doAntiAlias=True)
+            cv.drawPath(ellipse(-r * 0.25 + ox * 0.4, -r * 0.2, r * 1.05, r * 1.12), fill(K.shade(self.skin, -0.16)))
+            cv.drawPath(ellipse(-r * 0.32 + ox * 0.4, -r * 0.26, r * 1.02, r * 1.08), fill(self.skin))
+            cv.restore()
+        else:
+            cv.drawPath(head, K.rad((-r * 0.3 + ox * 0.5, -r * 0.35), r * 1.5,
+                                    [K.shade(self.skin, 0.12), self.skin, "skin_shadow"], [0, 0.6, 1]))
         cv.drawPath(head, stroke("line", self.line_w))
         self.draw_face(cv, p)
         self.draw_hair_front(cv, p)
