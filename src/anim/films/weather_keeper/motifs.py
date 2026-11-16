@@ -22,7 +22,7 @@ KEEPER_V2 = [("D4", 4.0), ("F4", 2.0), ("D4", 2.0), ("C4", 2.0), ("F4", 2.0), ("
 KEEPER_V3 = [("G2", 4.0), ("F2", 2.0), ("C3", 2.0), ("F2", 2.0), ("A2", 2.0), ("G2", 4.0)]
 KEEPER_CHORDS = [(0, ["G2", "D3", "A3"]), (4, ["F2", "C3", "G3"]), (8, ["C3", "G3", "D4"]), (12, ["G2", "D3", "G3"])]
 
-# 2. BHAAP'S THEME: 2/4, ♩=132, bright G major, pizzicato + glockenspiel. 12 beats.
+# 2. BHAAP'S THEME: 2/4, ♩=132, bright G major, pizzicato + glockenspiel.
 #    (10 beats incl. the closing rest.) The little cloud's bounce: a skip down-and-up, then a hop to the top.
 BHAAP = [("D5", 0.25), ("E5", 0.25), ("D5", 0.5), ("B4", 0.5), ("G4", 0.5),
          ("A4", 0.25), ("B4", 0.25), ("D5", 0.5), ("G5", 1.0),
