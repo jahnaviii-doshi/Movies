@@ -155,7 +155,7 @@ def sh06(cv, c):
 def sh07(cv, c):
     """His good hand shakes. He winces; the sling pulls."""
     t = c.t
-    camc = ccam(BX + 70, BY - 380, 2.6)
+    camc = ccam(BX + 50, BY - 150, 2.6)
     roof.draw_roof(cv, t, "evening", "wide", steam_on=0.8, spin=0.3, cam=camc)
     with cam(cv, camc):
         jit = 9 * K.noise1(t * 16, 7)
@@ -177,7 +177,7 @@ def sh08(cv, c):
 def sh09(cv, c):
     """The steam catches and spins. A wisp becomes a puff."""
     t = c.t
-    spin_attempt(cv, t, c, fail=False, ishaan=1.0, puff=K.ease_in_out(seg(t, 1.0, 7.0)), brow=0.0, expr="neutral",
+    spin_attempt(cv, t, c, fail=False, ishaan=1.0, puff=K.ease_in_out(seg(t, 1.0, 8.5)), brow=0.0, expr="neutral",
                  shake=0.0, camc=cam_move(c.u, (980, 620, 1.65), (960, 600, 1.85)))
 
 
@@ -198,7 +198,7 @@ def sh10(cv, c):
 
 def sh11(cv, c):
     t = c.t
-    camc = ccam(BX + 40, BY - 370, 2.4)
+    camc = ccam(BX + 40, BY - 140, 2.4)
     roof.draw_roof(cv, t, "evening", "wide", steam_on=0.6, spin=0.6, cam=camc)
     with cam(cv, camc):
         with K.lit(cv, "heat_dusk"):
@@ -240,7 +240,7 @@ def sh13(cv, c):
 def sh14(cv, c):
     """'That was the rules.' Deadpan."""
     t = c.t
-    camc = ccam(BX + 40, BY - 370, 2.6)
+    camc = ccam(BX + 30, BY - 150, 2.6)
     roof.draw_roof(cv, t, "evening", "wide", steam_on=0.5, spin=0.5, cam=camc)
     with cam(cv, camc):
         with K.lit(cv, "heat_dusk"):
@@ -306,7 +306,7 @@ def ws(cv, t, camc, view="wide", **kw):
 def sh17(cv, c):
     """Impossibly huge. We crane DOWN the spiral of shelves from the light at the top."""
     t = c.t
-    pan = lerp(1.0, 0.0, K.ease_in_out(seg(t, 0.0, 11.5)))
+    pan = lerp(1.0, 0.0, K.ease_in_out(seg(t, 0.0, 14.0)))
     camc = workshop.shelves_cam(pan)
     ws(cv, t, camc, view="shelves", pan=pan)
     with cam(cv, camc):
@@ -378,6 +378,72 @@ def sh22(cv, c):
         fx.motes(cv, t, (700, 600, 1220, 960), n=20, color="#dfe8f5", a=0.5, seed=31)
 
 
+def sh17b(cv, c):
+    """Meghnath ducks in through the hatch behind the kids, a tall silhouette against the light."""
+    t = c.t
+    camc = cam_move(c.u, (900, 700, 1.45), (900, 720, 1.55))
+    ws(cv, t, camc)
+    with cam(cv, camc):
+        # the hatch from inside: a bright square high on the far wall with a ladder below
+        hx, hy = 1420, 640
+        cv.drawRect(skia.Rect.MakeXYWH(hx - 60, hy - 70, 120, 140), K.fill("#ffe2b8"))
+        cv.drawRect(skia.Rect.MakeXYWH(hx - 60, hy - 70, 120, 140), K.stroke("line", 4))
+        for k in range(6):
+            cv.drawLine(hx - 34, hy + 70 + k * 46, hx + 34, hy + 70 + k * 46, K.stroke("#6b4a32", 6))
+        cv.drawLine(hx - 34, hy + 70, hx - 34, WS_FLOOR, K.stroke("#6b4a32", 7))
+        cv.drawLine(hx + 34, hy + 70, hx + 34, WS_FLOOR, K.stroke("#6b4a32", 7))
+        k = K.ease_in_out(seg(t, 0.6, 4.2))
+        with K.lit(cv, "workshop"):
+            kids_ws(cv, t, c, turn_k=0.0, exprs=("awe", "awe", "awe"), look_up=-0.7)
+            R.draw(cv, "meghnath", x=hx + 90, y=lerp(hy + 40, WS_FLOOR, k), s=1.15, t=t, flip=True, turn=0.4,
+                   extra=dict(MEGH, brow_lift=0.0), legs="walk" if 0 < k < 1 else "stand", phase=t,
+                   expr="neutral", look=(-1, 0), alpha=1.0)
+        R.draw_bhaap(cv, 1060 + 30 * math.sin(t * 2), WS_FLOOR - 330, 0.85, t, mood="happy", look=(1, -0.3))
+
+
+def sh22b(cv, c):
+    """Rehan pokes the dusty-yellow loo-wind jar. It rattles, pops its lid, and blasts his hair flat."""
+    t = c.t
+    camc = ccam(780, 640, 2.5)
+    ws(cv, t, camc)
+    jx, jy = 900, 655
+    pop = t > 2.4
+    with cam(cv, camc):
+        R.draw_breeze_jar(cv, jx, jy, 1.4, t, color="#e8c86a", lid=not pop, swirl=1.0,
+                          rattle=1.0 if 1.2 < t < 2.4 else 0.2)
+        blast = K.smooth(seg(t, 2.4, 2.7)) * (1 - K.smooth(seg(t, 3.8, 4.6)))
+        with K.lit(cv, "workshop"):
+            R.draw(cv, "rehan", x=760, y=WS_FLOOR, s=1.35, t=t, flip=False, turn=0.7,
+                   expr="surprised" if pop else "grin", look=(1, -0.3), lean=-14 * blast,
+                   arms={"r": (lerp(20, 95, seg(t, 0.4, 1.0)) * (0 if pop else 1) + (40 if pop else 0), 10)},
+                   hand={"r": "point"} if not pop else {})
+        if blast > 0:
+            for i in range(10):
+                yy = jy - 140 + i * 16
+                xx = jx - 40 - ((t * 900 + i * 70) % 420)
+                cv.drawLine(xx, yy, xx - 80, yy - 6, K.stroke("#e8c86a", 4, 0.8 * blast))
+            fx.motes(cv, t, (420, 380, 900, 700), n=24, color="#e8c86a", a=blast, seed=40, size=3.0)
+        if pop:
+            k = seg(t, 2.4, 3.6)
+            lx, ly = jx + 160 * k, jy - 120 - 260 * k + 320 * k * k
+            cv.save(); cv.translate(lx, ly); cv.rotate(720 * k)
+            cv.drawPath(K.rrect(-26, -8, 52, 16, 5), K.fill("brass")); cv.drawPath(K.rrect(-26, -8, 52, 16, 5), K.stroke("line", 2.4))
+            cv.restore()
+
+
+def sh22c(cv, c):
+    """Tara scribbles furiously: arrows, a jar, a cloud."""
+    t = c.t
+    camc = ccam(640, 700, 2.7)
+    ws(cv, t, camc)
+    with cam(cv, camc):
+        with K.lit(cv, "workshop"):
+            scrub = math.sin(t * 16)
+            R.draw(cv, "tara", x=640, y=WS_FLOOR, s=1.2, t=t, expr="determined", look=(0.2, 0.9), turn=0.6,
+                   arms={"l": (40, 120), "r": (55 + 6 * scrub, 112 + 6 * scrub)}, hand={"r": "fist"}, head_tilt=6)
+        R.draw_notebook(cv, 640 + 20, WS_FLOOR - 150 * 1.2, 1.25, open_=True)
+
+
 def sh23(cv, c):
     t = c.t
     camc = ccam(860, 700, 2.0)
@@ -442,14 +508,14 @@ SHOTS = [
     S("S03_SH03", sh03, lines=seq(0.3, [("rehan", "You made a cloud.", 0)]), tail=0.5, bed="heat_bed", bed_db=-22),
     S("S03_SH04", sh02, lines=seq(0.2, [("meghnath", "Out.", 0)]), tail=0.6, bed="heat_bed", bed_db=-22),
     S("S03_SH05", sh05, lines=seq(0.3, [("tara", "You MADE a CLOUD.", 0)]), tail=0.9, bed="heat_bed", bed_db=-22),
-    S("S03_SH06", sh06, 9.0, bed="heat_bed", bed_db=-20,
+    S("S03_SH06", sh06, 11.0, bed="heat_bed", bed_db=-20,
       sfx=[Sfx("steam_hiss", 0, -12, dur=9.0), Sfx("cloud_puff", 3.0, -18), Sfx("whoosh", 5.2, -18)]),
     S("S03_SH07", sh07, 4.6, bed="heat_bed", bed_db=-22, sfx=[Sfx("steam_hiss", 0, -18, dur=4.6)]),
     S("S03_SH08", sh08, 6.2, music="recruited", bed="heat_bed", bed_db=-22,
       sfx=[Sfx("footsteps_soft", 0.4, -16, dur=3.0), Sfx("steam_hiss", 0, -14, dur=6.2)]),
-    S("S03_SH09", sh09, 8.0, bed="heat_bed", bed_db=-22,
+    S("S03_SH09", sh09, 10.0, bed="heat_bed", bed_db=-22,
       sfx=[Sfx("steam_hiss", 0, -12, dur=8.0), Sfx("cloud_puff", 5.5, -10), Sfx("bhaap_coo", 6.6, -14)]),
-    S("S03_SH10", sh10, 7.0, bed="heat_bed", bed_db=-24),
+    S("S03_SH10", sh10, 8.5, bed="heat_bed", bed_db=-24),
     S("S03_SH11", sh11, lines=seq(0.5, [("meghnath", "You touch nothing. You do exactly as I say.", 0)]), tail=0.8,
       bed="heat_bed", bed_db=-24),
     S("S03_SH12", sh12, 4.0, bed="heat_bed", bed_db=-22, sfx=[Sfx("whoosh", 0.4, -14, params={"intensity": 0.4}),
@@ -457,22 +523,27 @@ SHOTS = [
     S("S03_SH13", sh13, lines=seq(0.3, [("tara", "What are the rules?", 0)]), tail=0.6, bed="heat_bed", bed_db=-22),
     S("S03_SH14", sh14, lines=seq(0.5, [("meghnath", "That was the rules.", 0)]), tail=1.6, bed="heat_bed",
       bed_db=-22),
-    S("S03_SH15", sh15, 7.6, bed="heat_bed", bed_db=-20,
+    S("S03_SH15", sh15, 8.6, bed="heat_bed", bed_db=-20,
       sfx=[Sfx("footsteps_slipper", 0.0, -14, dur=6.0), Sfx("footsteps_soft", 1.0, -16, dur=6.0)]),
     S("S03_SH16", sh16, 5.6, music="workshop_reveal", bed="heat_bed", bed_db=-22,
       sfx=[Sfx("metal_hatch", 0.8, -4), Sfx("workshop_ambience", 1.4, -16, dur=4.2)]),
-    S("S03_SH17", sh17, 12.5, tr="dissolve", td=0.8, bed="workshop_ambience", bed_db=-12,
+    S("S03_SH17", sh17, 15.0, tr="dissolve", td=0.8, bed="workshop_ambience", bed_db=-12,
       sfx=[Sfx("jar_breeze", 3.0, -18), Sfx("kite_wind", 6.0, -20)]),
+    S("S03_SH17B", sh17b, 5.4, bed="workshop_ambience", bed_db=-12, sfx=[Sfx("footsteps_slipper", 0.6, -14, dur=3.6)]),
     S("S03_SH18", sh18, 7.0, bed="workshop_ambience", bed_db=-12,
       sfx=[Sfx("jar_breeze", 0.8, -12), Sfx("jar_unscrew", 3.6, -16), Sfx("shutter_rattle", 4.2, -20)]),
     S("S03_SH19", sh19, 6.6, bed="workshop_ambience", bed_db=-12, sfx=[Sfx("kite_wind", 0.5, -14)]),
-    S("S03_SH20", sh20, 7.4, bed="workshop_ambience", bed_db=-12,
+    S("S03_SH20", sh20, 9.0, bed="workshop_ambience", bed_db=-12,
       sfx=[Sfx("bhaap_giggle", 1.5, -10), Sfx("spark_tzik", 2.4, -12), Sfx("spark_tzik", 4.1, -12),
            Sfx("spark_tzik", 5.6, -12)]),
     S("S03_SH21", sh21, 5.0, bed="workshop_ambience", bed_db=-12,
       sfx=[Sfx("whoosh", 0.6, -14, params={"intensity": 0.5}), Sfx("spark_tzik", 1.4, -8),
            Sfx("bhaap_giggle", 2.4, -8), Sfx("spark_tzik", 3.6, -10)]),
-    S("S03_SH22", sh22, 6.6, bed="workshop_ambience", bed_db=-14),
+    S("S03_SH22", sh22, 8.0, bed="workshop_ambience", bed_db=-14),
+    S("S03_SH22B", sh22b, 5.0, bed="workshop_ambience", bed_db=-14,
+      sfx=[Sfx("tola_clank", 1.2, -18), Sfx("jar_unscrew", 2.3, -10), Sfx("pop", 2.4, -6), Sfx("jar_breeze", 2.45, -4),
+           Sfx("whoosh", 2.5, -8, params={"intensity": 0.8})]),
+    S("S03_SH22C", sh22c, 4.0, bed="workshop_ambience", bed_db=-14, sfx=[Sfx("page_turn", 0.3, -12), Sfx("page_turn", 2.4, -14)]),
     S("S03_SH23", sh23, lines=seq(0.5, [("rehan", "This is... the weather?", 0)]), tail=0.8,
       bed="workshop_ambience", bed_db=-14),
     S("S03_SH24", sh24, lines=seq(0.5, [("meghnath", "The weather of Delhi. Somebody has to keep it.", 0)]),

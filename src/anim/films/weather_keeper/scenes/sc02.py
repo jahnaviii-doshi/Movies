@@ -306,7 +306,7 @@ def sh12(cv, c):
 def sh13(cv, c):
     """'WHO is on my roof?'"""
     t = c.t
-    camc = ccam(BX + 30, BY - 380, 2.4)
+    camc = ccam(BX + 30, BY - 150, 2.4)
     roof.draw_roof(cv, t, "evening", "wide", steam_on=0.4, cam=camc)
     with cam(cv, camc):
         with K.lit(cv, "heat_dusk"):
@@ -396,7 +396,7 @@ def sh17(cv, c):
 def sh18(cv, c):
     """One grumpy old man. One cloud. Nobody moves. (an eyebrow twitches)"""
     t = c.t
-    camc = ccam(BX + 60, BY - 370, 2.2)
+    camc = ccam(BX + 50, BY - 160, 2.2)
     roof.draw_roof(cv, t, "evening", "wide", steam_on=0.3, cam=camc)
     with cam(cv, camc):
         twitch = 0.6 * math.sin(math.pi * seg(t, 2.4, 2.8))
