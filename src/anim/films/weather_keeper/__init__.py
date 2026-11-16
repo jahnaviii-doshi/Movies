@@ -5,4 +5,4 @@ hand-drawn line wobble that boils at 8 fps.
 """
 from ... import core as _core
 
-_core.STYLE.update(wobble=1.0, wobble_seg=20.0, boil_fps=8)
+_core.STYLE.update(wobble=0.55, wobble_seg=5.0, boil_fps=8)
