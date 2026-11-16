@@ -55,7 +55,7 @@ ANCHORS = {
     "loom": (930, 560, 150),
     "cooker": (830, 790),
     "hatch": HATCH_RECT,
-    "parapet_sit": (1215, PARAPET_Y + 4, 0.95),
+    "parapet_sit": (1190, PARAPET_Y + 4, 0.95),
     "runup": ((360, 1010), (1140, 820)),
     "trunk": (1160, 860, 1.0),
     "stair_door": (300, 720, 1.05),
@@ -64,9 +64,9 @@ ANCHORS = {
 VIEWS = {
     "wide": (960, 540, 1.0),
     "loom": (820, 640, 1.7),
-    "hatch": (1470, 640, 1.9),
-    "parapet": (1200, 470, 1.9),
-    "trunk": (1160, 760, 1.6),
+    "hatch": (1405, 640, 1.9),
+    "parapet": (1150, 440, 1.8),
+    "trunk": (1160, 735, 1.6),
 }
 
 
