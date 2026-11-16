@@ -28,9 +28,18 @@ PYTHONPATH=src .venv/bin/python -m anim.render --stills sc05   # contact sheet f
 
 On Linux, skia needs `libegl1` and `libgl1` installed.
 
+## 🌧️ The Weather Keeper of Block C (finished)
+
+In a scorching Delhi heatwave, three kids discover that the grumpy old man upstairs secretly makes the city's weather, and he's too tired to open this year's monsoon alone. **Watch it:** [`watch/The_Weather_Keeper_of_Block_C_720p.mp4`](watch/The_Weather_Keeper_of_Block_C_720p.mp4) (720p, under 100 MB, English subtitles in `watch/`).
+
+![poster](watch/weather_keeper_poster.png)
+
+- Script: `films/weather_keeper/script/script.md`. Score notes: `docs/score_weather_keeper.md`.
+- Code: `src/anim/films/weather_keeper/` (rigs, sets, score, SFX, scenes). Build it with `FILM=weather_keeper` in front of the commands above.
+
 ## Coming next
 
-*The Weather Keeper of Block C* and *The Lost Property Office*. Their briefs are in `films/*/bible/story.md`.
+*The Lost Property Office*. The script is in `films/lost_property_office/script/script.md`.
 
 ---
 
