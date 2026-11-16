@@ -417,11 +417,11 @@ def sh16(cv, c):
     if closed:
         pose["blink"] = 1.0
     megh = ("meghnath", pose)
-    kids = [("ishaan", dict(x=1150, y=840, s=RS(840) * 0.9, t=t, flip=True, turn=0.4, expr="happy",
+    kids = [("ishaan", dict(x=1225, y=840, s=RS(840) * 0.9, t=t, flip=True, turn=0.4, expr="happy",
                             arms={"l": (15, 20), "r": (15, 20)})),
-            ("tara", dict(x=1300, y=820, s=RS(820) * 0.9, t=t, flip=True, turn=0.4, expr="happy", hold="notebook",
+            ("tara", dict(x=1370, y=820, s=RS(820) * 0.9, t=t, flip=True, turn=0.4, expr="happy", hold="notebook",
                           arms={"r": (40, 90)})),
-            ("rehan", dict(x=1450, y=832, s=RS(832) * 0.9, t=t, flip=True, turn=0.4, expr="happy"))]
+            ("rehan", dict(x=1515, y=832, s=RS(832) * 0.9, t=t, flip=True, turn=0.4, expr="happy"))]
     hx, hy = head_pos("meghnath", bx, by, bs * 0.95, turn=0.25, legs="sit")
 
     def bucket(q):
