@@ -2,7 +2,9 @@
 
 ## 🎬 The Midnight Sweet Shop (finished)
 
-A 20-minute animated family film. On sweltering summer nights in an old Indian town, a shy girl finds a sweet shop that appears only at midnight, where the only currency is one true kindness. **Watch it:** download the video from this repo's **Releases** page (720p share copy, or the 1080p master).
+A 20-minute animated family film. On sweltering summer nights in an old Indian town, a shy girl finds a sweet shop that appears only at midnight, where the only currency is one true kindness. **Watch it:** [`watch/The_Midnight_Sweet_Shop_720p.mp4`](watch/The_Midnight_Sweet_Shop_720p.mp4) (720p, 95 MB, English subtitles in `watch/`).
+
+![poster](watch/poster.png)
 
 - Script: `films/midnight_sweet_shop/script/script.md`
 - Poster, thumbnail and stills: `films/midnight_sweet_shop/edit/final/`
