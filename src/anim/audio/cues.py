@@ -715,11 +715,24 @@ CUES = {
 }
 
 
+def _film_cues() -> dict:
+    """Cues of the current film (FILM env), from anim.films.<slug>.cues.CUES; {} for film 1."""
+    import importlib
+    import os
+    film = os.environ.get("FILM", "midnight_sweet_shop")
+    if film == "midnight_sweet_shop":
+        return {}
+    try:
+        return importlib.import_module(f"anim.films.{film}.cues").CUES
+    except ModuleNotFoundError:
+        return {}
+
+
 def render_cue(cue_id: str, duration: float, hits: list[float] | None = None) -> np.ndarray:
     hits = sorted(h for h in (hits or []) if 0 <= h <= duration)
     if duration <= 0.05 or cue_id == "":
         return np.zeros((S.ns(max(duration, 0.0)), 2), dtype=np.float32)
-    fn = CUES.get(cue_id)
+    fn = _film_cues().get(cue_id) or CUES.get(cue_id)
     if fn is None:
         warnings.warn(f"unknown cue {cue_id!r}: using generic lullaby bed")
         fn = c_generic

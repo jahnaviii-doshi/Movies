@@ -871,7 +871,7 @@ def _kid_layers(phrases, seed=51, n_layers=5, spread=0.35):
     from scipy.signal import resample_poly
 
     from .. import voice as V
-    cache = Path(__file__).resolve().parents[3] / "films" / "midnight_sweet_shop" / "edit" / "audio" / "cache" / "kids"
+    cache = Path(__file__).resolve().parents[3] / "films" / __import__("os").environ.get("FILM", "midnight_sweet_shop") / "edit" / "audio" / "cache" / "kids"
     g = _rng(seed)
     clips = []
     for k in range(n_layers):
@@ -946,8 +946,21 @@ REGISTRY["shadow_grow"] = shadow_grow
 BEDS = {"crickets_bed", "night_bed", "day_bed", "heat_cicadas", "wind_flight", "sparrows_dawn"}
 
 
+def _film_sfx() -> dict:
+    """SFX of the current film (FILM env), from anim.films.<slug>.sfx.REGISTRY."""
+    import importlib
+    import os
+    film = os.environ.get("FILM", "midnight_sweet_shop")
+    if film == "midnight_sweet_shop":
+        return {}
+    try:
+        return importlib.import_module(f"anim.films.{film}.sfx").REGISTRY
+    except ModuleNotFoundError:
+        return {}
+
+
 def sfx(name: str, dur: float | None = None, **params) -> np.ndarray:
-    fn = REGISTRY.get(name)
+    fn = _film_sfx().get(name) or REGISTRY.get(name)
     if fn is None:
         warnings.warn(f"unknown sfx {name!r}; using sparkle")
         fn = sparkle

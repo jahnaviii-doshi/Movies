@@ -8,13 +8,17 @@ from __future__ import annotations
 
 import importlib
 import json
+import os
 from dataclasses import dataclass, field
 from pathlib import Path
 from typing import Callable
 
 from . import voice
 
-FILM_DIR = Path(__file__).resolve().parents[2] / "films" / "midnight_sweet_shop"
+FILM = os.environ.get("FILM", "midnight_sweet_shop")
+FILM_DIR = Path(__file__).resolve().parents[2] / "films" / FILM
+# film 1 keeps its original package; later films live in anim/films/<slug>/scenes
+SCENE_PKG = "anim.scenes" if FILM == "midnight_sweet_shop" else f"anim.films.{FILM}.scenes"
 VOICE_DIR = FILM_DIR / "assets" / "voice"
 FPS = 24
 W, H = 1920, 1080
@@ -95,7 +99,7 @@ class Ctx:
         return 0.0 if self.t <= a else 1.0 if self.t >= b else (self.t - a) / (b - a)
 
 
-SCENES = [f"sc{n:02d}" for n in range(1, 11)] + ["credits"]
+SCENES = [f"sc{n:02d}" for n in range(1, 13)] + ["credits"]
 
 
 def load_scenes(only: list[str] | None = None) -> list[Shot]:
@@ -104,7 +108,7 @@ def load_scenes(only: list[str] | None = None) -> list[Shot]:
         if only and name not in only:
             continue
         try:
-            mod = importlib.import_module(f"anim.scenes.{name}")
+            mod = importlib.import_module(f"{SCENE_PKG}.{name}")
         except ModuleNotFoundError:
             continue
         for s in mod.SHOTS:

@@ -28,7 +28,7 @@ from . import synth as S
 
 SR = S.SR
 ROOT = Path(__file__).resolve().parents[3]
-FILM = ROOT / "films" / "midnight_sweet_shop"
+FILM = ROOT / "films" / __import__("os").environ.get("FILM", "midnight_sweet_shop")
 HERE = Path(__file__).resolve().parent
 
 DIALOGUE_GAIN_DB = -3.0
@@ -48,6 +48,11 @@ def _engine_hash(files):
     h = hashlib.sha256()
     for f in files:
         h.update((HERE / f).read_bytes())
+    # the current film's own audio modules (cues/sfx/motifs), if any
+    fdir = HERE.parent / "films" / FILM.name
+    for f in sorted(fdir.glob("*.py")) if fdir.exists() else []:
+        if f.stem in ("cues", "motifs", "sfx", "synth_extra"):
+            h.update(f.read_bytes())
     return h.hexdigest()[:10]
 
 

@@ -17,3 +17,5 @@ films/*/edit/segments/
 films/*/edit/rough/
 films/*/assets/voice/
 *.npy
+.venv
+models

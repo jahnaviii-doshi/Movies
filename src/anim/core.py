@@ -134,8 +134,16 @@ def fill(c, a=1.0, aa=True) -> skia.Paint:
     return skia.Paint(Color=C(c, a), AntiAlias=aa, Style=skia.Paint.kFill_Style)
 
 
+# Film-wide drawing style. wobble > 0 gives outlines a hand-drawn jitter that "boils"
+# (re-seeds) `boil_fps` times per second; the renderer sets STYLE["seed"] each frame.
+STYLE = {"wobble": 0.0, "wobble_seg": 14.0, "boil_fps": 8, "seed": 0}
+
+
 def stroke(c, w=3.0, a=1.0, cap="round") -> skia.Paint:
     p = skia.Paint(Color=C(c, a), AntiAlias=True, Style=skia.Paint.kStroke_Style, StrokeWidth=w)
+    if STYLE["wobble"] > 0 and w >= 1.2:
+        p.setPathEffect(skia.DiscretePathEffect.Make(STYLE["wobble_seg"], STYLE["wobble"] * min(1.0, w / 3.0),
+                                                     STYLE["seed"]))
     p.setStrokeCap({"round": skia.Paint.kRound_Cap, "butt": skia.Paint.kButt_Cap, "square": skia.Paint.kSquare_Cap}[cap])
     p.setStrokeJoin(skia.Paint.kRound_Join)
     return p

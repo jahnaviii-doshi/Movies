@@ -21,7 +21,7 @@ import numpy as np
 import skia
 
 from . import core as K
-from .timeline import FILM_DIR, FPS, H, W, Ctx, build_film, SCENES
+from .timeline import FILM, FILM_DIR, FPS, H, W, Ctx, build_film, SCENES, SCENE_PKG
 
 SRC = Path(__file__).resolve().parent
 SEG_DIR = FILM_DIR / "edit" / "segments"
@@ -38,18 +38,25 @@ def _hash_files(paths) -> str:
 def engine_hash() -> str:
     files = [SRC / "core.py", SRC / "fx.py", SRC / "timeline.py"] + list((SRC / "rig").glob("*.py")) + \
         list((SRC / "sets").glob("*.py"))
+    fdir = SRC / "films" / FILM
+    if fdir.exists():   # the film's own rigs/sets/helpers (not its scenes)
+        files += [p for p in fdir.rglob("*.py") if "scenes" not in p.parts]
     return _hash_files(files)
 
 
 def scene_hash(scene: int) -> str:
-    name = f"sc{scene:02d}.py" if scene != 99 else "credits.py"
-    return _hash_files([SRC / "scenes" / name])
+    import importlib
+    name = f"sc{scene:02d}" if scene != 99 else "credits"
+    mod = importlib.import_module(f"{SCENE_PKG}.{name}")
+    sdir = Path(mod.__file__).parent
+    return _hash_files([Path(mod.__file__)] + sorted(sdir.glob("_util*.py")))
 
 
 # ------------------------------------------------------------------ frame drawing
 def draw_frame(cv: skia.Canvas, shots, i: int, frame: int, scale=1.0):
     s = shots[i]
     t = frame / FPS
+    K.STYLE["seed"] = int((s.start + t) * K.STYLE["boil_fps"])
     cv.save()
     cv.scale(scale, scale)
     cv.clear(K.C("#000000"))

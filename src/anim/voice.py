@@ -31,6 +31,13 @@ CAST = {
     "chutney": dict(voices={"hm_omega": 1.0},                   st=-2.5, speed=0.88, vib=None, growl=0.35),
     "kid1":    dict(voices={"af_nova": 1.0},                    st=5.0, speed=1.05, vib=None, growl=0.0),
     "kid2":    dict(voices={"am_puck": 0.5, "af_sky": 0.5},     st=5.5, speed=1.08, vib=None, growl=0.0),
+    # --- The Weather Keeper of Block C
+    "tara":     dict(voices={"hf_alpha": 0.7, "af_bella": 0.3},  st=3.0, speed=1.02, vib=None, growl=0.0),
+    "ishaan":   dict(voices={"hf_beta": 0.7, "hm_psi": 0.3},     st=5.5, speed=0.92, vib=None, growl=0.0),
+    "rehan":    dict(voices={"hm_omega": 0.6, "hf_beta": 0.4},   st=4.5, speed=1.10, vib=None, growl=0.0),
+    "meghnath": dict(voices={"hm_omega": 1.0},                   st=-3.0, speed=0.82, vib=(4.5, 0.08), growl=0.12),
+    "neighbor_m": dict(voices={"hm_psi": 1.0},                   st=-1.0, speed=1.12, vib=None, growl=0.0),
+    "neighbor_f": dict(voices={"hf_alpha": 1.0},                 st=0.5, speed=1.15, vib=None, growl=0.0),
 }
 
 

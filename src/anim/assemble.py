@@ -14,7 +14,8 @@ from . import core as K
 from .timeline import FILM_DIR, FPS, W, H, Ctx, build_film
 
 FINAL = FILM_DIR / "edit" / "final"
-TITLE = "The_Midnight_Sweet_Shop"
+import yaml as _yaml
+TITLE = _yaml.safe_load((FILM_DIR / "config.yaml").read_text())["title"].replace(" ", "_")
 
 
 def run(*args):
