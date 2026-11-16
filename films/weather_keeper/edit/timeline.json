@@ -1,0 +1,5858 @@
+{
+ "fps": 24,
+ "duration": 1246.333,
+ "shots": [
+  {
+   "id": "S01_SH01",
+   "scene": 1,
+   "start": 0.0,
+   "duration": 12.5,
+   "transition": "fade_black"
+  },
+  {
+   "id": "S01_SH02",
+   "scene": 1,
+   "start": 12.5,
+   "duration": 6.0,
+   "transition": "cut"
+  },
+  {
+   "id": "S01_SH03",
+   "scene": 1,
+   "start": 18.5,
+   "duration": 9.0,
+   "transition": "cut"
+  },
+  {
+   "id": "S01_SH04",
+   "scene": 1,
+   "start": 27.5,
+   "duration": 11.0,
+   "transition": "cut"
+  },
+  {
+   "id": "S01_SH05",
+   "scene": 1,
+   "start": 38.5,
+   "duration": 6.5,
+   "transition": "dissolve"
+  },
+  {
+   "id": "S01_SH06",
+   "scene": 1,
+   "start": 45.0,
+   "duration": 3.7083333333333335,
+   "transition": "cut"
+  },
+  {
+   "id": "S01_SH07",
+   "scene": 1,
+   "start": 48.7083,
+   "duration": 2.5833333333333335,
+   "transition": "cut"
+  },
+  {
+   "id": "S01_SH08",
+   "scene": 1,
+   "start": 51.2917,
+   "duration": 3.5833333333333335,
+   "transition": "cut"
+  },
+  {
+   "id": "S01_SH09",
+   "scene": 1,
+   "start": 54.875,
+   "duration": 8.0,
+   "transition": "cut"
+  },
+  {
+   "id": "S01_SH10",
+   "scene": 1,
+   "start": 62.875,
+   "duration": 5.5,
+   "transition": "cut"
+  },
+  {
+   "id": "S01_SH11",
+   "scene": 1,
+   "start": 68.375,
+   "duration": 8.5,
+   "transition": "dissolve"
+  },
+  {
+   "id": "S01_SH12",
+   "scene": 1,
+   "start": 76.875,
+   "duration": 6.583333333333333,
+   "transition": "cut"
+  },
+  {
+   "id": "S01_SH13",
+   "scene": 1,
+   "start": 83.4583,
+   "duration": 3.4166666666666665,
+   "transition": "cut"
+  },
+  {
+   "id": "S01_SH14",
+   "scene": 1,
+   "start": 86.875,
+   "duration": 3.5833333333333335,
+   "transition": "cut"
+  },
+  {
+   "id": "S01_SH15",
+   "scene": 1,
+   "start": 90.4583,
+   "duration": 7.583333333333333,
+   "transition": "cut"
+  },
+  {
+   "id": "S01_SH16",
+   "scene": 1,
+   "start": 98.0417,
+   "duration": 2.7916666666666665,
+   "transition": "cut"
+  },
+  {
+   "id": "S01_SH17",
+   "scene": 1,
+   "start": 100.8333,
+   "duration": 2.75,
+   "transition": "cut"
+  },
+  {
+   "id": "S01_SH18",
+   "scene": 1,
+   "start": 103.5833,
+   "duration": 3.75,
+   "transition": "cut"
+  },
+  {
+   "id": "S01_SH19",
+   "scene": 1,
+   "start": 107.3333,
+   "duration": 8.416666666666666,
+   "transition": "cut"
+  },
+  {
+   "id": "S01_SH20",
+   "scene": 1,
+   "start": 115.75,
+   "duration": 4.5,
+   "transition": "cut"
+  },
+  {
+   "id": "S02_SH01",
+   "scene": 2,
+   "start": 120.25,
+   "duration": 6.583333333333333,
+   "transition": "fade_black"
+  },
+  {
+   "id": "S02_SH02",
+   "scene": 2,
+   "start": 126.8333,
+   "duration": 2.7083333333333335,
+   "transition": "cut"
+  },
+  {
+   "id": "S02_SH03",
+   "scene": 2,
+   "start": 129.5417,
+   "duration": 8.583333333333334,
+   "transition": "cut"
+  },
+  {
+   "id": "S02_SH04",
+   "scene": 2,
+   "start": 138.125,
+   "duration": 9.0,
+   "transition": "cut"
+  },
+  {
+   "id": "S02_SH05",
+   "scene": 2,
+   "start": 147.125,
+   "duration": 11.0,
+   "transition": "cut"
+  },
+  {
+   "id": "S02_SH06",
+   "scene": 2,
+   "start": 158.125,
+   "duration": 2.7916666666666665,
+   "transition": "cut"
+  },
+  {
+   "id": "S02_SH07",
+   "scene": 2,
+   "start": 160.9167,
+   "duration": 3.5833333333333335,
+   "transition": "cut"
+  },
+  {
+   "id": "S02_SH08",
+   "scene": 2,
+   "start": 164.5,
+   "duration": 19.0,
+   "transition": "cut"
+  },
+  {
+   "id": "S02_SH08B",
+   "scene": 2,
+   "start": 183.5,
+   "duration": 6.0,
+   "transition": "cut"
+  },
+  {
+   "id": "S02_SH09",
+   "scene": 2,
+   "start": 189.5,
+   "duration": 4.583333333333333,
+   "transition": "cut"
+  },
+  {
+   "id": "S02_SH10",
+   "scene": 2,
+   "start": 194.0833,
+   "duration": 6.416666666666667,
+   "transition": "cut"
+  },
+  {
+   "id": "S02_SH11",
+   "scene": 2,
+   "start": 200.5,
+   "duration": 3.0,
+   "transition": "cut"
+  },
+  {
+   "id": "S02_SH12",
+   "scene": 2,
+   "start": 203.5,
+   "duration": 8.0,
+   "transition": "cut"
+  },
+  {
+   "id": "S02_SH13",
+   "scene": 2,
+   "start": 211.5,
+   "duration": 2.7083333333333335,
+   "transition": "cut"
+  },
+  {
+   "id": "S02_SH14",
+   "scene": 2,
+   "start": 214.2083,
+   "duration": 4.416666666666667,
+   "transition": "cut"
+  },
+  {
+   "id": "S02_SH15",
+   "scene": 2,
+   "start": 218.625,
+   "duration": 3.125,
+   "transition": "cut"
+  },
+  {
+   "id": "S02_SH16",
+   "scene": 2,
+   "start": 221.75,
+   "duration": 3.0833333333333335,
+   "transition": "cut"
+  },
+  {
+   "id": "S02_SH17",
+   "scene": 2,
+   "start": 224.8333,
+   "duration": 6.0,
+   "transition": "cut"
+  },
+  {
+   "id": "S02_SH18",
+   "scene": 2,
+   "start": 230.8333,
+   "duration": 5.0,
+   "transition": "cut"
+  },
+  {
+   "id": "S03_SH01",
+   "scene": 3,
+   "start": 235.8333,
+   "duration": 4.416666666666667,
+   "transition": "cut"
+  },
+  {
+   "id": "S03_SH02",
+   "scene": 3,
+   "start": 240.25,
+   "duration": 2.7083333333333335,
+   "transition": "cut"
+  },
+  {
+   "id": "S03_SH03",
+   "scene": 3,
+   "start": 242.9583,
+   "duration": 2.5,
+   "transition": "cut"
+  },
+  {
+   "id": "S03_SH04",
+   "scene": 3,
+   "start": 245.4583,
+   "duration": 2.5833333333333335,
+   "transition": "cut"
+  },
+  {
+   "id": "S03_SH05",
+   "scene": 3,
+   "start": 248.0417,
+   "duration": 2.9166666666666665,
+   "transition": "cut"
+  },
+  {
+   "id": "S03_SH06",
+   "scene": 3,
+   "start": 250.9583,
+   "duration": 11.0,
+   "transition": "cut"
+  },
+  {
+   "id": "S03_SH07",
+   "scene": 3,
+   "start": 261.9583,
+   "duration": 4.583333333333333,
+   "transition": "cut"
+  },
+  {
+   "id": "S03_SH08",
+   "scene": 3,
+   "start": 266.5417,
+   "duration": 6.208333333333333,
+   "transition": "cut"
+  },
+  {
+   "id": "S03_SH09",
+   "scene": 3,
+   "start": 272.75,
+   "duration": 10.0,
+   "transition": "cut"
+  },
+  {
+   "id": "S03_SH10",
+   "scene": 3,
+   "start": 282.75,
+   "duration": 8.5,
+   "transition": "cut"
+  },
+  {
+   "id": "S03_SH11",
+   "scene": 3,
+   "start": 291.25,
+   "duration": 4.708333333333333,
+   "transition": "cut"
+  },
+  {
+   "id": "S03_SH12",
+   "scene": 3,
+   "start": 295.9583,
+   "duration": 5.5,
+   "transition": "cut"
+  },
+  {
+   "id": "S03_SH13",
+   "scene": 3,
+   "start": 301.4583,
+   "duration": 2.5833333333333335,
+   "transition": "cut"
+  },
+  {
+   "id": "S03_SH14",
+   "scene": 3,
+   "start": 304.0417,
+   "duration": 3.7916666666666665,
+   "transition": "cut"
+  },
+  {
+   "id": "S03_SH15",
+   "scene": 3,
+   "start": 307.8333,
+   "duration": 8.583333333333334,
+   "transition": "cut"
+  },
+  {
+   "id": "S03_SH16",
+   "scene": 3,
+   "start": 316.4167,
+   "duration": 7.0,
+   "transition": "cut"
+  },
+  {
+   "id": "S03_SH17",
+   "scene": 3,
+   "start": 323.4167,
+   "duration": 15.0,
+   "transition": "dissolve"
+  },
+  {
+   "id": "S03_SH17B",
+   "scene": 3,
+   "start": 338.4167,
+   "duration": 5.416666666666667,
+   "transition": "cut"
+  },
+  {
+   "id": "S03_SH18",
+   "scene": 3,
+   "start": 343.8333,
+   "duration": 7.0,
+   "transition": "cut"
+  },
+  {
+   "id": "S03_SH19",
+   "scene": 3,
+   "start": 350.8333,
+   "duration": 7.791666666666667,
+   "transition": "cut"
+  },
+  {
+   "id": "S03_SH20",
+   "scene": 3,
+   "start": 358.625,
+   "duration": 9.0,
+   "transition": "cut"
+  },
+  {
+   "id": "S03_SH21",
+   "scene": 3,
+   "start": 367.625,
+   "duration": 6.0,
+   "transition": "cut"
+  },
+  {
+   "id": "S03_SH22",
+   "scene": 3,
+   "start": 373.625,
+   "duration": 8.0,
+   "transition": "cut"
+  },
+  {
+   "id": "S03_SH22B",
+   "scene": 3,
+   "start": 381.625,
+   "duration": 5.0,
+   "transition": "cut"
+  },
+  {
+   "id": "S03_SH22C",
+   "scene": 3,
+   "start": 386.625,
+   "duration": 4.0,
+   "transition": "cut"
+  },
+  {
+   "id": "S03_SH23",
+   "scene": 3,
+   "start": 390.625,
+   "duration": 2.7916666666666665,
+   "transition": "cut"
+  },
+  {
+   "id": "S03_SH24",
+   "scene": 3,
+   "start": 393.4167,
+   "duration": 4.625,
+   "transition": "cut"
+  },
+  {
+   "id": "S03_SH25",
+   "scene": 3,
+   "start": 398.0417,
+   "duration": 2.7916666666666665,
+   "transition": "cut"
+  },
+  {
+   "id": "S03_SH26",
+   "scene": 3,
+   "start": 400.8333,
+   "duration": 3.5833333333333335,
+   "transition": "cut"
+  },
+  {
+   "id": "S03_SH27",
+   "scene": 3,
+   "start": 404.4167,
+   "duration": 5.5,
+   "transition": "cut"
+  },
+  {
+   "id": "S04_SH01",
+   "scene": 4,
+   "start": 409.9167,
+   "duration": 7.0,
+   "transition": "fade_black"
+  },
+  {
+   "id": "S04_SH02",
+   "scene": 4,
+   "start": 416.9167,
+   "duration": 8.0,
+   "transition": "cut"
+  },
+  {
+   "id": "S04_SH03",
+   "scene": 4,
+   "start": 424.9167,
+   "duration": 5.5,
+   "transition": "cut"
+  },
+  {
+   "id": "S04_SH04",
+   "scene": 4,
+   "start": 430.4167,
+   "duration": 7.0,
+   "transition": "cut"
+  },
+  {
+   "id": "S04_SH05",
+   "scene": 4,
+   "start": 437.4167,
+   "duration": 5.5,
+   "transition": "cut"
+  },
+  {
+   "id": "S04_SH06",
+   "scene": 4,
+   "start": 442.9167,
+   "duration": 8.5,
+   "transition": "cut"
+  },
+  {
+   "id": "S04_SH07",
+   "scene": 4,
+   "start": 451.4167,
+   "duration": 5.0,
+   "transition": "cut"
+  },
+  {
+   "id": "S04_SH08",
+   "scene": 4,
+   "start": 456.4167,
+   "duration": 6.5,
+   "transition": "dissolve"
+  },
+  {
+   "id": "S04_SH09",
+   "scene": 4,
+   "start": 462.9167,
+   "duration": 8.0,
+   "transition": "cut"
+  },
+  {
+   "id": "S04_SH10",
+   "scene": 4,
+   "start": 470.9167,
+   "duration": 6.0,
+   "transition": "cut"
+  },
+  {
+   "id": "S04_SH11",
+   "scene": 4,
+   "start": 476.9167,
+   "duration": 6.5,
+   "transition": "dissolve"
+  },
+  {
+   "id": "S04_SH12",
+   "scene": 4,
+   "start": 483.4167,
+   "duration": 8.0,
+   "transition": "cut"
+  },
+  {
+   "id": "S04_SH13",
+   "scene": 4,
+   "start": 491.4167,
+   "duration": 6.5,
+   "transition": "dissolve"
+  },
+  {
+   "id": "S04_SH14",
+   "scene": 4,
+   "start": 497.9167,
+   "duration": 6.0,
+   "transition": "cut"
+  },
+  {
+   "id": "S04_SH15",
+   "scene": 4,
+   "start": 503.9167,
+   "duration": 7.0,
+   "transition": "dissolve"
+  },
+  {
+   "id": "S04_SH16",
+   "scene": 4,
+   "start": 510.9167,
+   "duration": 7.791666666666667,
+   "transition": "cut"
+  },
+  {
+   "id": "S04_SH17",
+   "scene": 4,
+   "start": 518.7083,
+   "duration": 5.5,
+   "transition": "cut"
+  },
+  {
+   "id": "S04_SH18",
+   "scene": 4,
+   "start": 524.2083,
+   "duration": 3.2083333333333335,
+   "transition": "cut"
+  },
+  {
+   "id": "S04_SH19",
+   "scene": 4,
+   "start": 527.4167,
+   "duration": 3.5,
+   "transition": "cut"
+  },
+  {
+   "id": "S04_SH20",
+   "scene": 4,
+   "start": 530.9167,
+   "duration": 9.0,
+   "transition": "cut"
+  },
+  {
+   "id": "S04_SH21",
+   "scene": 4,
+   "start": 539.9167,
+   "duration": 7.0,
+   "transition": "cut"
+  },
+  {
+   "id": "S04_SH22",
+   "scene": 4,
+   "start": 546.9167,
+   "duration": 5.0,
+   "transition": "cut"
+  },
+  {
+   "id": "S04_SH23",
+   "scene": 4,
+   "start": 551.9167,
+   "duration": 5.166666666666667,
+   "transition": "cut"
+  },
+  {
+   "id": "S04_SH24",
+   "scene": 4,
+   "start": 557.0833,
+   "duration": 6.0,
+   "transition": "fade_black"
+  },
+  {
+   "id": "S04_SH25",
+   "scene": 4,
+   "start": 563.0833,
+   "duration": 6.0,
+   "transition": "cut"
+  },
+  {
+   "id": "S04_SH26",
+   "scene": 4,
+   "start": 569.0833,
+   "duration": 10.0,
+   "transition": "cut"
+  },
+  {
+   "id": "S04_SH27",
+   "scene": 4,
+   "start": 579.0833,
+   "duration": 8.0,
+   "transition": "cut"
+  },
+  {
+   "id": "S05_SH01",
+   "scene": 5,
+   "start": 587.0833,
+   "duration": 7.5,
+   "transition": "fade_black"
+  },
+  {
+   "id": "S05_SH02",
+   "scene": 5,
+   "start": 594.5833,
+   "duration": 4.666666666666667,
+   "transition": "cut"
+  },
+  {
+   "id": "S05_SH03",
+   "scene": 5,
+   "start": 599.25,
+   "duration": 8.0,
+   "transition": "cut"
+  },
+  {
+   "id": "S05_SH04",
+   "scene": 5,
+   "start": 607.25,
+   "duration": 7.0,
+   "transition": "cut"
+  },
+  {
+   "id": "S05_SH05",
+   "scene": 5,
+   "start": 614.25,
+   "duration": 4.791666666666667,
+   "transition": "cut"
+  },
+  {
+   "id": "S05_SH06",
+   "scene": 5,
+   "start": 619.0417,
+   "duration": 7.208333333333333,
+   "transition": "cut"
+  },
+  {
+   "id": "S05_SH07",
+   "scene": 5,
+   "start": 626.25,
+   "duration": 4.375,
+   "transition": "cut"
+  },
+  {
+   "id": "S05_SH08",
+   "scene": 5,
+   "start": 630.625,
+   "duration": 4.5,
+   "transition": "cut"
+  },
+  {
+   "id": "S05_SH09",
+   "scene": 5,
+   "start": 635.125,
+   "duration": 4.625,
+   "transition": "cut"
+  },
+  {
+   "id": "S05_SH10",
+   "scene": 5,
+   "start": 639.75,
+   "duration": 4.791666666666667,
+   "transition": "cut"
+  },
+  {
+   "id": "S05_SH11",
+   "scene": 5,
+   "start": 644.5417,
+   "duration": 4.583333333333333,
+   "transition": "cut"
+  },
+  {
+   "id": "S05_SH12",
+   "scene": 5,
+   "start": 649.125,
+   "duration": 6.208333333333333,
+   "transition": "cut"
+  },
+  {
+   "id": "S05_SH13",
+   "scene": 5,
+   "start": 655.3333,
+   "duration": 16.0,
+   "transition": "dissolve"
+  },
+  {
+   "id": "S05_SH14",
+   "scene": 5,
+   "start": 671.3333,
+   "duration": 7.0,
+   "transition": "dissolve"
+  },
+  {
+   "id": "S05_SH15",
+   "scene": 5,
+   "start": 678.3333,
+   "duration": 4.583333333333333,
+   "transition": "cut"
+  },
+  {
+   "id": "S05_SH16",
+   "scene": 5,
+   "start": 682.9167,
+   "duration": 2.5833333333333335,
+   "transition": "cut"
+  },
+  {
+   "id": "S05_SH17",
+   "scene": 5,
+   "start": 685.5,
+   "duration": 3.7916666666666665,
+   "transition": "cut"
+  },
+  {
+   "id": "S05_SH18",
+   "scene": 5,
+   "start": 689.2917,
+   "duration": 6.0,
+   "transition": "cut"
+  },
+  {
+   "id": "S05_SH19",
+   "scene": 5,
+   "start": 695.2917,
+   "duration": 11.0,
+   "transition": "cut"
+  },
+  {
+   "id": "S06_SH01",
+   "scene": 6,
+   "start": 706.2917,
+   "duration": 9.0,
+   "transition": "fade_black"
+  },
+  {
+   "id": "S06_SH02",
+   "scene": 6,
+   "start": 715.2917,
+   "duration": 7.0,
+   "transition": "cut"
+  },
+  {
+   "id": "S06_SH03",
+   "scene": 6,
+   "start": 722.2917,
+   "duration": 7.375,
+   "transition": "cut"
+  },
+  {
+   "id": "S06_SH04",
+   "scene": 6,
+   "start": 729.6667,
+   "duration": 4.875,
+   "transition": "cut"
+  },
+  {
+   "id": "S06_SH05",
+   "scene": 6,
+   "start": 734.5417,
+   "duration": 8.0,
+   "transition": "dissolve"
+  },
+  {
+   "id": "S06_SH06",
+   "scene": 6,
+   "start": 742.5417,
+   "duration": 5.5,
+   "transition": "cut"
+  },
+  {
+   "id": "S06_SH07",
+   "scene": 6,
+   "start": 748.0417,
+   "duration": 5.666666666666667,
+   "transition": "cut"
+  },
+  {
+   "id": "S06_SH08",
+   "scene": 6,
+   "start": 753.7083,
+   "duration": 4.583333333333333,
+   "transition": "cut"
+  },
+  {
+   "id": "S06_SH09",
+   "scene": 6,
+   "start": 758.2917,
+   "duration": 4.416666666666667,
+   "transition": "cut"
+  },
+  {
+   "id": "S06_SH10",
+   "scene": 6,
+   "start": 762.7083,
+   "duration": 4.5,
+   "transition": "cut"
+  },
+  {
+   "id": "S06_SH11",
+   "scene": 6,
+   "start": 767.2083,
+   "duration": 9.0,
+   "transition": "cut"
+  },
+  {
+   "id": "S06_SH12",
+   "scene": 6,
+   "start": 776.2083,
+   "duration": 6.0,
+   "transition": "cut"
+  },
+  {
+   "id": "S06_SH13",
+   "scene": 6,
+   "start": 782.2083,
+   "duration": 5.5,
+   "transition": "cut"
+  },
+  {
+   "id": "S06_SH14",
+   "scene": 6,
+   "start": 787.7083,
+   "duration": 5.5,
+   "transition": "cut"
+  },
+  {
+   "id": "S06_SH15",
+   "scene": 6,
+   "start": 793.2083,
+   "duration": 6.5,
+   "transition": "cut"
+  },
+  {
+   "id": "S06_SH16",
+   "scene": 6,
+   "start": 799.7083,
+   "duration": 5.208333333333333,
+   "transition": "cut"
+  },
+  {
+   "id": "S06_SH17",
+   "scene": 6,
+   "start": 804.9167,
+   "duration": 6.0,
+   "transition": "cut"
+  },
+  {
+   "id": "S06_SH18",
+   "scene": 6,
+   "start": 810.9167,
+   "duration": 4.208333333333333,
+   "transition": "cut"
+  },
+  {
+   "id": "S06_SH19",
+   "scene": 6,
+   "start": 815.125,
+   "duration": 4.416666666666667,
+   "transition": "cut"
+  },
+  {
+   "id": "S06_SH20",
+   "scene": 6,
+   "start": 819.5417,
+   "duration": 11.0,
+   "transition": "cut"
+  },
+  {
+   "id": "S06_SH21",
+   "scene": 6,
+   "start": 830.5417,
+   "duration": 5.0,
+   "transition": "cut"
+  },
+  {
+   "id": "S06_SH22",
+   "scene": 6,
+   "start": 835.5417,
+   "duration": 6.5,
+   "transition": "cut"
+  },
+  {
+   "id": "S06_SH23",
+   "scene": 6,
+   "start": 842.0417,
+   "duration": 7.0,
+   "transition": "cut"
+  },
+  {
+   "id": "S06_SH24",
+   "scene": 6,
+   "start": 849.0417,
+   "duration": 3.7916666666666665,
+   "transition": "cut"
+  },
+  {
+   "id": "S06_SH25",
+   "scene": 6,
+   "start": 852.8333,
+   "duration": 5.625,
+   "transition": "cut"
+  },
+  {
+   "id": "S06_SH26",
+   "scene": 6,
+   "start": 858.4583,
+   "duration": 8.0,
+   "transition": "cut"
+  },
+  {
+   "id": "S06_SH27",
+   "scene": 6,
+   "start": 866.4583,
+   "duration": 7.291666666666667,
+   "transition": "dissolve"
+  },
+  {
+   "id": "S06_SH28",
+   "scene": 6,
+   "start": 873.75,
+   "duration": 8.0,
+   "transition": "cut"
+  },
+  {
+   "id": "S07_SH01",
+   "scene": 7,
+   "start": 881.75,
+   "duration": 7.0,
+   "transition": "fade_black"
+  },
+  {
+   "id": "S07_SH02",
+   "scene": 7,
+   "start": 888.75,
+   "duration": 9.0,
+   "transition": "cut"
+  },
+  {
+   "id": "S07_SH03",
+   "scene": 7,
+   "start": 897.75,
+   "duration": 9.0,
+   "transition": "dissolve"
+  },
+  {
+   "id": "S07_SH04",
+   "scene": 7,
+   "start": 906.75,
+   "duration": 7.5,
+   "transition": "cut"
+  },
+  {
+   "id": "S07_SH05",
+   "scene": 7,
+   "start": 914.25,
+   "duration": 6.5,
+   "transition": "cut"
+  },
+  {
+   "id": "S07_SH06",
+   "scene": 7,
+   "start": 920.75,
+   "duration": 8.5,
+   "transition": "cut"
+  },
+  {
+   "id": "S07_SH07",
+   "scene": 7,
+   "start": 929.25,
+   "duration": 3.9583333333333335,
+   "transition": "cut"
+  },
+  {
+   "id": "S07_SH08",
+   "scene": 7,
+   "start": 933.2083,
+   "duration": 6.0,
+   "transition": "cut"
+  },
+  {
+   "id": "S07_SH09",
+   "scene": 7,
+   "start": 939.2083,
+   "duration": 7.0,
+   "transition": "cut"
+  },
+  {
+   "id": "S07_SH10",
+   "scene": 7,
+   "start": 946.2083,
+   "duration": 9.125,
+   "transition": "cut"
+  },
+  {
+   "id": "S07_SH11",
+   "scene": 7,
+   "start": 955.3333,
+   "duration": 4.5,
+   "transition": "cut"
+  },
+  {
+   "id": "S07_SH12",
+   "scene": 7,
+   "start": 959.8333,
+   "duration": 5.0,
+   "transition": "dissolve"
+  },
+  {
+   "id": "S07_SH13",
+   "scene": 7,
+   "start": 964.8333,
+   "duration": 7.0,
+   "transition": "cut"
+  },
+  {
+   "id": "S07_SH14",
+   "scene": 7,
+   "start": 971.8333,
+   "duration": 11.083333333333334,
+   "transition": "cut"
+  },
+  {
+   "id": "S07_SH15",
+   "scene": 7,
+   "start": 982.9167,
+   "duration": 7.0,
+   "transition": "dissolve"
+  },
+  {
+   "id": "S07_SH16",
+   "scene": 7,
+   "start": 989.9167,
+   "duration": 5.583333333333333,
+   "transition": "cut"
+  },
+  {
+   "id": "S07_SH17",
+   "scene": 7,
+   "start": 995.5,
+   "duration": 3.5833333333333335,
+   "transition": "cut"
+  },
+  {
+   "id": "S07_SH18",
+   "scene": 7,
+   "start": 999.0833,
+   "duration": 6.625,
+   "transition": "cut"
+  },
+  {
+   "id": "S07_SH19",
+   "scene": 7,
+   "start": 1005.7083,
+   "duration": 3.5833333333333335,
+   "transition": "cut"
+  },
+  {
+   "id": "S07_SH20",
+   "scene": 7,
+   "start": 1009.2917,
+   "duration": 5.416666666666667,
+   "transition": "cut"
+  },
+  {
+   "id": "S07_SH21",
+   "scene": 7,
+   "start": 1014.7083,
+   "duration": 7.0,
+   "transition": "cut"
+  },
+  {
+   "id": "S07_SH22",
+   "scene": 7,
+   "start": 1021.7083,
+   "duration": 2.4166666666666665,
+   "transition": "cut"
+  },
+  {
+   "id": "S07_SH23",
+   "scene": 7,
+   "start": 1024.125,
+   "duration": 6.416666666666667,
+   "transition": "cut"
+  },
+  {
+   "id": "S07_SH24",
+   "scene": 7,
+   "start": 1030.5417,
+   "duration": 7.0,
+   "transition": "cut"
+  },
+  {
+   "id": "S07_SH25",
+   "scene": 7,
+   "start": 1037.5417,
+   "duration": 10.0,
+   "transition": "cut"
+  },
+  {
+   "id": "S07_SH26",
+   "scene": 7,
+   "start": 1047.5417,
+   "duration": 7.0,
+   "transition": "cut"
+  },
+  {
+   "id": "S07_SH27",
+   "scene": 7,
+   "start": 1054.5417,
+   "duration": 5.5,
+   "transition": "cut"
+  },
+  {
+   "id": "S07_SH28",
+   "scene": 7,
+   "start": 1060.0417,
+   "duration": 6.5,
+   "transition": "cut"
+  },
+  {
+   "id": "S08_SH01",
+   "scene": 8,
+   "start": 1066.5417,
+   "duration": 7.0,
+   "transition": "cut"
+  },
+  {
+   "id": "S08_SH02",
+   "scene": 8,
+   "start": 1073.5417,
+   "duration": 5.5,
+   "transition": "cut"
+  },
+  {
+   "id": "S08_SH03",
+   "scene": 8,
+   "start": 1079.0417,
+   "duration": 5.5,
+   "transition": "cut"
+  },
+  {
+   "id": "S08_SH04",
+   "scene": 8,
+   "start": 1084.5417,
+   "duration": 8.0,
+   "transition": "cut"
+  },
+  {
+   "id": "S08_SH05",
+   "scene": 8,
+   "start": 1092.5417,
+   "duration": 6.0,
+   "transition": "cut"
+  },
+  {
+   "id": "S08_SH06",
+   "scene": 8,
+   "start": 1098.5417,
+   "duration": 4.5,
+   "transition": "cut"
+  },
+  {
+   "id": "S08_SH07",
+   "scene": 8,
+   "start": 1103.0417,
+   "duration": 5.0,
+   "transition": "dissolve"
+  },
+  {
+   "id": "S08_SH08",
+   "scene": 8,
+   "start": 1108.0417,
+   "duration": 4.583333333333333,
+   "transition": "cut"
+  },
+  {
+   "id": "S08_SH09",
+   "scene": 8,
+   "start": 1112.625,
+   "duration": 4.0,
+   "transition": "cut"
+  },
+  {
+   "id": "S08_SH10",
+   "scene": 8,
+   "start": 1116.625,
+   "duration": 8.5,
+   "transition": "cut"
+  },
+  {
+   "id": "S08_SH11",
+   "scene": 8,
+   "start": 1125.125,
+   "duration": 6.5,
+   "transition": "fade_white"
+  },
+  {
+   "id": "S08_SH12",
+   "scene": 8,
+   "start": 1131.625,
+   "duration": 4.0,
+   "transition": "cut"
+  },
+  {
+   "id": "S08_SH13",
+   "scene": 8,
+   "start": 1135.625,
+   "duration": 6.0,
+   "transition": "cut"
+  },
+  {
+   "id": "S08_SH14",
+   "scene": 8,
+   "start": 1141.625,
+   "duration": 6.583333333333333,
+   "transition": "cut"
+  },
+  {
+   "id": "S08_SH15",
+   "scene": 8,
+   "start": 1148.2083,
+   "duration": 4.5,
+   "transition": "cut"
+  },
+  {
+   "id": "S08_SH16",
+   "scene": 8,
+   "start": 1152.7083,
+   "duration": 8.5,
+   "transition": "cut"
+  },
+  {
+   "id": "S09_SH01",
+   "scene": 9,
+   "start": 1161.2083,
+   "duration": 6.0,
+   "transition": "fade_white"
+  },
+  {
+   "id": "S09_SH02",
+   "scene": 9,
+   "start": 1167.2083,
+   "duration": 9.0,
+   "transition": "dissolve"
+  },
+  {
+   "id": "S09_SH03",
+   "scene": 9,
+   "start": 1176.2083,
+   "duration": 4.5,
+   "transition": "cut"
+  },
+  {
+   "id": "S09_SH04",
+   "scene": 9,
+   "start": 1180.7083,
+   "duration": 3.125,
+   "transition": "cut"
+  },
+  {
+   "id": "S09_SH05",
+   "scene": 9,
+   "start": 1183.8333,
+   "duration": 6.5,
+   "transition": "cut"
+  },
+  {
+   "id": "CR_SH01",
+   "scene": 99,
+   "start": 1190.3333,
+   "duration": 46.0,
+   "transition": "fade_black"
+  },
+  {
+   "id": "CR_SH02",
+   "scene": 99,
+   "start": 1236.3333,
+   "duration": 10.0,
+   "transition": "fade_black"
+  }
+ ],
+ "dialogue": [
+  {
+   "shot": "S01_SH04",
+   "char": "neighbor_m",
+   "text": "I was here first!",
+   "start": 32.1,
+   "duration": 1.128,
+   "wav": "/home/user/movies/films/weather_keeper/assets/voice/neighbor_m_38a2da230947.wav"
+  },
+  {
+   "shot": "S01_SH04",
+   "char": "neighbor_f",
+   "text": "Since when?",
+   "start": 33.48,
+   "duration": 0.808,
+   "wav": "/home/user/movies/films/weather_keeper/assets/voice/neighbor_f_185c1efbc69f.wav"
+  },
+  {
+   "shot": "S01_SH04",
+   "char": "neighbor_m",
+   "text": "Since breakfast!",
+   "start": 34.54,
+   "duration": 1.018,
+   "wav": "/home/user/movies/films/weather_keeper/assets/voice/neighbor_m_8c8b1b71eb3c.wav"
+  },
+  {
+   "shot": "S01_SH06",
+   "char": "ishaan",
+   "text": "Captain says it's too hot to fly.",
+   "start": 45.6,
+   "duration": 2.295,
+   "wav": "/home/user/movies/films/weather_keeper/assets/voice/ishaan_783795f296ce.wav"
+  },
+  {
+   "shot": "S01_SH07",
+   "char": "tara",
+   "text": "Pigeons don't say things.",
+   "start": 49.108,
+   "duration": 1.589,
+   "wav": "/home/user/movies/films/weather_keeper/assets/voice/tara_5609674063f0.wav"
+  },
+  {
+   "shot": "S01_SH16",
+   "char": "rehan",
+   "text": "Khadoos Uncle.",
+   "start": 98.542,
+   "duration": 1.099,
+   "wav": "/home/user/movies/films/weather_keeper/assets/voice/rehan_03870e120317.wav"
+  },
+  {
+   "shot": "S01_SH17",
+   "char": "tara",
+   "text": "He wears a cardigan. In June.",
+   "start": 101.133,
+   "duration": 1.951,
+   "wav": "/home/user/movies/films/weather_keeper/assets/voice/tara_a0e604a9a2ab.wav"
+  },
+  {
+   "shot": "S01_SH18",
+   "char": "ishaan",
+   "text": "Maybe he's cold inside.",
+   "start": 103.983,
+   "duration": 1.949,
+   "wav": "/home/user/movies/films/weather_keeper/assets/voice/ishaan_92240073303f.wav"
+  },
+  {
+   "shot": "S02_SH02",
+   "char": "ishaan",
+   "text": "Captain! You're not allowed!",
+   "start": 127.133,
+   "duration": 1.683,
+   "wav": "/home/user/movies/films/weather_keeper/assets/voice/ishaan_c847bd510732.wav"
+  },
+  {
+   "shot": "S02_SH11",
+   "char": "ishaan",
+   "text": "Whoa.",
+   "start": 200.9,
+   "duration": 0.715,
+   "wav": "/home/user/movies/films/weather_keeper/assets/voice/ishaan_70c52248bd98.wav"
+  },
+  {
+   "shot": "S02_SH13",
+   "char": "meghnath",
+   "text": "WHO is on my roof?",
+   "start": 211.8,
+   "duration": 1.82,
+   "wav": "/home/user/movies/films/weather_keeper/assets/voice/meghnath_8b62dc3902e1.wav"
+  },
+  {
+   "shot": "S02_SH15",
+   "char": "tara",
+   "text": "Ishaan, we are going to be in so much—",
+   "start": 219.525,
+   "duration": 2.238,
+   "wav": "/home/user/movies/films/weather_keeper/assets/voice/tara_58cd96eb4156.wav"
+  },
+  {
+   "shot": "S02_SH16",
+   "char": "tara",
+   "text": "...trouble.",
+   "start": 222.35,
+   "duration": 0.746,
+   "wav": "/home/user/movies/films/weather_keeper/assets/voice/tara_d8aa2ad4d97d.wav"
+  },
+  {
+   "shot": "S03_SH02",
+   "char": "meghnath",
+   "text": "Out.",
+   "start": 240.55,
+   "duration": 0.734,
+   "wav": "/home/user/movies/films/weather_keeper/assets/voice/meghnath_2b9f7446d502.wav"
+  },
+  {
+   "shot": "S03_SH03",
+   "char": "rehan",
+   "text": "You made a cloud.",
+   "start": 243.258,
+   "duration": 1.124,
+   "wav": "/home/user/movies/films/weather_keeper/assets/voice/rehan_6a18ccadb101.wav"
+  },
+  {
+   "shot": "S03_SH04",
+   "char": "meghnath",
+   "text": "Out.",
+   "start": 245.658,
+   "duration": 0.734,
+   "wav": "/home/user/movies/films/weather_keeper/assets/voice/meghnath_2b9f7446d502.wav"
+  },
+  {
+   "shot": "S03_SH05",
+   "char": "tara",
+   "text": "You MADE a CLOUD.",
+   "start": 248.342,
+   "duration": 1.102,
+   "wav": "/home/user/movies/films/weather_keeper/assets/voice/tara_1899825a652b.wav"
+  },
+  {
+   "shot": "S03_SH11",
+   "char": "meghnath",
+   "text": "You touch nothing. You do exactly as I say.",
+   "start": 291.75,
+   "duration": 3.426,
+   "wav": "/home/user/movies/films/weather_keeper/assets/voice/meghnath_0ca3fb1dd1a9.wav"
+  },
+  {
+   "shot": "S03_SH13",
+   "char": "tara",
+   "text": "What are the rules?",
+   "start": 301.758,
+   "duration": 1.094,
+   "wav": "/home/user/movies/films/weather_keeper/assets/voice/tara_596262356cfc.wav"
+  },
+  {
+   "shot": "S03_SH14",
+   "char": "meghnath",
+   "text": "That was the rules.",
+   "start": 304.542,
+   "duration": 1.677,
+   "wav": "/home/user/movies/films/weather_keeper/assets/voice/meghnath_a57443a7f1bd.wav"
+  },
+  {
+   "shot": "S03_SH23",
+   "char": "rehan",
+   "text": "This is... the weather?",
+   "start": 391.125,
+   "duration": 1.138,
+   "wav": "/home/user/movies/films/weather_keeper/assets/voice/rehan_79e6fefb9c77.wav"
+  },
+  {
+   "shot": "S03_SH24",
+   "char": "meghnath",
+   "text": "The weather of Delhi. Somebody has to keep it.",
+   "start": 393.917,
+   "duration": 3.312,
+   "wav": "/home/user/movies/films/weather_keeper/assets/voice/meghnath_df3af01461ce.wav"
+  },
+  {
+   "shot": "S03_SH25",
+   "char": "tara",
+   "text": "Who?",
+   "start": 398.342,
+   "duration": 0.643,
+   "wav": "/home/user/movies/films/weather_keeper/assets/voice/tara_416417a5b1b2.wav"
+  },
+  {
+   "shot": "S03_SH27",
+   "char": "meghnath",
+   "text": "Start sweeping.",
+   "start": 406.217,
+   "duration": 1.306,
+   "wav": "/home/user/movies/films/weather_keeper/assets/voice/meghnath_d78ac70c0ae7.wav"
+  },
+  {
+   "shot": "S04_SH12",
+   "char": "meghnath",
+   "text": "Hm.",
+   "start": 486.617,
+   "duration": 1.027,
+   "wav": "/home/user/movies/films/weather_keeper/assets/voice/meghnath_c6d875ee7059.wav"
+  },
+  {
+   "shot": "S04_SH16",
+   "char": "meghnath",
+   "text": "Slowly. Slowly. You are spinning a cloud, not bowling a bouncer.",
+   "start": 511.517,
+   "duration": 4.797,
+   "wav": "/home/user/movies/films/weather_keeper/assets/voice/meghnath_38ec9b608af2.wav"
+  },
+  {
+   "shot": "S04_SH18",
+   "char": "meghnath",
+   "text": "Oh no.",
+   "start": 524.708,
+   "duration": 0.883,
+   "wav": "/home/user/movies/films/weather_keeper/assets/voice/meghnath_f35cf4be6d7c.wav"
+  },
+  {
+   "shot": "S04_SH23",
+   "char": "ishaan",
+   "text": "Captain says that was the best day of his life.",
+   "start": 552.517,
+   "duration": 2.756,
+   "wav": "/home/user/movies/films/weather_keeper/assets/voice/ishaan_f8623853134e.wav"
+  },
+  {
+   "shot": "S05_SH02",
+   "char": "tara",
+   "text": "The monsoon's late. It's very late.",
+   "start": 595.583,
+   "duration": 2.058,
+   "wav": "/home/user/movies/films/weather_keeper/assets/voice/tara_83ac31ff56c2.wav"
+  },
+  {
+   "shot": "S05_SH07",
+   "char": "meghnath",
+   "text": "It needs three.",
+   "start": 627.65,
+   "duration": 1.388,
+   "wav": "/home/user/movies/films/weather_keeper/assets/voice/meghnath_9baddc9bb7e5.wav"
+  },
+  {
+   "shot": "S05_SH09",
+   "char": "meghnath",
+   "text": "It always needed three.",
+   "start": 636.025,
+   "duration": 1.932,
+   "wav": "/home/user/movies/films/weather_keeper/assets/voice/meghnath_63fba9357e31.wav"
+  },
+  {
+   "shot": "S05_SH14",
+   "char": "meghnath",
+   "text": "I'm done. I'm old. The city can manage on its own now.",
+   "start": 672.533,
+   "duration": 4.203,
+   "wav": "/home/user/movies/films/weather_keeper/assets/voice/meghnath_078b2cc7dcf2.wav"
+  },
+  {
+   "shot": "S05_SH16",
+   "char": "tara",
+   "text": "But it can't! It's too hot. People are—",
+   "start": 683.317,
+   "duration": 2.146,
+   "wav": "/home/user/movies/films/weather_keeper/assets/voice/tara_5e4671f03c93.wav"
+  },
+  {
+   "shot": "S05_SH17",
+   "char": "meghnath",
+   "text": "GO HOME.",
+   "start": 685.6,
+   "duration": 0.985,
+   "wav": "/home/user/movies/films/weather_keeper/assets/voice/meghnath_25ffa376850e.wav"
+  },
+  {
+   "shot": "S06_SH03",
+   "char": "rehan",
+   "text": "We just push the clouds in. Push them. Fast.",
+   "start": 725.892,
+   "duration": 2.364,
+   "wav": "/home/user/movies/films/weather_keeper/assets/voice/rehan_11b7838855ed.wav"
+  },
+  {
+   "shot": "S06_SH04",
+   "char": "tara",
+   "text": "We need wind. A lot of wind.",
+   "start": 730.267,
+   "duration": 1.895,
+   "wav": "/home/user/movies/films/weather_keeper/assets/voice/tara_9c596b6d9eac.wav"
+  },
+  {
+   "shot": "S06_SH07",
+   "char": "tara",
+   "text": "Uncle said never—",
+   "start": 749.642,
+   "duration": 1.19,
+   "wav": "/home/user/movies/films/weather_keeper/assets/voice/tara_a01fdcd869f3.wav"
+  },
+  {
+   "shot": "S06_SH07",
+   "char": "rehan",
+   "text": "He's not here.",
+   "start": 750.892,
+   "duration": 1.003,
+   "wav": "/home/user/movies/films/weather_keeper/assets/voice/rehan_2470788c6942.wav"
+  },
+  {
+   "shot": "S06_SH17",
+   "char": "ishaan",
+   "text": "BHAAP!",
+   "start": 806.317,
+   "duration": 0.779,
+   "wav": "/home/user/movies/films/weather_keeper/assets/voice/ishaan_7b51932e0687.wav"
+  },
+  {
+   "shot": "S06_SH24",
+   "char": "tara",
+   "text": "Uncle?",
+   "start": 849.942,
+   "duration": 0.718,
+   "wav": "/home/user/movies/films/weather_keeper/assets/voice/tara_7949db0c47f6.wav"
+  },
+  {
+   "shot": "S06_SH25",
+   "char": "meghnath",
+   "text": "Just... tired. Very... tired.",
+   "start": 853.633,
+   "duration": 2.418,
+   "wav": "/home/user/movies/films/weather_keeper/assets/voice/meghnath_03bb86a17790.wav"
+  },
+  {
+   "shot": "S06_SH27",
+   "char": "neighbor_f",
+   "text": "Those kids were on the roof!",
+   "start": 867.258,
+   "duration": 1.505,
+   "wav": "/home/user/movies/films/weather_keeper/assets/voice/neighbor_f_f290831f7507.wav"
+  },
+  {
+   "shot": "S06_SH27",
+   "char": "neighbor_m",
+   "text": "I SAW them!",
+   "start": 869.458,
+   "duration": 1.302,
+   "wav": "/home/user/movies/films/weather_keeper/assets/voice/neighbor_m_09c9c59d5eb9.wav"
+  },
+  {
+   "shot": "S07_SH07",
+   "char": "ishaan",
+   "text": "Bhaap.",
+   "start": 930.65,
+   "duration": 0.753,
+   "wav": "/home/user/movies/films/weather_keeper/assets/voice/ishaan_230bff6c838a.wav"
+  },
+  {
+   "shot": "S07_SH10",
+   "char": "rehan",
+   "text": "I'm sorry. About the trunk.",
+   "start": 947.008,
+   "duration": 1.53,
+   "wav": "/home/user/movies/films/weather_keeper/assets/voice/rehan_b0a7ca42981c.wav"
+  },
+  {
+   "shot": "S07_SH10",
+   "char": "tara",
+   "text": "I'm sorry about my plan.",
+   "start": 949.608,
+   "duration": 1.521,
+   "wav": "/home/user/movies/films/weather_keeper/assets/voice/tara_a39d0a3cc274.wav"
+  },
+  {
+   "shot": "S07_SH10",
+   "char": "ishaan",
+   "text": "Bhaap says the trunk needs three.",
+   "start": 952.208,
+   "duration": 2.123,
+   "wav": "/home/user/movies/films/weather_keeper/assets/voice/ishaan_ea601687d531.wav"
+  },
+  {
+   "shot": "S07_SH14",
+   "char": "tara",
+   "text": "We don't ask for anything. Not ice cream, not thank you. Nothing.",
+   "start": 972.433,
+   "duration": 3.681,
+   "wav": "/home/user/movies/films/weather_keeper/assets/voice/tara_072b1b79743d.wav"
+  },
+  {
+   "shot": "S07_SH14",
+   "char": "rehan",
+   "text": "Nothing.",
+   "start": 978.433,
+   "duration": 0.723,
+   "wav": "/home/user/movies/films/weather_keeper/assets/voice/rehan_4c98df21510e.wav"
+  },
+  {
+   "shot": "S07_SH14",
+   "char": "ishaan",
+   "text": "Nothing.",
+   "start": 979.833,
+   "duration": 0.877,
+   "wav": "/home/user/movies/films/weather_keeper/assets/voice/ishaan_4075a1f6e8f3.wav"
+  },
+  {
+   "shot": "S07_SH18",
+   "char": "tara",
+   "text": "You can't walk it over. Throw it!",
+   "start": 999.583,
+   "duration": 1.852,
+   "wav": "/home/user/movies/films/weather_keeper/assets/voice/tara_ca3245629a25.wav"
+  },
+  {
+   "shot": "S07_SH18",
+   "char": "rehan",
+   "text": "It's a key, not a ball!",
+   "start": 1001.983,
+   "duration": 1.328,
+   "wav": "/home/user/movies/films/weather_keeper/assets/voice/rehan_f184f91d8133.wav"
+  },
+  {
+   "shot": "S07_SH18",
+   "char": "tara",
+   "text": "Then bowl it!",
+   "start": 1003.683,
+   "duration": 1.006,
+   "wav": "/home/user/movies/films/weather_keeper/assets/voice/tara_696e05783ae2.wav"
+  },
+  {
+   "shot": "S07_SH23",
+   "char": "tara",
+   "text": "Now. All together.",
+   "start": 1025.325,
+   "duration": 1.309,
+   "wav": "/home/user/movies/films/weather_keeper/assets/voice/tara_a2fc41659946.wav"
+  },
+  {
+   "shot": "S08_SH14",
+   "char": "meghnath",
+   "text": "It needs three.",
+   "start": 1145.225,
+   "duration": 1.388,
+   "wav": "/home/user/movies/films/weather_keeper/assets/voice/meghnath_9baddc9bb7e5.wav"
+  },
+  {
+   "shot": "S09_SH04",
+   "char": "rehan",
+   "text": "Morning, Meghnath Uncle!",
+   "start": 1181.308,
+   "duration": 1.54,
+   "wav": "/home/user/movies/films/weather_keeper/assets/voice/rehan_3f98c167e8c9.wav"
+  }
+ ],
+ "sfx": [
+  {
+   "shot": "S01_SH01",
+   "name": "heat_bed",
+   "start": 0.0,
+   "gain_db": -12,
+   "dur": 12.5,
+   "params": {}
+  },
+  {
+   "shot": "S01_SH01",
+   "name": "heat_cicadas",
+   "start": 0.0,
+   "gain_db": -18,
+   "dur": 12.5,
+   "params": {}
+  },
+  {
+   "shot": "S01_SH02",
+   "name": "heat_bed",
+   "start": 12.5,
+   "gain_db": -14,
+   "dur": 6.0,
+   "params": {}
+  },
+  {
+   "shot": "S01_SH02",
+   "name": "pop",
+   "start": 16.5,
+   "gain_db": -2,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S01_SH02",
+   "name": "sparkle",
+   "start": 16.55,
+   "gain_db": -10,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S01_SH03",
+   "name": "heat_bed",
+   "start": 18.5,
+   "gain_db": -14,
+   "dur": 9.0,
+   "params": {}
+  },
+  {
+   "shot": "S01_SH03",
+   "name": "cooler_hum",
+   "start": 18.5,
+   "gain_db": -18,
+   "dur": 3.6,
+   "params": {}
+  },
+  {
+   "shot": "S01_SH03",
+   "name": "ceiling_fans_stop",
+   "start": 21.9,
+   "gain_db": -6,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S01_SH03",
+   "name": "power_cut_groan",
+   "start": 22.9,
+   "gain_db": -6,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S01_SH04",
+   "name": "heat_bed",
+   "start": 27.5,
+   "gain_db": -16,
+   "dur": 11.0,
+   "params": {}
+  },
+  {
+   "shot": "S01_SH04",
+   "name": "water_tanker",
+   "start": 27.5,
+   "gain_db": -8,
+   "dur": 6.0,
+   "params": {}
+  },
+  {
+   "shot": "S01_SH04",
+   "name": "bucket_clang",
+   "start": 31.9,
+   "gain_db": -8,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S01_SH04",
+   "name": "bucket_clang",
+   "start": 33.6,
+   "gain_db": -10,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S01_SH04",
+   "name": "bucket_clang",
+   "start": 35.5,
+   "gain_db": -9,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S01_SH05",
+   "name": "heat_bed",
+   "start": 38.5,
+   "gain_db": -20,
+   "dur": 6.5,
+   "params": {}
+  },
+  {
+   "shot": "S01_SH05",
+   "name": "pigeon_coo",
+   "start": 41.0,
+   "gain_db": -16,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S01_SH06",
+   "name": "heat_bed",
+   "start": 45.0,
+   "gain_db": -20,
+   "dur": 3.7083333333333335,
+   "params": {}
+  },
+  {
+   "shot": "S01_SH07",
+   "name": "heat_bed",
+   "start": 48.708,
+   "gain_db": -20,
+   "dur": 2.5833333333333335,
+   "params": {}
+  },
+  {
+   "shot": "S01_SH08",
+   "name": "heat_bed",
+   "start": 51.292,
+   "gain_db": -20,
+   "dur": 3.5833333333333335,
+   "params": {}
+  },
+  {
+   "shot": "S01_SH08",
+   "name": "pigeon_flap",
+   "start": 52.592,
+   "gain_db": -12,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S01_SH08",
+   "name": "pigeon_coo",
+   "start": 53.192,
+   "gain_db": -10,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S01_SH09",
+   "name": "heat_bed",
+   "start": 54.875,
+   "gain_db": -22,
+   "dur": 8.0,
+   "params": {}
+  },
+  {
+   "shot": "S01_SH10",
+   "name": "heat_bed",
+   "start": 62.875,
+   "gain_db": -24,
+   "dur": 5.5,
+   "params": {}
+  },
+  {
+   "shot": "S01_SH11",
+   "name": "heat_bed",
+   "start": 68.375,
+   "gain_db": -20,
+   "dur": 8.5,
+   "params": {}
+  },
+  {
+   "shot": "S01_SH11",
+   "name": "ball_tok",
+   "start": 68.715,
+   "gain_db": -6,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S01_SH11",
+   "name": "ball_tok",
+   "start": 69.565,
+   "gain_db": -6,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S01_SH11",
+   "name": "ball_tok",
+   "start": 70.415,
+   "gain_db": -6,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S01_SH11",
+   "name": "ball_tok",
+   "start": 71.265,
+   "gain_db": -6,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S01_SH11",
+   "name": "ball_tok",
+   "start": 72.115,
+   "gain_db": -6,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S01_SH11",
+   "name": "ball_tok",
+   "start": 72.965,
+   "gain_db": -6,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S01_SH11",
+   "name": "ball_tok",
+   "start": 73.815,
+   "gain_db": -6,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S01_SH11",
+   "name": "door_creak",
+   "start": 74.375,
+   "gain_db": -4,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S01_SH11",
+   "name": "ball_tok",
+   "start": 74.975,
+   "gain_db": -12,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S01_SH11",
+   "name": "ball_tok",
+   "start": 75.475,
+   "gain_db": -16,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S01_SH12",
+   "name": "heat_bed",
+   "start": 76.875,
+   "gain_db": -20,
+   "dur": 6.583333333333333,
+   "params": {}
+  },
+  {
+   "shot": "S01_SH12",
+   "name": "footsteps_slipper",
+   "start": 76.875,
+   "gain_db": -10,
+   "dur": 5.2,
+   "params": {}
+  },
+  {
+   "shot": "S01_SH13",
+   "name": "heat_bed",
+   "start": 83.458,
+   "gain_db": -22,
+   "dur": 3.4166666666666665,
+   "params": {}
+  },
+  {
+   "shot": "S01_SH14",
+   "name": "heat_bed",
+   "start": 86.875,
+   "gain_db": -22,
+   "dur": 3.5833333333333335,
+   "params": {}
+  },
+  {
+   "shot": "S01_SH15",
+   "name": "heat_bed",
+   "start": 90.458,
+   "gain_db": -20,
+   "dur": 7.583333333333333,
+   "params": {}
+  },
+  {
+   "shot": "S01_SH15",
+   "name": "footsteps_slipper",
+   "start": 93.858,
+   "gain_db": -10,
+   "dur": 3.6,
+   "params": {}
+  },
+  {
+   "shot": "S01_SH16",
+   "name": "heat_bed",
+   "start": 98.042,
+   "gain_db": -22,
+   "dur": 2.7916666666666665,
+   "params": {}
+  },
+  {
+   "shot": "S01_SH17",
+   "name": "heat_bed",
+   "start": 100.833,
+   "gain_db": -22,
+   "dur": 2.75,
+   "params": {}
+  },
+  {
+   "shot": "S01_SH18",
+   "name": "heat_bed",
+   "start": 103.583,
+   "gain_db": -22,
+   "dur": 3.75,
+   "params": {}
+  },
+  {
+   "shot": "S01_SH19",
+   "name": "heat_bed",
+   "start": 107.333,
+   "gain_db": -22,
+   "dur": 8.416666666666666,
+   "params": {}
+  },
+  {
+   "shot": "S01_SH19",
+   "name": "footsteps_slipper",
+   "start": 107.333,
+   "gain_db": -12,
+   "dur": 2.2,
+   "params": {}
+  },
+  {
+   "shot": "S01_SH19",
+   "name": "padlock_rattle",
+   "start": 110.133,
+   "gain_db": -18,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S01_SH19",
+   "name": "footsteps_slipper",
+   "start": 111.733,
+   "gain_db": -12,
+   "dur": 2.6,
+   "params": {}
+  },
+  {
+   "shot": "S01_SH19",
+   "name": "door_creak",
+   "start": 113.833,
+   "gain_db": -10,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S01_SH19",
+   "name": "bucket_clang",
+   "start": 114.733,
+   "gain_db": -14,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S01_SH20",
+   "name": "heat_bed",
+   "start": 115.75,
+   "gain_db": -22,
+   "dur": 4.5,
+   "params": {}
+  },
+  {
+   "shot": "S02_SH01",
+   "name": "heat_bed",
+   "start": 120.25,
+   "gain_db": -22,
+   "dur": 6.583333333333333,
+   "params": {}
+  },
+  {
+   "shot": "S02_SH01",
+   "name": "pigeon_flap",
+   "start": 121.25,
+   "gain_db": -6,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S02_SH01",
+   "name": "pigeon_flap",
+   "start": 123.25,
+   "gain_db": -10,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S02_SH01",
+   "name": "pigeon_coo",
+   "start": 125.25,
+   "gain_db": -14,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S02_SH02",
+   "name": "heat_bed",
+   "start": 126.833,
+   "gain_db": -22,
+   "dur": 2.7083333333333335,
+   "params": {}
+  },
+  {
+   "shot": "S02_SH03",
+   "name": "heat_bed",
+   "start": 129.542,
+   "gain_db": -22,
+   "dur": 8.583333333333334,
+   "params": {}
+  },
+  {
+   "shot": "S02_SH03",
+   "name": "footsteps_soft",
+   "start": 131.142,
+   "gain_db": -12,
+   "dur": 5.2,
+   "params": {}
+  },
+  {
+   "shot": "S02_SH03",
+   "name": "pop",
+   "start": 137.292,
+   "gain_db": -4,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S02_SH04",
+   "name": "heat_bed",
+   "start": 138.125,
+   "gain_db": -16,
+   "dur": 9.0,
+   "params": {}
+  },
+  {
+   "shot": "S02_SH04",
+   "name": "pigeon_flock",
+   "start": 140.125,
+   "gain_db": -18,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S02_SH04",
+   "name": "steam_hiss",
+   "start": 138.125,
+   "gain_db": -26,
+   "dur": 8.5,
+   "params": {}
+  },
+  {
+   "shot": "S02_SH05",
+   "name": "heat_bed",
+   "start": 147.125,
+   "gain_db": -18,
+   "dur": 11.0,
+   "params": {}
+  },
+  {
+   "shot": "S02_SH05",
+   "name": "footsteps_soft",
+   "start": 147.625,
+   "gain_db": -18,
+   "dur": 8.5,
+   "params": {}
+  },
+  {
+   "shot": "S02_SH05",
+   "name": "steam_hiss",
+   "start": 147.125,
+   "gain_db": -24,
+   "dur": 11.0,
+   "params": {}
+  },
+  {
+   "shot": "S02_SH06",
+   "name": "heat_bed",
+   "start": 158.125,
+   "gain_db": -20,
+   "dur": 2.7916666666666665,
+   "params": {}
+  },
+  {
+   "shot": "S02_SH06",
+   "name": "pressure_cooker_whistle",
+   "start": 158.375,
+   "gain_db": 0,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S02_SH07",
+   "name": "heat_bed",
+   "start": 160.917,
+   "gain_db": -20,
+   "dur": 3.5833333333333335,
+   "params": {}
+  },
+  {
+   "shot": "S02_SH07",
+   "name": "steam_hiss",
+   "start": 160.917,
+   "gain_db": -16,
+   "dur": 3.6,
+   "params": {}
+  },
+  {
+   "shot": "S02_SH08",
+   "name": "heat_bed",
+   "start": 164.5,
+   "gain_db": -20,
+   "dur": 19.0,
+   "params": {}
+  },
+  {
+   "shot": "S02_SH08",
+   "name": "steam_hiss",
+   "start": 164.5,
+   "gain_db": -12,
+   "dur": 19.0,
+   "params": {}
+  },
+  {
+   "shot": "S02_SH08",
+   "name": "cloud_puff",
+   "start": 173.5,
+   "gain_db": -14,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S02_SH08",
+   "name": "cloud_puff",
+   "start": 177.0,
+   "gain_db": -10,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S02_SH08",
+   "name": "sparkle",
+   "start": 178.7,
+   "gain_db": -12,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S02_SH08B",
+   "name": "heat_bed",
+   "start": 183.5,
+   "gain_db": -22,
+   "dur": 6.0,
+   "params": {}
+  },
+  {
+   "shot": "S02_SH08B",
+   "name": "steam_hiss",
+   "start": 183.5,
+   "gain_db": -24,
+   "dur": 6.0,
+   "params": {}
+  },
+  {
+   "shot": "S02_SH09",
+   "name": "heat_bed",
+   "start": 189.5,
+   "gain_db": -22,
+   "dur": 4.583333333333333,
+   "params": {}
+  },
+  {
+   "shot": "S02_SH09",
+   "name": "steam_hiss",
+   "start": 189.5,
+   "gain_db": -20,
+   "dur": 4.6,
+   "params": {}
+  },
+  {
+   "shot": "S02_SH10",
+   "name": "heat_bed",
+   "start": 194.083,
+   "gain_db": -24,
+   "dur": 6.416666666666667,
+   "params": {}
+  },
+  {
+   "shot": "S02_SH10",
+   "name": "bhaap_coo",
+   "start": 195.583,
+   "gain_db": -10,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S02_SH10",
+   "name": "bhaap_sneeze_spark",
+   "start": 198.083,
+   "gain_db": -4,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S02_SH11",
+   "name": "heat_bed",
+   "start": 200.5,
+   "gain_db": -24,
+   "dur": 3.0,
+   "params": {}
+  },
+  {
+   "shot": "S02_SH12",
+   "name": "heat_bed",
+   "start": 203.5,
+   "gain_db": -22,
+   "dur": 8.0,
+   "params": {}
+  },
+  {
+   "shot": "S02_SH12",
+   "name": "whoosh",
+   "start": 204.4,
+   "gain_db": -8,
+   "dur": null,
+   "params": {
+    "intensity": 0.6
+   }
+  },
+  {
+   "shot": "S02_SH12",
+   "name": "cloud_puff",
+   "start": 205.7,
+   "gain_db": -6,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S02_SH12",
+   "name": "spark_tzik",
+   "start": 205.75,
+   "gain_db": -10,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S02_SH12",
+   "name": "bhaap_giggle",
+   "start": 206.0,
+   "gain_db": -8,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S02_SH12",
+   "name": "kids_laugh",
+   "start": 206.2,
+   "gain_db": -18,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S02_SH13",
+   "name": "heat_bed",
+   "start": 211.5,
+   "gain_db": -22,
+   "dur": 2.7083333333333335,
+   "params": {}
+  },
+  {
+   "shot": "S02_SH14",
+   "name": "heat_bed",
+   "start": 214.208,
+   "gain_db": -22,
+   "dur": 4.416666666666667,
+   "params": {}
+  },
+  {
+   "shot": "S02_SH14",
+   "name": "whoosh",
+   "start": 214.508,
+   "gain_db": -14,
+   "dur": null,
+   "params": {
+    "intensity": 0.3
+   }
+  },
+  {
+   "shot": "S02_SH15",
+   "name": "heat_bed",
+   "start": 218.625,
+   "gain_db": -20,
+   "dur": 3.125,
+   "params": {}
+  },
+  {
+   "shot": "S02_SH15",
+   "name": "door_creak",
+   "start": 218.625,
+   "gain_db": -4,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S02_SH15",
+   "name": "footsteps_soft",
+   "start": 218.925,
+   "gain_db": -10,
+   "dur": 1.2,
+   "params": {}
+  },
+  {
+   "shot": "S02_SH16",
+   "name": "heat_bed",
+   "start": 221.75,
+   "gain_db": -22,
+   "dur": 3.0833333333333335,
+   "params": {}
+  },
+  {
+   "shot": "S02_SH17",
+   "name": "heat_bed",
+   "start": 224.833,
+   "gain_db": -22,
+   "dur": 6.0,
+   "params": {}
+  },
+  {
+   "shot": "S02_SH18",
+   "name": "heat_bed",
+   "start": 230.833,
+   "gain_db": -22,
+   "dur": 5.0,
+   "params": {}
+  },
+  {
+   "shot": "S03_SH01",
+   "name": "heat_bed",
+   "start": 235.833,
+   "gain_db": -22,
+   "dur": 4.416666666666667,
+   "params": {}
+  },
+  {
+   "shot": "S03_SH01",
+   "name": "bucket_clang",
+   "start": 236.333,
+   "gain_db": -16,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S03_SH02",
+   "name": "heat_bed",
+   "start": 240.25,
+   "gain_db": -22,
+   "dur": 2.7083333333333335,
+   "params": {}
+  },
+  {
+   "shot": "S03_SH03",
+   "name": "heat_bed",
+   "start": 242.958,
+   "gain_db": -22,
+   "dur": 2.5,
+   "params": {}
+  },
+  {
+   "shot": "S03_SH04",
+   "name": "heat_bed",
+   "start": 245.458,
+   "gain_db": -22,
+   "dur": 2.5833333333333335,
+   "params": {}
+  },
+  {
+   "shot": "S03_SH05",
+   "name": "heat_bed",
+   "start": 248.042,
+   "gain_db": -22,
+   "dur": 2.9166666666666665,
+   "params": {}
+  },
+  {
+   "shot": "S03_SH06",
+   "name": "heat_bed",
+   "start": 250.958,
+   "gain_db": -20,
+   "dur": 11.0,
+   "params": {}
+  },
+  {
+   "shot": "S03_SH06",
+   "name": "steam_hiss",
+   "start": 250.958,
+   "gain_db": -12,
+   "dur": 9.0,
+   "params": {}
+  },
+  {
+   "shot": "S03_SH06",
+   "name": "cloud_puff",
+   "start": 253.958,
+   "gain_db": -18,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S03_SH06",
+   "name": "whoosh",
+   "start": 256.158,
+   "gain_db": -18,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S03_SH07",
+   "name": "heat_bed",
+   "start": 261.958,
+   "gain_db": -22,
+   "dur": 4.583333333333333,
+   "params": {}
+  },
+  {
+   "shot": "S03_SH07",
+   "name": "steam_hiss",
+   "start": 261.958,
+   "gain_db": -18,
+   "dur": 4.6,
+   "params": {}
+  },
+  {
+   "shot": "S03_SH08",
+   "name": "heat_bed",
+   "start": 266.542,
+   "gain_db": -22,
+   "dur": 6.208333333333333,
+   "params": {}
+  },
+  {
+   "shot": "S03_SH08",
+   "name": "footsteps_soft",
+   "start": 266.942,
+   "gain_db": -16,
+   "dur": 3.0,
+   "params": {}
+  },
+  {
+   "shot": "S03_SH08",
+   "name": "steam_hiss",
+   "start": 266.542,
+   "gain_db": -14,
+   "dur": 6.2,
+   "params": {}
+  },
+  {
+   "shot": "S03_SH09",
+   "name": "heat_bed",
+   "start": 272.75,
+   "gain_db": -22,
+   "dur": 10.0,
+   "params": {}
+  },
+  {
+   "shot": "S03_SH09",
+   "name": "steam_hiss",
+   "start": 272.75,
+   "gain_db": -12,
+   "dur": 8.0,
+   "params": {}
+  },
+  {
+   "shot": "S03_SH09",
+   "name": "cloud_puff",
+   "start": 278.25,
+   "gain_db": -10,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S03_SH09",
+   "name": "bhaap_coo",
+   "start": 279.35,
+   "gain_db": -14,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S03_SH10",
+   "name": "heat_bed",
+   "start": 282.75,
+   "gain_db": -24,
+   "dur": 8.5,
+   "params": {}
+  },
+  {
+   "shot": "S03_SH11",
+   "name": "heat_bed",
+   "start": 291.25,
+   "gain_db": -24,
+   "dur": 4.708333333333333,
+   "params": {}
+  },
+  {
+   "shot": "S03_SH12",
+   "name": "heat_bed",
+   "start": 295.958,
+   "gain_db": -22,
+   "dur": 5.5,
+   "params": {}
+  },
+  {
+   "shot": "S03_SH12",
+   "name": "whoosh",
+   "start": 296.358,
+   "gain_db": -14,
+   "dur": null,
+   "params": {
+    "intensity": 0.4
+   }
+  },
+  {
+   "shot": "S03_SH12",
+   "name": "page_turn",
+   "start": 297.458,
+   "gain_db": -8,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S03_SH13",
+   "name": "heat_bed",
+   "start": 301.458,
+   "gain_db": -22,
+   "dur": 2.5833333333333335,
+   "params": {}
+  },
+  {
+   "shot": "S03_SH14",
+   "name": "heat_bed",
+   "start": 304.042,
+   "gain_db": -22,
+   "dur": 3.7916666666666665,
+   "params": {}
+  },
+  {
+   "shot": "S03_SH15",
+   "name": "heat_bed",
+   "start": 307.833,
+   "gain_db": -20,
+   "dur": 8.583333333333334,
+   "params": {}
+  },
+  {
+   "shot": "S03_SH15",
+   "name": "footsteps_slipper",
+   "start": 307.833,
+   "gain_db": -14,
+   "dur": 6.0,
+   "params": {}
+  },
+  {
+   "shot": "S03_SH15",
+   "name": "footsteps_soft",
+   "start": 308.833,
+   "gain_db": -16,
+   "dur": 6.0,
+   "params": {}
+  },
+  {
+   "shot": "S03_SH16",
+   "name": "heat_bed",
+   "start": 316.417,
+   "gain_db": -22,
+   "dur": 7.0,
+   "params": {}
+  },
+  {
+   "shot": "S03_SH16",
+   "name": "metal_hatch",
+   "start": 317.217,
+   "gain_db": -4,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S03_SH16",
+   "name": "workshop_ambience",
+   "start": 317.817,
+   "gain_db": -16,
+   "dur": 5.6,
+   "params": {}
+  },
+  {
+   "shot": "S03_SH17",
+   "name": "workshop_ambience",
+   "start": 323.417,
+   "gain_db": -12,
+   "dur": 15.0,
+   "params": {}
+  },
+  {
+   "shot": "S03_SH17",
+   "name": "jar_breeze",
+   "start": 326.417,
+   "gain_db": -18,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S03_SH17",
+   "name": "kite_wind",
+   "start": 329.417,
+   "gain_db": -20,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S03_SH17B",
+   "name": "workshop_ambience",
+   "start": 338.417,
+   "gain_db": -12,
+   "dur": 5.416666666666667,
+   "params": {}
+  },
+  {
+   "shot": "S03_SH17B",
+   "name": "footsteps_slipper",
+   "start": 339.017,
+   "gain_db": -14,
+   "dur": 3.6,
+   "params": {}
+  },
+  {
+   "shot": "S03_SH18",
+   "name": "workshop_ambience",
+   "start": 343.833,
+   "gain_db": -12,
+   "dur": 7.0,
+   "params": {}
+  },
+  {
+   "shot": "S03_SH18",
+   "name": "jar_breeze",
+   "start": 344.633,
+   "gain_db": -12,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S03_SH18",
+   "name": "jar_unscrew",
+   "start": 347.433,
+   "gain_db": -16,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S03_SH18",
+   "name": "shutter_rattle",
+   "start": 348.033,
+   "gain_db": -20,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S03_SH19",
+   "name": "workshop_ambience",
+   "start": 350.833,
+   "gain_db": -12,
+   "dur": 7.791666666666667,
+   "params": {}
+  },
+  {
+   "shot": "S03_SH19",
+   "name": "kite_wind",
+   "start": 351.333,
+   "gain_db": -14,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S03_SH20",
+   "name": "workshop_ambience",
+   "start": 358.625,
+   "gain_db": -12,
+   "dur": 9.0,
+   "params": {}
+  },
+  {
+   "shot": "S03_SH20",
+   "name": "bhaap_giggle",
+   "start": 360.125,
+   "gain_db": -10,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S03_SH20",
+   "name": "spark_tzik",
+   "start": 361.025,
+   "gain_db": -12,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S03_SH20",
+   "name": "spark_tzik",
+   "start": 362.725,
+   "gain_db": -12,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S03_SH20",
+   "name": "spark_tzik",
+   "start": 364.225,
+   "gain_db": -12,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S03_SH21",
+   "name": "workshop_ambience",
+   "start": 367.625,
+   "gain_db": -12,
+   "dur": 6.0,
+   "params": {}
+  },
+  {
+   "shot": "S03_SH21",
+   "name": "whoosh",
+   "start": 368.225,
+   "gain_db": -14,
+   "dur": null,
+   "params": {
+    "intensity": 0.5
+   }
+  },
+  {
+   "shot": "S03_SH21",
+   "name": "spark_tzik",
+   "start": 369.025,
+   "gain_db": -8,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S03_SH21",
+   "name": "bhaap_giggle",
+   "start": 370.025,
+   "gain_db": -8,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S03_SH21",
+   "name": "spark_tzik",
+   "start": 371.225,
+   "gain_db": -10,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S03_SH22",
+   "name": "workshop_ambience",
+   "start": 373.625,
+   "gain_db": -14,
+   "dur": 8.0,
+   "params": {}
+  },
+  {
+   "shot": "S03_SH22B",
+   "name": "workshop_ambience",
+   "start": 381.625,
+   "gain_db": -14,
+   "dur": 5.0,
+   "params": {}
+  },
+  {
+   "shot": "S03_SH22B",
+   "name": "tola_clank",
+   "start": 382.825,
+   "gain_db": -18,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S03_SH22B",
+   "name": "jar_unscrew",
+   "start": 383.925,
+   "gain_db": -10,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S03_SH22B",
+   "name": "pop",
+   "start": 384.025,
+   "gain_db": -6,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S03_SH22B",
+   "name": "jar_breeze",
+   "start": 384.075,
+   "gain_db": -4,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S03_SH22B",
+   "name": "whoosh",
+   "start": 384.125,
+   "gain_db": -8,
+   "dur": null,
+   "params": {
+    "intensity": 0.8
+   }
+  },
+  {
+   "shot": "S03_SH22C",
+   "name": "workshop_ambience",
+   "start": 386.625,
+   "gain_db": -14,
+   "dur": 4.0,
+   "params": {}
+  },
+  {
+   "shot": "S03_SH22C",
+   "name": "page_turn",
+   "start": 386.925,
+   "gain_db": -12,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S03_SH22C",
+   "name": "page_turn",
+   "start": 389.025,
+   "gain_db": -14,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S03_SH23",
+   "name": "workshop_ambience",
+   "start": 390.625,
+   "gain_db": -14,
+   "dur": 2.7916666666666665,
+   "params": {}
+  },
+  {
+   "shot": "S03_SH24",
+   "name": "workshop_ambience",
+   "start": 393.417,
+   "gain_db": -14,
+   "dur": 4.625,
+   "params": {}
+  },
+  {
+   "shot": "S03_SH25",
+   "name": "workshop_ambience",
+   "start": 398.042,
+   "gain_db": -14,
+   "dur": 2.7916666666666665,
+   "params": {}
+  },
+  {
+   "shot": "S03_SH26",
+   "name": "workshop_ambience",
+   "start": 400.833,
+   "gain_db": -14,
+   "dur": 3.5833333333333335,
+   "params": {}
+  },
+  {
+   "shot": "S03_SH27",
+   "name": "workshop_ambience",
+   "start": 404.417,
+   "gain_db": -14,
+   "dur": 5.5,
+   "params": {}
+  },
+  {
+   "shot": "S03_SH27",
+   "name": "broom_sweep",
+   "start": 405.417,
+   "gain_db": -14,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S04_SH01",
+   "name": "heat_bed",
+   "start": 409.917,
+   "gain_db": -20,
+   "dur": 7.6,
+   "params": {}
+  },
+  {
+   "shot": "S04_SH01",
+   "name": "door_creak",
+   "start": 410.217,
+   "gain_db": -10,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S04_SH01",
+   "name": "pigeon_coo",
+   "start": 411.917,
+   "gain_db": -14,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S04_SH01",
+   "name": "footsteps_slipper",
+   "start": 410.517,
+   "gain_db": -12,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S04_SH02",
+   "name": "heat_bed",
+   "start": 416.917,
+   "gain_db": -20,
+   "dur": 8.6,
+   "params": {}
+  },
+  {
+   "shot": "S04_SH02",
+   "name": "kite_wind",
+   "start": 417.417,
+   "gain_db": -10,
+   "dur": 6.5,
+   "params": {}
+  },
+  {
+   "shot": "S04_SH03",
+   "name": "heat_bed",
+   "start": 424.917,
+   "gain_db": -20,
+   "dur": 6.1,
+   "params": {}
+  },
+  {
+   "shot": "S04_SH03",
+   "name": "kite_wind",
+   "start": 424.917,
+   "gain_db": -14,
+   "dur": 5.5,
+   "params": {}
+  },
+  {
+   "shot": "S04_SH04",
+   "name": "heat_bed",
+   "start": 430.417,
+   "gain_db": -20,
+   "dur": 7.6,
+   "params": {}
+  },
+  {
+   "shot": "S04_SH04",
+   "name": "whoosh",
+   "start": 431.417,
+   "gain_db": -6,
+   "dur": null,
+   "params": {
+    "intensity": 0.8
+   }
+  },
+  {
+   "shot": "S04_SH04",
+   "name": "broom_sweep",
+   "start": 432.017,
+   "gain_db": -8,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S04_SH04",
+   "name": "broom_sweep",
+   "start": 433.617,
+   "gain_db": -10,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S04_SH04",
+   "name": "kite_wind",
+   "start": 431.417,
+   "gain_db": -8,
+   "dur": 5.0,
+   "params": {}
+  },
+  {
+   "shot": "S04_SH05",
+   "name": "heat_bed",
+   "start": 437.417,
+   "gain_db": -20,
+   "dur": 6.1,
+   "params": {}
+  },
+  {
+   "shot": "S04_SH05",
+   "name": "kite_wind",
+   "start": 437.417,
+   "gain_db": -18,
+   "dur": 5.5,
+   "params": {}
+  },
+  {
+   "shot": "S04_SH05",
+   "name": "bhaap_coo",
+   "start": 439.617,
+   "gain_db": -10,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S04_SH06",
+   "name": "heat_bed",
+   "start": 442.917,
+   "gain_db": -20,
+   "dur": 9.1,
+   "params": {}
+  },
+  {
+   "shot": "S04_SH06",
+   "name": "jar_unscrew",
+   "start": 443.717,
+   "gain_db": -6,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S04_SH06",
+   "name": "jar_breeze",
+   "start": 444.717,
+   "gain_db": -4,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S04_SH07",
+   "name": "heat_bed",
+   "start": 451.417,
+   "gain_db": -22,
+   "dur": 5.6,
+   "params": {}
+  },
+  {
+   "shot": "S04_SH07",
+   "name": "jar_breeze",
+   "start": 451.617,
+   "gain_db": -14,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S04_SH08",
+   "name": "heat_bed",
+   "start": 456.417,
+   "gain_db": -14,
+   "dur": 7.1,
+   "params": {}
+  },
+  {
+   "shot": "S04_SH08",
+   "name": "broom_sweep",
+   "start": 456.917,
+   "gain_db": -8,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S04_SH08",
+   "name": "broom_sweep",
+   "start": 458.817,
+   "gain_db": -9,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S04_SH08",
+   "name": "broom_sweep",
+   "start": 460.717,
+   "gain_db": -9,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S04_SH09",
+   "name": "heat_bed",
+   "start": 462.917,
+   "gain_db": -14,
+   "dur": 8.6,
+   "params": {}
+  },
+  {
+   "shot": "S04_SH09",
+   "name": "broom_sweep",
+   "start": 463.317,
+   "gain_db": -8,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S04_SH09",
+   "name": "broom_sweep",
+   "start": 464.917,
+   "gain_db": -8,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S04_SH09",
+   "name": "cloud_puff",
+   "start": 467.117,
+   "gain_db": -2,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S04_SH09",
+   "name": "pop",
+   "start": 467.117,
+   "gain_db": -8,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S04_SH10",
+   "name": "heat_bed",
+   "start": 470.917,
+   "gain_db": -14,
+   "dur": 6.6,
+   "params": {}
+  },
+  {
+   "shot": "S04_SH10",
+   "name": "sack_tie",
+   "start": 472.517,
+   "gain_db": -4,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S04_SH10",
+   "name": "sparkle",
+   "start": 474.017,
+   "gain_db": -12,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S04_SH11",
+   "name": "workshop_ambience",
+   "start": 476.917,
+   "gain_db": -16,
+   "dur": 7.1,
+   "params": {}
+  },
+  {
+   "shot": "S04_SH11",
+   "name": "page_turn",
+   "start": 477.117,
+   "gain_db": -10,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S04_SH12",
+   "name": "workshop_ambience",
+   "start": 483.417,
+   "gain_db": -16,
+   "dur": 8.6,
+   "params": {}
+  },
+  {
+   "shot": "S04_SH12",
+   "name": "footsteps_slipper",
+   "start": 484.617,
+   "gain_db": -14,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S04_SH13",
+   "name": "heat_bed",
+   "start": 491.417,
+   "gain_db": -14,
+   "dur": 7.1,
+   "params": {}
+  },
+  {
+   "shot": "S04_SH13",
+   "name": "bhaap_giggle",
+   "start": 493.917,
+   "gain_db": -6,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S04_SH13",
+   "name": "spark_tzik",
+   "start": 494.017,
+   "gain_db": -6,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S04_SH13",
+   "name": "spark_tzik",
+   "start": 494.817,
+   "gain_db": -8,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S04_SH14",
+   "name": "heat_bed",
+   "start": 497.917,
+   "gain_db": -14,
+   "dur": 6.6,
+   "params": {}
+  },
+  {
+   "shot": "S04_SH14",
+   "name": "bucket_clang",
+   "start": 499.517,
+   "gain_db": -10,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S04_SH14",
+   "name": "bhaap_drizzle",
+   "start": 500.217,
+   "gain_db": -6,
+   "dur": 2.6,
+   "params": {}
+  },
+  {
+   "shot": "S04_SH15",
+   "name": "heat_bed",
+   "start": 503.917,
+   "gain_db": -14,
+   "dur": 7.6,
+   "params": {}
+  },
+  {
+   "shot": "S04_SH15",
+   "name": "steam_hiss",
+   "start": 504.117,
+   "gain_db": -12,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S04_SH15",
+   "name": "cloud_puff",
+   "start": 508.517,
+   "gain_db": -6,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S04_SH16",
+   "name": "heat_bed",
+   "start": 510.917,
+   "gain_db": -14,
+   "dur": 8.391666666666667,
+   "params": {}
+  },
+  {
+   "shot": "S04_SH16",
+   "name": "steam_hiss",
+   "start": 510.917,
+   "gain_db": -16,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S04_SH17",
+   "name": "heat_bed",
+   "start": 518.708,
+   "gain_db": -14,
+   "dur": 6.1,
+   "params": {}
+  },
+  {
+   "shot": "S04_SH17",
+   "name": "whoosh",
+   "start": 519.008,
+   "gain_db": -8,
+   "dur": null,
+   "params": {
+    "intensity": 0.6
+   }
+  },
+  {
+   "shot": "S04_SH17",
+   "name": "steam_hiss",
+   "start": 519.208,
+   "gain_db": -8,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S04_SH17",
+   "name": "hail_rattle",
+   "start": 521.108,
+   "gain_db": -6,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S04_SH18",
+   "name": "heat_bed",
+   "start": 524.208,
+   "gain_db": -14,
+   "dur": 3.8083333333333336,
+   "params": {}
+  },
+  {
+   "shot": "S04_SH18",
+   "name": "hail_rattle",
+   "start": 524.208,
+   "gain_db": -12,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S04_SH19",
+   "name": "heat_bed",
+   "start": 527.417,
+   "gain_db": -14,
+   "dur": 4.1,
+   "params": {}
+  },
+  {
+   "shot": "S04_SH19",
+   "name": "whoosh",
+   "start": 527.917,
+   "gain_db": -2,
+   "dur": null,
+   "params": {
+    "intensity": 1.0
+   }
+  },
+  {
+   "shot": "S04_SH19",
+   "name": "hail_rattle",
+   "start": 527.817,
+   "gain_db": -10,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S04_SH20",
+   "name": "heat_bed",
+   "start": 530.917,
+   "gain_db": -18,
+   "dur": 9.6,
+   "params": {}
+  },
+  {
+   "shot": "S04_SH20",
+   "name": "hail_rattle",
+   "start": 532.217,
+   "gain_db": -2,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S04_SH20",
+   "name": "stumps_fall",
+   "start": 533.367,
+   "gain_db": -4,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S04_SH20",
+   "name": "crowd_howl_distant",
+   "start": 532.917,
+   "gain_db": -6,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S04_SH21",
+   "name": "heat_bed",
+   "start": 539.917,
+   "gain_db": -14,
+   "dur": 7.6,
+   "params": {}
+  },
+  {
+   "shot": "S04_SH21",
+   "name": "crowd_howl_distant",
+   "start": 539.917,
+   "gain_db": -22,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S04_SH22",
+   "name": "heat_bed",
+   "start": 546.917,
+   "gain_db": -20,
+   "dur": 5.6,
+   "params": {}
+  },
+  {
+   "shot": "S04_SH22",
+   "name": "page_turn",
+   "start": 546.917,
+   "gain_db": -12,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S04_SH23",
+   "name": "heat_bed",
+   "start": 551.917,
+   "gain_db": -14,
+   "dur": 5.766666666666667,
+   "params": {}
+  },
+  {
+   "shot": "S04_SH23",
+   "name": "pigeon_coo",
+   "start": 555.517,
+   "gain_db": -6,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S04_SH24",
+   "name": "workshop_ambience",
+   "start": 557.083,
+   "gain_db": -18,
+   "dur": 6.6,
+   "params": {}
+  },
+  {
+   "shot": "S04_SH24",
+   "name": "footsteps_soft",
+   "start": 557.383,
+   "gain_db": -16,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S04_SH24",
+   "name": "metal_hatch",
+   "start": 562.083,
+   "gain_db": -12,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S04_SH25",
+   "name": "workshop_ambience",
+   "start": 563.083,
+   "gain_db": -18,
+   "dur": 6.6,
+   "params": {}
+  },
+  {
+   "shot": "S04_SH25",
+   "name": "footsteps_slipper",
+   "start": 563.583,
+   "gain_db": -16,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S04_SH26",
+   "name": "workshop_ambience",
+   "start": 569.083,
+   "gain_db": -20,
+   "dur": 10.6,
+   "params": {}
+  },
+  {
+   "shot": "S04_SH27",
+   "name": "workshop_ambience",
+   "start": 579.083,
+   "gain_db": -20,
+   "dur": 8.6,
+   "params": {}
+  },
+  {
+   "shot": "S05_SH01",
+   "name": "workshop_ambience",
+   "start": 587.083,
+   "gain_db": -16,
+   "dur": 8.1,
+   "params": {}
+  },
+  {
+   "shot": "S05_SH01",
+   "name": "calendar_flip",
+   "start": 591.083,
+   "gain_db": -10,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S05_SH02",
+   "name": "workshop_ambience",
+   "start": 594.583,
+   "gain_db": -16,
+   "dur": 5.266666666666667,
+   "params": {}
+  },
+  {
+   "shot": "S05_SH03",
+   "name": "workshop_ambience",
+   "start": 599.25,
+   "gain_db": -16,
+   "dur": 8.6,
+   "params": {}
+  },
+  {
+   "shot": "S05_SH03",
+   "name": "footsteps_slipper",
+   "start": 599.65,
+   "gain_db": -14,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S05_SH03",
+   "name": "whoosh",
+   "start": 602.85,
+   "gain_db": -8,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S05_SH03",
+   "name": "cloud_puff",
+   "start": 603.35,
+   "gain_db": -8,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S05_SH04",
+   "name": "workshop_ambience",
+   "start": 607.25,
+   "gain_db": -18,
+   "dur": 7.6,
+   "params": {}
+  },
+  {
+   "shot": "S05_SH04",
+   "name": "sparkle",
+   "start": 608.85,
+   "gain_db": -14,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S05_SH04",
+   "name": "sparkle",
+   "start": 609.55,
+   "gain_db": -14,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S05_SH04",
+   "name": "sparkle",
+   "start": 610.25,
+   "gain_db": -14,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S05_SH05",
+   "name": "workshop_ambience",
+   "start": 614.25,
+   "gain_db": -18,
+   "dur": 5.3999999999999995,
+   "params": {}
+  },
+  {
+   "shot": "S05_SH05",
+   "name": "key_turn_clack",
+   "start": 615.25,
+   "gain_db": -16,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S05_SH05",
+   "name": "key_turn_clack",
+   "start": 616.15,
+   "gain_db": -16,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S05_SH05",
+   "name": "key_turn_clack",
+   "start": 617.05,
+   "gain_db": -16,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S05_SH06",
+   "name": "workshop_ambience",
+   "start": 619.042,
+   "gain_db": -18,
+   "dur": 7.8,
+   "params": {}
+  },
+  {
+   "shot": "S05_SH06",
+   "name": "key_click",
+   "start": 620.442,
+   "gain_db": -10,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S05_SH07",
+   "name": "workshop_ambience",
+   "start": 626.25,
+   "gain_db": -18,
+   "dur": 4.975,
+   "params": {}
+  },
+  {
+   "shot": "S05_SH07",
+   "name": "klang",
+   "start": 626.75,
+   "gain_db": -20,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S05_SH08",
+   "name": "workshop_ambience",
+   "start": 630.625,
+   "gain_db": -20,
+   "dur": 5.1,
+   "params": {}
+  },
+  {
+   "shot": "S05_SH09",
+   "name": "workshop_ambience",
+   "start": 635.125,
+   "gain_db": -20,
+   "dur": 5.225,
+   "params": {}
+  },
+  {
+   "shot": "S05_SH10",
+   "name": "workshop_ambience",
+   "start": 639.75,
+   "gain_db": -20,
+   "dur": 5.3999999999999995,
+   "params": {}
+  },
+  {
+   "shot": "S05_SH11",
+   "name": "workshop_ambience",
+   "start": 644.542,
+   "gain_db": -20,
+   "dur": 5.199999999999999,
+   "params": {}
+  },
+  {
+   "shot": "S05_SH12",
+   "name": "workshop_ambience",
+   "start": 649.125,
+   "gain_db": -20,
+   "dur": 6.8,
+   "params": {}
+  },
+  {
+   "shot": "S05_SH12",
+   "name": "bhaap_coo",
+   "start": 652.525,
+   "gain_db": -10,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S05_SH13",
+   "name": "night_bed_delhi",
+   "start": 655.333,
+   "gain_db": -22,
+   "dur": 16.6,
+   "params": {}
+  },
+  {
+   "shot": "S05_SH13",
+   "name": "key_turn_clack",
+   "start": 659.833,
+   "gain_db": -14,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S05_SH13",
+   "name": "key_turn_clack",
+   "start": 660.333,
+   "gain_db": -14,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S05_SH13",
+   "name": "key_turn_clack",
+   "start": 661.733,
+   "gain_db": -12,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S05_SH13",
+   "name": "trunk_lid_rise",
+   "start": 662.133,
+   "gain_db": -10,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S05_SH13",
+   "name": "thunder",
+   "start": 664.333,
+   "gain_db": -16,
+   "dur": null,
+   "params": {
+    "dist": 1.0
+   }
+  },
+  {
+   "shot": "S05_SH14",
+   "name": "workshop_ambience",
+   "start": 671.333,
+   "gain_db": -20,
+   "dur": 7.6,
+   "params": {}
+  },
+  {
+   "shot": "S05_SH15",
+   "name": "workshop_ambience",
+   "start": 678.333,
+   "gain_db": -20,
+   "dur": 5.199999999999999,
+   "params": {}
+  },
+  {
+   "shot": "S05_SH15",
+   "name": "key_turn_clack",
+   "start": 679.633,
+   "gain_db": -16,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S05_SH15",
+   "name": "key_turn_clack",
+   "start": 680.433,
+   "gain_db": -16,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S05_SH15",
+   "name": "key_turn_clack",
+   "start": 681.233,
+   "gain_db": -16,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S05_SH16",
+   "name": "workshop_ambience",
+   "start": 682.917,
+   "gain_db": -20,
+   "dur": 3.1833333333333336,
+   "params": {}
+  },
+  {
+   "shot": "S05_SH17",
+   "name": "workshop_ambience",
+   "start": 685.5,
+   "gain_db": -20,
+   "dur": 4.391666666666667,
+   "params": {}
+  },
+  {
+   "shot": "S05_SH18",
+   "name": "workshop_ambience",
+   "start": 689.292,
+   "gain_db": -20,
+   "dur": 6.6,
+   "params": {}
+  },
+  {
+   "shot": "S05_SH18",
+   "name": "footsteps_soft",
+   "start": 689.692,
+   "gain_db": -16,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S05_SH18",
+   "name": "metal_hatch",
+   "start": 694.692,
+   "gain_db": -14,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S05_SH19",
+   "name": "workshop_ambience",
+   "start": 695.292,
+   "gain_db": -20,
+   "dur": 11.6,
+   "params": {}
+  },
+  {
+   "shot": "S05_SH19",
+   "name": "bhaap_drizzle",
+   "start": 695.792,
+   "gain_db": -12,
+   "dur": 9.0,
+   "params": {}
+  },
+  {
+   "shot": "S06_SH01",
+   "name": "night_bed_delhi",
+   "start": 706.292,
+   "gain_db": -20,
+   "dur": 9.0,
+   "params": {}
+  },
+  {
+   "shot": "S06_SH01",
+   "name": "ceiling_fans_stop",
+   "start": 706.292,
+   "gain_db": -30,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S06_SH02",
+   "name": "night_bed_delhi",
+   "start": 715.292,
+   "gain_db": -22,
+   "dur": 7.0,
+   "params": {}
+  },
+  {
+   "shot": "S06_SH03",
+   "name": "night_bed_delhi",
+   "start": 722.292,
+   "gain_db": -18,
+   "dur": 7.375,
+   "params": {}
+  },
+  {
+   "shot": "S06_SH03",
+   "name": "door_creak",
+   "start": 722.492,
+   "gain_db": -12,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S06_SH03",
+   "name": "footsteps_slipper",
+   "start": 722.892,
+   "gain_db": -18,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S06_SH04",
+   "name": "night_bed_delhi",
+   "start": 729.667,
+   "gain_db": -20,
+   "dur": 4.875,
+   "params": {}
+  },
+  {
+   "shot": "S06_SH04",
+   "name": "metal_hatch",
+   "start": 732.867,
+   "gain_db": -12,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S06_SH05",
+   "name": "workshop_ambience",
+   "start": 734.542,
+   "gain_db": -16,
+   "dur": 8.0,
+   "params": {}
+  },
+  {
+   "shot": "S06_SH05",
+   "name": "footsteps_soft",
+   "start": 735.042,
+   "gain_db": -16,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S06_SH06",
+   "name": "workshop_ambience",
+   "start": 742.542,
+   "gain_db": -16,
+   "dur": 5.5,
+   "params": {}
+  },
+  {
+   "shot": "S06_SH06",
+   "name": "jar_breeze",
+   "start": 744.042,
+   "gain_db": -20,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S06_SH07",
+   "name": "workshop_ambience",
+   "start": 748.042,
+   "gain_db": -16,
+   "dur": 5.667,
+   "params": {}
+  },
+  {
+   "shot": "S06_SH08",
+   "name": "workshop_ambience",
+   "start": 753.708,
+   "gain_db": -18,
+   "dur": 4.583,
+   "params": {}
+  },
+  {
+   "shot": "S06_SH08",
+   "name": "chains_unwind",
+   "start": 754.208,
+   "gain_db": -6,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S06_SH09",
+   "name": "workshop_ambience",
+   "start": 758.292,
+   "gain_db": -18,
+   "dur": 4.417,
+   "params": {}
+  },
+  {
+   "shot": "S06_SH09",
+   "name": "tin_lid_creak",
+   "start": 759.392,
+   "gain_db": -8,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S06_SH09",
+   "name": "aandhi_roar",
+   "start": 761.142,
+   "gain_db": -2,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S06_SH10",
+   "name": "aandhi_roar",
+   "start": 762.708,
+   "gain_db": -4,
+   "dur": 4.5,
+   "params": {}
+  },
+  {
+   "shot": "S06_SH10",
+   "name": "metal_hatch",
+   "start": 762.908,
+   "gain_db": -8,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S06_SH11",
+   "name": "aandhi_roar",
+   "start": 767.208,
+   "gain_db": -4,
+   "dur": 9.0,
+   "params": {}
+  },
+  {
+   "shot": "S06_SH11",
+   "name": "pigeon_flock",
+   "start": 769.208,
+   "gain_db": -14,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S06_SH12",
+   "name": "aandhi_roar",
+   "start": 776.208,
+   "gain_db": -6,
+   "dur": 6.0,
+   "params": {}
+  },
+  {
+   "shot": "S06_SH12",
+   "name": "laundry_flap",
+   "start": 776.408,
+   "gain_db": -8,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S06_SH12",
+   "name": "shutter_rattle",
+   "start": 777.408,
+   "gain_db": -10,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S06_SH12",
+   "name": "chair_cartwheel",
+   "start": 778.808,
+   "gain_db": -10,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S06_SH12",
+   "name": "pigeon_flap",
+   "start": 779.708,
+   "gain_db": -14,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S06_SH13",
+   "name": "aandhi_roar",
+   "start": 782.208,
+   "gain_db": -6,
+   "dur": 5.5,
+   "params": {}
+  },
+  {
+   "shot": "S06_SH13",
+   "name": "laundry_flap",
+   "start": 783.208,
+   "gain_db": -10,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S06_SH13",
+   "name": "shutter_rattle",
+   "start": 784.708,
+   "gain_db": -12,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S06_SH14",
+   "name": "aandhi_roar",
+   "start": 787.708,
+   "gain_db": -8,
+   "dur": 5.5,
+   "params": {}
+  },
+  {
+   "shot": "S06_SH14",
+   "name": "tin_lid_creak",
+   "start": 788.008,
+   "gain_db": -10,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S06_SH14",
+   "name": "bucket_clang",
+   "start": 789.908,
+   "gain_db": -16,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S06_SH15",
+   "name": "aandhi_roar",
+   "start": 793.208,
+   "gain_db": -6,
+   "dur": 6.5,
+   "params": {}
+  },
+  {
+   "shot": "S06_SH15",
+   "name": "door_creak",
+   "start": 793.508,
+   "gain_db": -14,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S06_SH15",
+   "name": "bhaap_coo",
+   "start": 795.708,
+   "gain_db": -12,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S06_SH16",
+   "name": "aandhi_roar",
+   "start": 799.708,
+   "gain_db": -8,
+   "dur": 5.208,
+   "params": {}
+  },
+  {
+   "shot": "S06_SH16",
+   "name": "whoosh",
+   "start": 802.308,
+   "gain_db": -8,
+   "dur": null,
+   "params": {
+    "intensity": 0.9
+   }
+  },
+  {
+   "shot": "S06_SH17",
+   "name": "aandhi_roar",
+   "start": 804.917,
+   "gain_db": -8,
+   "dur": 6.0,
+   "params": {}
+  },
+  {
+   "shot": "S06_SH18",
+   "name": "aandhi_roar",
+   "start": 810.917,
+   "gain_db": -8,
+   "dur": 4.208,
+   "params": {}
+  },
+  {
+   "shot": "S06_SH18",
+   "name": "door_creak",
+   "start": 811.117,
+   "gain_db": -6,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S06_SH19",
+   "name": "aandhi_roar",
+   "start": 815.125,
+   "gain_db": -10,
+   "dur": 4.417,
+   "params": {}
+  },
+  {
+   "shot": "S06_SH19",
+   "name": "klang",
+   "start": 817.125,
+   "gain_db": -1,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S06_SH20",
+   "name": "aandhi_roar",
+   "start": 819.542,
+   "gain_db": -12,
+   "dur": 11.0,
+   "params": {}
+  },
+  {
+   "shot": "S06_SH20",
+   "name": "storm_reverse",
+   "start": 820.342,
+   "gain_db": -4,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S06_SH20",
+   "name": "steam_hiss",
+   "start": 824.542,
+   "gain_db": -18,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S06_SH21",
+   "name": "wind_gusts",
+   "start": 830.542,
+   "gain_db": -14,
+   "dur": 5.0,
+   "params": {
+    "build": 0.3
+   }
+  },
+  {
+   "shot": "S06_SH22",
+   "name": "heat_bed",
+   "start": 835.542,
+   "gain_db": -18,
+   "dur": 6.5,
+   "params": {}
+  },
+  {
+   "shot": "S06_SH22",
+   "name": "storm_reverse",
+   "start": 835.542,
+   "gain_db": -12,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S06_SH23",
+   "name": "heat_bed",
+   "start": 842.042,
+   "gain_db": -18,
+   "dur": 7.0,
+   "params": {}
+  },
+  {
+   "shot": "S06_SH23",
+   "name": "bucket_clang",
+   "start": 844.592,
+   "gain_db": -18,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S06_SH24",
+   "name": "heat_bed",
+   "start": 849.042,
+   "gain_db": -20,
+   "dur": 3.792,
+   "params": {}
+  },
+  {
+   "shot": "S06_SH25",
+   "name": "heat_bed",
+   "start": 852.833,
+   "gain_db": -22,
+   "dur": 5.625,
+   "params": {}
+  },
+  {
+   "shot": "S06_SH26",
+   "name": "heat_bed",
+   "start": 858.458,
+   "gain_db": -20,
+   "dur": 8.0,
+   "params": {}
+  },
+  {
+   "shot": "S06_SH26",
+   "name": "pigeon_coo",
+   "start": 862.958,
+   "gain_db": -20,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S06_SH27",
+   "name": "heat_bed",
+   "start": 866.458,
+   "gain_db": -16,
+   "dur": 7.292,
+   "params": {}
+  },
+  {
+   "shot": "S06_SH27",
+   "name": "shutter_rattle",
+   "start": 870.658,
+   "gain_db": -22,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S06_SH28",
+   "name": "heat_bed",
+   "start": 873.75,
+   "gain_db": -20,
+   "dur": 8.0,
+   "params": {}
+  },
+  {
+   "shot": "S06_SH28",
+   "name": "pigeon_coo",
+   "start": 876.75,
+   "gain_db": -22,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S07_SH01",
+   "name": "night_bed_delhi",
+   "start": 881.75,
+   "gain_db": -22,
+   "dur": 7.0,
+   "params": {}
+  },
+  {
+   "shot": "S07_SH02",
+   "name": "night_bed_delhi",
+   "start": 888.75,
+   "gain_db": -22,
+   "dur": 9.0,
+   "params": {}
+  },
+  {
+   "shot": "S07_SH02",
+   "name": "footsteps_slipper",
+   "start": 889.15,
+   "gain_db": -22,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S07_SH02",
+   "name": "footsteps_slipper",
+   "start": 894.55,
+   "gain_db": -22,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S07_SH03",
+   "name": "night_bed_delhi",
+   "start": 897.75,
+   "gain_db": -16,
+   "dur": 9.0,
+   "params": {}
+  },
+  {
+   "shot": "S07_SH04",
+   "name": "night_bed_delhi",
+   "start": 906.75,
+   "gain_db": -18,
+   "dur": 7.5,
+   "params": {}
+  },
+  {
+   "shot": "S07_SH04",
+   "name": "plane_distant",
+   "start": 907.15,
+   "gain_db": -16,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S07_SH05",
+   "name": "night_bed_delhi",
+   "start": 914.25,
+   "gain_db": -18,
+   "dur": 6.5,
+   "params": {}
+  },
+  {
+   "shot": "S07_SH05",
+   "name": "pigeon_flap",
+   "start": 914.65,
+   "gain_db": -10,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S07_SH05",
+   "name": "pigeon_coo",
+   "start": 917.65,
+   "gain_db": -16,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S07_SH06",
+   "name": "night_bed_delhi",
+   "start": 920.75,
+   "gain_db": -18,
+   "dur": 8.5,
+   "params": {}
+  },
+  {
+   "shot": "S07_SH07",
+   "name": "night_bed_delhi",
+   "start": 929.25,
+   "gain_db": -20,
+   "dur": 3.958,
+   "params": {}
+  },
+  {
+   "shot": "S07_SH08",
+   "name": "night_bed_delhi",
+   "start": 933.208,
+   "gain_db": -20,
+   "dur": 6.0,
+   "params": {}
+  },
+  {
+   "shot": "S07_SH08",
+   "name": "bhaap_drizzle",
+   "start": 934.208,
+   "gain_db": -10,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S07_SH08",
+   "name": "bhaap_coo",
+   "start": 936.608,
+   "gain_db": -12,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S07_SH09",
+   "name": "night_bed_delhi",
+   "start": 939.208,
+   "gain_db": -20,
+   "dur": 7.0,
+   "params": {}
+  },
+  {
+   "shot": "S07_SH09",
+   "name": "cloud_puff",
+   "start": 941.708,
+   "gain_db": -14,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S07_SH09",
+   "name": "bhaap_sneeze_spark",
+   "start": 944.958,
+   "gain_db": -6,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S07_SH09",
+   "name": "bhaap_giggle",
+   "start": 945.408,
+   "gain_db": -12,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S07_SH10",
+   "name": "night_bed_delhi",
+   "start": 946.208,
+   "gain_db": -20,
+   "dur": 9.125,
+   "params": {}
+  },
+  {
+   "shot": "S07_SH11",
+   "name": "night_bed_delhi",
+   "start": 955.333,
+   "gain_db": -20,
+   "dur": 4.5,
+   "params": {}
+  },
+  {
+   "shot": "S07_SH11",
+   "name": "spark_tzik",
+   "start": 958.233,
+   "gain_db": -10,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S07_SH12",
+   "name": "workshop_ambience",
+   "start": 959.833,
+   "gain_db": -16,
+   "dur": 5.0,
+   "params": {}
+  },
+  {
+   "shot": "S07_SH12",
+   "name": "key_turn_clack",
+   "start": 960.433,
+   "gain_db": -18,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S07_SH12",
+   "name": "page_turn",
+   "start": 962.333,
+   "gain_db": -8,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S07_SH13",
+   "name": "workshop_ambience",
+   "start": 964.833,
+   "gain_db": -18,
+   "dur": 7.0,
+   "params": {}
+  },
+  {
+   "shot": "S07_SH14",
+   "name": "workshop_ambience",
+   "start": 971.833,
+   "gain_db": -18,
+   "dur": 11.083,
+   "params": {}
+  },
+  {
+   "shot": "S07_SH14",
+   "name": "spark_tzik",
+   "start": 981.083,
+   "gain_db": -8,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S07_SH15",
+   "name": "wind_gusts",
+   "start": 982.917,
+   "gain_db": -18,
+   "dur": 7.0,
+   "params": {
+    "build": 0.2
+   }
+  },
+  {
+   "shot": "S07_SH15",
+   "name": "tin_lid_creak",
+   "start": 983.517,
+   "gain_db": -14,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S07_SH16",
+   "name": "wind_gusts",
+   "start": 989.917,
+   "gain_db": -14,
+   "dur": 5.583,
+   "params": {
+    "build": 0.5
+   }
+  },
+  {
+   "shot": "S07_SH16",
+   "name": "whoosh",
+   "start": 992.917,
+   "gain_db": -8,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S07_SH16",
+   "name": "key_skitter",
+   "start": 993.067,
+   "gain_db": -6,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S07_SH17",
+   "name": "wind_gusts",
+   "start": 995.5,
+   "gain_db": -12,
+   "dur": 3.583,
+   "params": {
+    "build": 0.6
+   }
+  },
+  {
+   "shot": "S07_SH17",
+   "name": "mud_slide",
+   "start": 995.9,
+   "gain_db": -16,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S07_SH18",
+   "name": "wind_gusts",
+   "start": 999.083,
+   "gain_db": -12,
+   "dur": 6.625,
+   "params": {
+    "build": 0.8
+   }
+  },
+  {
+   "shot": "S07_SH19",
+   "name": "wind_gusts",
+   "start": 1005.708,
+   "gain_db": -14,
+   "dur": 3.583,
+   "params": {
+    "build": 0.8
+   }
+  },
+  {
+   "shot": "S07_SH20",
+   "name": "wind_gusts",
+   "start": 1009.292,
+   "gain_db": -10,
+   "dur": 5.417,
+   "params": {
+    "build": 1.0
+   }
+  },
+  {
+   "shot": "S07_SH20",
+   "name": "footsteps_soft",
+   "start": 1009.492,
+   "gain_db": -12,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S07_SH21",
+   "name": "wind_gusts",
+   "start": 1014.708,
+   "gain_db": -24,
+   "dur": 7.0,
+   "params": {
+    "build": 0.4
+   }
+  },
+  {
+   "shot": "S07_SH21",
+   "name": "slowmo_whoosh",
+   "start": 1014.808,
+   "gain_db": -4,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S07_SH21",
+   "name": "key_click",
+   "start": 1020.708,
+   "gain_db": -2,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S07_SH22",
+   "name": "key_click",
+   "start": 1021.808,
+   "gain_db": -10,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S07_SH23",
+   "name": "wind_gusts",
+   "start": 1024.125,
+   "gain_db": -18,
+   "dur": 6.417,
+   "params": {
+    "build": 0.3
+   }
+  },
+  {
+   "shot": "S07_SH23",
+   "name": "key_turn_clack",
+   "start": 1027.125,
+   "gain_db": -3,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S07_SH23",
+   "name": "key_turn_clack",
+   "start": 1027.725,
+   "gain_db": -3,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S07_SH23",
+   "name": "key_turn_clack",
+   "start": 1029.225,
+   "gain_db": -2,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S07_SH23",
+   "name": "bhaap_giggle",
+   "start": 1028.525,
+   "gain_db": -12,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S07_SH24",
+   "name": "trunk_lid_rise",
+   "start": 1030.942,
+   "gain_db": -4,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S07_SH24",
+   "name": "monsoon_roll",
+   "start": 1032.542,
+   "gain_db": -6,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S07_SH25",
+   "name": "monsoon_roll",
+   "start": 1037.542,
+   "gain_db": -4,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S07_SH25",
+   "name": "thunder",
+   "start": 1043.942,
+   "gain_db": -6,
+   "dur": null,
+   "params": {
+    "dist": 0.5
+   }
+  },
+  {
+   "shot": "S07_SH26",
+   "name": "thunder",
+   "start": 1050.542,
+   "gain_db": -8,
+   "dur": null,
+   "params": {
+    "dist": 0.3
+   }
+  },
+  {
+   "shot": "S07_SH26",
+   "name": "monsoon_roll",
+   "start": 1048.042,
+   "gain_db": -10,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S07_SH27",
+   "name": "first_drop_tin",
+   "start": 1056.942,
+   "gain_db": -2,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S07_SH28",
+   "name": "first_drop_tin",
+   "start": 1060.642,
+   "gain_db": -4,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S07_SH28",
+   "name": "raindrops_tin",
+   "start": 1061.842,
+   "gain_db": -6,
+   "dur": 4.7,
+   "params": {
+    "density": 0.4
+   }
+  },
+  {
+   "shot": "S08_SH01",
+   "name": "rain_roar",
+   "start": 1066.542,
+   "gain_db": -6,
+   "dur": 7.0,
+   "params": {}
+  },
+  {
+   "shot": "S08_SH01",
+   "name": "thunder",
+   "start": 1066.642,
+   "gain_db": -4,
+   "dur": null,
+   "params": {
+    "dist": 0.2
+   }
+  },
+  {
+   "shot": "S08_SH01",
+   "name": "cheers_distant",
+   "start": 1068.942,
+   "gain_db": -8,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S08_SH02",
+   "name": "rain_roar",
+   "start": 1073.542,
+   "gain_db": -9,
+   "dur": 5.5,
+   "params": {}
+  },
+  {
+   "shot": "S08_SH02",
+   "name": "steel_plate_drum",
+   "start": 1073.542,
+   "gain_db": -6,
+   "dur": 5.5,
+   "params": {
+    "bpm": 120
+   }
+  },
+  {
+   "shot": "S08_SH02",
+   "name": "cheers_distant",
+   "start": 1074.342,
+   "gain_db": -10,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S08_SH03",
+   "name": "rain_roar",
+   "start": 1079.042,
+   "gain_db": -10,
+   "dur": 5.5,
+   "params": {}
+  },
+  {
+   "shot": "S08_SH03",
+   "name": "mud_slide",
+   "start": 1080.242,
+   "gain_db": -6,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S08_SH03",
+   "name": "mud_slide",
+   "start": 1082.442,
+   "gain_db": -7,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S08_SH03",
+   "name": "crowd_howl_distant",
+   "start": 1080.642,
+   "gain_db": -14,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S08_SH04",
+   "name": "rain_roar",
+   "start": 1084.542,
+   "gain_db": -10,
+   "dur": 8.0,
+   "params": {}
+  },
+  {
+   "shot": "S08_SH04",
+   "name": "rain_puddles",
+   "start": 1084.542,
+   "gain_db": -12,
+   "dur": 8.0,
+   "params": {}
+  },
+  {
+   "shot": "S08_SH04",
+   "name": "kids_laugh",
+   "start": 1085.342,
+   "gain_db": -10,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S08_SH04",
+   "name": "bhaap_giggle",
+   "start": 1087.542,
+   "gain_db": -8,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S08_SH04",
+   "name": "spark_tzik",
+   "start": 1088.142,
+   "gain_db": -10,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S08_SH05",
+   "name": "rain_roar",
+   "start": 1092.542,
+   "gain_db": -11,
+   "dur": 6.0,
+   "params": {}
+  },
+  {
+   "shot": "S08_SH05",
+   "name": "kids_laugh",
+   "start": 1093.142,
+   "gain_db": -8,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S08_SH05",
+   "name": "rain_puddles",
+   "start": 1092.542,
+   "gain_db": -12,
+   "dur": 6.0,
+   "params": {}
+  },
+  {
+   "shot": "S08_SH06",
+   "name": "rain_roar",
+   "start": 1098.542,
+   "gain_db": -12,
+   "dur": 4.5,
+   "params": {}
+  },
+  {
+   "shot": "S08_SH06",
+   "name": "bhaap_giggle",
+   "start": 1098.942,
+   "gain_db": -6,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S08_SH06",
+   "name": "spark_tzik",
+   "start": 1099.742,
+   "gain_db": -8,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S08_SH06",
+   "name": "pigeon_flap",
+   "start": 1100.242,
+   "gain_db": -10,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S08_SH06",
+   "name": "pigeon_coo",
+   "start": 1101.742,
+   "gain_db": -12,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S08_SH07",
+   "name": "raindrops_tin",
+   "start": 1103.042,
+   "gain_db": -14,
+   "dur": 5.0,
+   "params": {
+    "density": 0.7
+   }
+  },
+  {
+   "shot": "S08_SH07",
+   "name": "curtain_flutter",
+   "start": 1104.042,
+   "gain_db": -12,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S08_SH08",
+   "name": "raindrops_tin",
+   "start": 1108.042,
+   "gain_db": -18,
+   "dur": 4.583333333333333,
+   "params": {
+    "density": 0.5
+   }
+  },
+  {
+   "shot": "S08_SH08",
+   "name": "pop",
+   "start": 1110.342,
+   "gain_db": -6,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S08_SH09",
+   "name": "raindrops_tin",
+   "start": 1112.625,
+   "gain_db": -16,
+   "dur": 4.0,
+   "params": {
+    "density": 0.7
+   }
+  },
+  {
+   "shot": "S08_SH09",
+   "name": "window_open",
+   "start": 1114.225,
+   "gain_db": -6,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S08_SH09",
+   "name": "rain_roar",
+   "start": 1114.425,
+   "gain_db": -12,
+   "dur": 2.2,
+   "params": {}
+  },
+  {
+   "shot": "S08_SH10",
+   "name": "rain_roar",
+   "start": 1116.625,
+   "gain_db": -9,
+   "dur": 8.5,
+   "params": {}
+  },
+  {
+   "shot": "S08_SH10",
+   "name": "creaky_laugh",
+   "start": 1119.025,
+   "gain_db": -2,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S08_SH10",
+   "name": "thunder",
+   "start": 1122.625,
+   "gain_db": -14,
+   "dur": null,
+   "params": {
+    "dist": 0.8
+   }
+  },
+  {
+   "shot": "S08_SH11",
+   "name": "raindrops_tin",
+   "start": 1125.125,
+   "gain_db": -14,
+   "dur": 6.5,
+   "params": {
+    "density": 0.5
+   }
+  },
+  {
+   "shot": "S08_SH11",
+   "name": "door_creak",
+   "start": 1125.425,
+   "gain_db": -10,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S08_SH11",
+   "name": "footsteps_slipper",
+   "start": 1126.125,
+   "gain_db": -14,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S08_SH11",
+   "name": "kids_laugh",
+   "start": 1125.125,
+   "gain_db": -12,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S08_SH12",
+   "name": "raindrops_tin",
+   "start": 1131.625,
+   "gain_db": -16,
+   "dur": 4.0,
+   "params": {
+    "density": 0.4
+   }
+  },
+  {
+   "shot": "S08_SH13",
+   "name": "raindrops_tin",
+   "start": 1135.625,
+   "gain_db": -16,
+   "dur": 6.0,
+   "params": {
+    "density": 0.4
+   }
+  },
+  {
+   "shot": "S08_SH13",
+   "name": "bhaap_coo",
+   "start": 1139.925,
+   "gain_db": -10,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S08_SH14",
+   "name": "raindrops_tin",
+   "start": 1141.625,
+   "gain_db": -16,
+   "dur": 6.583333333333333,
+   "params": {
+    "density": 0.4
+   }
+  },
+  {
+   "shot": "S08_SH15",
+   "name": "raindrops_tin",
+   "start": 1148.208,
+   "gain_db": -16,
+   "dur": 4.5,
+   "params": {
+    "density": 0.4
+   }
+  },
+  {
+   "shot": "S08_SH15",
+   "name": "sparkle",
+   "start": 1149.608,
+   "gain_db": -12,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S08_SH16",
+   "name": "raindrops_tin",
+   "start": 1152.708,
+   "gain_db": -14,
+   "dur": 8.5,
+   "params": {
+    "density": 0.35
+   }
+  },
+  {
+   "shot": "S08_SH16",
+   "name": "bhaap_coo",
+   "start": 1157.708,
+   "gain_db": -14,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S09_SH01",
+   "name": "workshop_ambience",
+   "start": 1161.208,
+   "gain_db": -14,
+   "dur": 6.0,
+   "params": {}
+  },
+  {
+   "shot": "S09_SH01",
+   "name": "page_turn",
+   "start": 1161.808,
+   "gain_db": -10,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S09_SH01",
+   "name": "bhaap_coo",
+   "start": 1164.608,
+   "gain_db": -12,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S09_SH01",
+   "name": "spark_tzik",
+   "start": 1165.508,
+   "gain_db": -14,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S09_SH02",
+   "name": "heat_bed",
+   "start": 1167.208,
+   "gain_db": -16,
+   "dur": 9.0,
+   "params": {}
+  },
+  {
+   "shot": "S09_SH02",
+   "name": "bhaap_drizzle",
+   "start": 1167.208,
+   "gain_db": -12,
+   "dur": 9.0,
+   "params": {}
+  },
+  {
+   "shot": "S09_SH02",
+   "name": "footsteps_soft",
+   "start": 1167.408,
+   "gain_db": -18,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S09_SH02",
+   "name": "school_bell",
+   "start": 1174.008,
+   "gain_db": -16,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S09_SH02",
+   "name": "bhaap_giggle",
+   "start": 1173.208,
+   "gain_db": -12,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S09_SH03",
+   "name": "heat_bed",
+   "start": 1176.208,
+   "gain_db": -18,
+   "dur": 4.5,
+   "params": {}
+  },
+  {
+   "shot": "S09_SH03",
+   "name": "chilli_watering",
+   "start": 1177.208,
+   "gain_db": -8,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S09_SH04",
+   "name": "heat_bed",
+   "start": 1180.708,
+   "gain_db": -18,
+   "dur": 3.125,
+   "params": {}
+  },
+  {
+   "shot": "S09_SH05",
+   "name": "heat_bed",
+   "start": 1183.833,
+   "gain_db": -18,
+   "dur": 6.5,
+   "params": {}
+  },
+  {
+   "shot": "CR_SH01",
+   "name": "night_bed_delhi",
+   "start": 1190.333,
+   "gain_db": -20,
+   "dur": 46.0,
+   "params": {}
+  },
+  {
+   "shot": "CR_SH01",
+   "name": "raindrops_tin",
+   "start": 1190.333,
+   "gain_db": -24,
+   "dur": 46.0,
+   "params": {
+    "density": 0.2
+   }
+  },
+  {
+   "shot": "CR_SH02",
+   "name": "heat_bed",
+   "start": 1236.333,
+   "gain_db": -20,
+   "dur": 10.0,
+   "params": {}
+  },
+  {
+   "shot": "CR_SH02",
+   "name": "pressure_cooker_whistle",
+   "start": 1236.733,
+   "gain_db": -8,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "CR_SH02",
+   "name": "pigeon_coo",
+   "start": 1237.733,
+   "gain_db": -10,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "CR_SH02",
+   "name": "pigeon_flap",
+   "start": 1238.433,
+   "gain_db": -8,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "CR_SH02",
+   "name": "steam_hiss",
+   "start": 1238.533,
+   "gain_db": -14,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "CR_SH02",
+   "name": "cloud_puff",
+   "start": 1239.933,
+   "gain_db": -6,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "CR_SH02",
+   "name": "bhaap_sneeze_spark",
+   "start": 1241.533,
+   "gain_db": -4,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "CR_SH02",
+   "name": "bhaap_drizzle",
+   "start": 1242.733,
+   "gain_db": -10,
+   "dur": 3.6,
+   "params": {}
+  },
+  {
+   "shot": "CR_SH02",
+   "name": "pigeon_coo",
+   "start": 1244.633,
+   "gain_db": -8,
+   "dur": null,
+   "params": {}
+  }
+ ],
+ "music": [
+  {
+   "cue": "heat_open",
+   "start": 0.0,
+   "hits": [
+    16.5,
+    21.9
+   ]
+  },
+  {
+   "cue": "block_life",
+   "start": 27.5,
+   "hits": []
+  },
+  {
+   "cue": "stairs_khadoos",
+   "start": 68.375,
+   "hits": []
+  },
+  {
+   "cue": "roof_sneak",
+   "start": 138.125,
+   "hits": [
+    158.375
+   ]
+  },
+  {
+   "cue": "cloud_birth",
+   "start": 194.0833,
+   "hits": []
+  },
+  {
+   "cue": "",
+   "start": 211.5,
+   "hits": []
+  },
+  {
+   "cue": "caught",
+   "start": 224.8333,
+   "hits": []
+  },
+  {
+   "cue": "recruited",
+   "start": 266.5417,
+   "hits": []
+  },
+  {
+   "cue": "workshop_reveal",
+   "start": 316.4167,
+   "hits": []
+  },
+  {
+   "cue": "montage_brass",
+   "start": 409.9167,
+   "hits": [
+    410.317
+   ]
+  },
+  {
+   "cue": "smog_sweep",
+   "start": 456.4167,
+   "hits": []
+  },
+  {
+   "cue": "notebook",
+   "start": 476.9167,
+   "hits": []
+  },
+  {
+   "cue": "montage_brass",
+   "start": 491.4167,
+   "hits": []
+  },
+  {
+   "cue": "",
+   "start": 503.9167,
+   "hits": []
+  },
+  {
+   "cue": "hailstorm",
+   "start": 518.7083,
+   "hits": [
+    521.308
+   ]
+  },
+  {
+   "cue": "",
+   "start": 539.9167,
+   "hits": []
+  },
+  {
+   "cue": "photo_alone",
+   "start": 557.0833,
+   "hits": []
+  },
+  {
+   "cue": "overdue",
+   "start": 587.0833,
+   "hits": []
+  },
+  {
+   "cue": "trunk_reveal",
+   "start": 599.25,
+   "hits": [
+    603.25,
+    604.85
+   ]
+  },
+  {
+   "cue": "varsha_memory",
+   "start": 655.3333,
+   "hits": [
+    656.333
+   ]
+  },
+  {
+   "cue": "",
+   "start": 671.3333,
+   "hits": []
+  },
+  {
+   "cue": "go_home",
+   "start": 689.2917,
+   "hits": []
+  },
+  {
+   "cue": "dadi_night",
+   "start": 706.2917,
+   "hits": []
+  },
+  {
+   "cue": "shortcut_sneak",
+   "start": 722.2917,
+   "hits": []
+  },
+  {
+   "cue": "",
+   "start": 758.2917,
+   "hits": []
+  },
+  {
+   "cue": "aandhi",
+   "start": 762.7083,
+   "hits": []
+  },
+  {
+   "cue": "storm_rescue",
+   "start": 810.9167,
+   "hits": []
+  },
+  {
+   "cue": "aftermath",
+   "start": 842.0417,
+   "hits": []
+  },
+  {
+   "cue": "photo_alone",
+   "start": 881.75,
+   "hits": []
+  },
+  {
+   "cue": "waiting",
+   "start": 897.75,
+   "hits": []
+  },
+  {
+   "cue": "bhaap_returns",
+   "start": 920.75,
+   "hits": []
+  },
+  {
+   "cue": "three_keys",
+   "start": 959.8333,
+   "hits": []
+  },
+  {
+   "cue": "bowl_slowmo",
+   "start": 1014.7083,
+   "hits": [
+    1020.708
+   ]
+  },
+  {
+   "cue": "three_keys",
+   "start": 1024.125,
+   "hits": []
+  },
+  {
+   "cue": "monsoon_full",
+   "start": 1030.5417,
+   "hits": []
+  },
+  {
+   "cue": "",
+   "start": 1054.5417,
+   "hits": []
+  },
+  {
+   "cue": "first_rain_dance",
+   "start": 1066.5417,
+   "hits": []
+  },
+  {
+   "cue": "keeper_laughs",
+   "start": 1103.0417,
+   "hits": []
+  },
+  {
+   "cue": "notebook_passed",
+   "start": 1125.125,
+   "hits": []
+  },
+  {
+   "cue": "coda",
+   "start": 1161.2083,
+   "hits": []
+  },
+  {
+   "cue": "credits",
+   "start": 1190.3333,
+   "hits": []
+  },
+  {
+   "cue": "postcredits",
+   "start": 1236.3333,
+   "hits": []
+  }
+ ]
+}
