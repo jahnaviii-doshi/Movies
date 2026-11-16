@@ -233,8 +233,9 @@ def sh08b(cv, c):
             R.draw(cv, "meghnath", x=BX, y=BY, s=MS, legs="sit", t=t, flip=True, turn=0.35,
                    extra=dict(MEGH, brow_lift=0.4), arms={"l": (lerp(140, 30, lower), lerp(30, 70, lower))},
                    expr="happy" if t > 2.5 else "neutral", look=(0.5, -0.8), head_tilt=-4)
-            R.draw(cv, "ishaan", x=TANK[0] - 30, y=TANK[1] - 6, s=IS, t=t, expr="awe", look=(1.0, -0.8), turn=0.8)
-        tank(cv, TANK[0] + 30, TANK[1] + 10, 1.0)
+            R.draw(cv, "ishaan", x=TANK[0] - 170, y=TANK[1] - 30, s=IS * 0.95, t=t, expr="awe", look=(1.0, -0.8),
+                   turn=0.8)
+        tank(cv, TANK[0] - 120, TANK[1] - 10, 0.95)
         R.draw_bhaap(cv, LX, LY + 10 + 6 * math.sin(t), 1.1, t, mood="sleepy", blink=1.0)
 
 

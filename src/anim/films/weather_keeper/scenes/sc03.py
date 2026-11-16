@@ -330,7 +330,7 @@ def kids_ws(cv, t, c, turn_k=0.0, exprs=("awe", "awe", "awe"), look_up=-0.9):
 def sh18(cv, c):
     """Jars of breezes: pale-blue morning, green evening, a dusty-yellow loo wind rattling its lid."""
     t = c.t
-    pan = lerp(0.22, 0.32, c.u)
+    pan = lerp(0.46, 0.56, c.u)
     camc = workshop.shelves_cam(pan)
     ws(cv, t, camc, view="shelves", pan=pan, rattle=1.0)
 
@@ -385,7 +385,7 @@ def sh17b(cv, c):
     ws(cv, t, camc)
     with cam(cv, camc):
         # the hatch from inside: a bright square high on the far wall with a ladder below
-        hx, hy = 1420, 640
+        hx, hy = 1260, 600
         cv.drawRect(skia.Rect.MakeXYWH(hx - 60, hy - 70, 120, 140), K.fill("#ffe2b8"))
         cv.drawRect(skia.Rect.MakeXYWH(hx - 60, hy - 70, 120, 140), K.stroke("line", 4))
         for k in range(6):
@@ -518,25 +518,25 @@ SHOTS = [
     S("S03_SH10", sh10, 8.5, bed="heat_bed", bed_db=-24),
     S("S03_SH11", sh11, lines=seq(0.5, [("meghnath", "You touch nothing. You do exactly as I say.", 0)]), tail=0.8,
       bed="heat_bed", bed_db=-24),
-    S("S03_SH12", sh12, 4.0, bed="heat_bed", bed_db=-22, sfx=[Sfx("whoosh", 0.4, -14, params={"intensity": 0.4}),
+    S("S03_SH12", sh12, 5.5, bed="heat_bed", bed_db=-22, sfx=[Sfx("whoosh", 0.4, -14, params={"intensity": 0.4}),
                                                               Sfx("page_turn", 1.5, -8)]),
     S("S03_SH13", sh13, lines=seq(0.3, [("tara", "What are the rules?", 0)]), tail=0.6, bed="heat_bed", bed_db=-22),
     S("S03_SH14", sh14, lines=seq(0.5, [("meghnath", "That was the rules.", 0)]), tail=1.6, bed="heat_bed",
       bed_db=-22),
     S("S03_SH15", sh15, 8.6, bed="heat_bed", bed_db=-20,
       sfx=[Sfx("footsteps_slipper", 0.0, -14, dur=6.0), Sfx("footsteps_soft", 1.0, -16, dur=6.0)]),
-    S("S03_SH16", sh16, 5.6, music="workshop_reveal", bed="heat_bed", bed_db=-22,
-      sfx=[Sfx("metal_hatch", 0.8, -4), Sfx("workshop_ambience", 1.4, -16, dur=4.2)]),
+    S("S03_SH16", sh16, 7.0, music="workshop_reveal", bed="heat_bed", bed_db=-22,
+      sfx=[Sfx("metal_hatch", 0.8, -4), Sfx("workshop_ambience", 1.4, -16, dur=5.6)]),
     S("S03_SH17", sh17, 15.0, tr="dissolve", td=0.8, bed="workshop_ambience", bed_db=-12,
       sfx=[Sfx("jar_breeze", 3.0, -18), Sfx("kite_wind", 6.0, -20)]),
     S("S03_SH17B", sh17b, 5.4, bed="workshop_ambience", bed_db=-12, sfx=[Sfx("footsteps_slipper", 0.6, -14, dur=3.6)]),
     S("S03_SH18", sh18, 7.0, bed="workshop_ambience", bed_db=-12,
       sfx=[Sfx("jar_breeze", 0.8, -12), Sfx("jar_unscrew", 3.6, -16), Sfx("shutter_rattle", 4.2, -20)]),
-    S("S03_SH19", sh19, 6.6, bed="workshop_ambience", bed_db=-12, sfx=[Sfx("kite_wind", 0.5, -14)]),
+    S("S03_SH19", sh19, 7.8, bed="workshop_ambience", bed_db=-12, sfx=[Sfx("kite_wind", 0.5, -14)]),
     S("S03_SH20", sh20, 9.0, bed="workshop_ambience", bed_db=-12,
       sfx=[Sfx("bhaap_giggle", 1.5, -10), Sfx("spark_tzik", 2.4, -12), Sfx("spark_tzik", 4.1, -12),
            Sfx("spark_tzik", 5.6, -12)]),
-    S("S03_SH21", sh21, 5.0, bed="workshop_ambience", bed_db=-12,
+    S("S03_SH21", sh21, 6.0, bed="workshop_ambience", bed_db=-12,
       sfx=[Sfx("whoosh", 0.6, -14, params={"intensity": 0.5}), Sfx("spark_tzik", 1.4, -8),
            Sfx("bhaap_giggle", 2.4, -8), Sfx("spark_tzik", 3.6, -10)]),
     S("S03_SH22", sh22, 8.0, bed="workshop_ambience", bed_db=-14),

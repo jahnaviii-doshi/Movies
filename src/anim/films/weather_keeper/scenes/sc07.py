@@ -12,7 +12,7 @@ import math
 import skia
 
 from .... import core as K, fx
-from ....core import W, H, fill, stroke, clamp, lerp
+from ....core import W, H, fill, stroke, clamp, lerp, ellipse
 from ....timeline import Shot, Line, Sfx
 from .. import rig as R
 from ..rig import draw, draw_bhaap, draw_pigeon, draw_key, draw_cooker_lid, bowling_pose, bowling_hop
@@ -77,151 +77,168 @@ def sh02(cv, c):
 
 
 # ------------------------------------------------------------------ 2. Ishaan waits
+# A clean composition for the waiting sequence: the back parapet across the lower frame, Ishaan sitting
+# on it facing us, the night city and sky behind him.
+SEAT = (960, 776)
+IS = 1.55          # Ishaan's scale on the parapet
+
+
+def parapet_comp(cv, c, cam, cam_x=180):
+    t = c.t
+    with K.camera(cv, *cam):
+        skyline.draw_skyline(cv, t, "night", cam_x=cam_x, heat=0.0, pigeons=False)
+        cv.drawRect(skia.Rect.MakeLTRB(-200, 780, W + 200, H + 400), K.lin((0, 780), (0, H), ["#3a4466", "#232a44"]))
+        r = K.rng(12)
+        for i in range(26):
+            x, y = r.uniform(-100, W + 100), r.uniform(820, 1060)
+            cv.drawLine(x, y, x + r.uniform(30, 90), y + r.uniform(-3, 3), stroke("#2c3454", 2, 0.7))
+        coping = skia.Rect.MakeLTRB(-200, 760, W + 200, 790)
+        cv.drawRect(coping, fill("#4c5678"))
+        cv.drawRect(coping, stroke("line", 3))
+        cv.drawLine(-200, 764, W + 200, 764, stroke("#6a76a0", 2, 0.8))
+
+
+def ishaan_on_wall(cv, c, **kw):
+    pose = dict(x=SEAT[0], y=SEAT[1], s=IS, t=c.t, legs="sit", turn=0.1, expr="sad", look=(0.1, -1.0),
+                arms={"l": (18, 30), "r": (18, 30)}, extra={"swing": 1.0}, mouth=c.mouth("ishaan"))
+    pose.update(kw)
+    draw(cv, "ishaan", **pose)
+
+
 def sh03(cv, c):
     """Ishaan alone on the parapet, legs swinging, a pressure-cooker lid beside him. He waits."""
     t = c.t
-    hy = head_y("ishaan", PY, PS, sit=True)
-    cam = push(c, ccam(PX, hy + 60, 2.6), ccam(PX, hy + 40, 2.9))
-    roof_bg(cv, c, "night", cam)
+    hy = head_y("ishaan", SEAT[1], IS, sit=True)
+    cam = push(c, ccam(960, 560, 1.15), ccam(960, hy + 120, 1.6))
+    parapet_comp(cv, c, cam)
     with K.camera(cv, *cam):
         with K.lit(cv, "night"):
-            draw_cooker_lid(cv, PX + 70 * PS, PY - 4, 0.5 * PS)
-            draw(cv, "ishaan", x=PX, y=PY, s=PS, t=t, legs="sit", turn=0.1, expr="sad", look=(0.1, -1.0),
-                 arms={"l": (18, 30), "r": (18, 30)}, extra={"swing": 1.0})
+            draw_cooker_lid(cv, SEAT[0] + 150, SEAT[1] - 12, 0.6)
+            ishaan_on_wall(cv, c)
 
 
 def sh04(cv, c):
     """Stars. A plane blinks across. Nothing else comes."""
     t = c.t
-    night_sky(cv, t)
-    plane(cv, t, 300, 260, 1700, 200, 0.5, 7.5, s=1.2)
-    skyline.draw_skyline(cv, t, "night", cam_x=200, heat=0.0, pigeons=False) if False else None
-    # the parapet edge and Ishaan small, from behind his shoulder
-    cv.drawRect(skia.Rect.MakeLTRB(0, 880, W, H), fill("#1e2440"))
-    cv.drawRect(skia.Rect.MakeLTRB(0, 870, W, 890), fill("#2c3456"))
-    with K.lit(cv, "night"):
-        draw(cv, "ishaan", x=1500, y=1180, s=2.2, t=t, turn=0.9, flip=True, expr="sad", look=(-0.6, -1.0))
+    cam = ccam(960, 470, 1.05)
+    parapet_comp(cv, c, cam, cam_x=240)
+    with K.camera(cv, *cam):
+        plane(cv, t, 200, 160, 1750, 120, 0.3, 7.3, s=1.4)
+        with K.lit(cv, "night"):
+            draw_cooker_lid(cv, SEAT[0] + 150, SEAT[1] - 12, 0.6)
+            ishaan_on_wall(cv, c, look=(lerp(-0.8, 0.8, c.seg(0.3, 7.3)), -1.0), extra={"swing": 0.4})
 
 
 def sh05(cv, c):
     """Captain the pigeon flutters down beside him, and waits too."""
     t = c.t
-    hy = head_y("ishaan", PY, PS, sit=True)
-    cam = push(c, ccam(PX + 30, hy + 60, 2.6), ccam(PX + 40, hy + 50, 2.7))
-    roof_bg(cv, c, "night", cam)
+    hy = head_y("ishaan", SEAT[1], IS, sit=True)
+    cam = push(c, ccam(900, hy + 120, 1.7), ccam(900, hy + 110, 1.8))
+    parapet_comp(cv, c, cam)
     land = K.ease_out(c.seg(0.4, 2.2))
     with K.camera(cv, *cam):
         with K.lit(cv, "night"):
-            draw_cooker_lid(cv, PX + 70 * PS, PY - 4, 0.5 * PS)
-            draw(cv, "ishaan", x=PX, y=PY, s=PS, t=t, legs="sit", turn=0.1, expr="sad",
-                 look=(-0.6, 0.2) if t > 2.6 else (-0.5, -0.6), arms={"l": (18, 30), "r": (18, 30)},
-                 extra={"swing": 0.6})
-            bx = lerp(PX - 260, PX - 80 * PS, land)
-            by = lerp(PY - 260, PY - 2, land)
+            draw_cooker_lid(cv, SEAT[0] + 150, SEAT[1] - 12, 0.6)
+            ishaan_on_wall(cv, c, look=(-0.6, 0.0) if t > 2.6 else (-0.5, -0.6), extra={"swing": 0.6})
+            bx = lerp(SEAT[0] - 520, SEAT[0] - 170, land)
+            by = lerp(SEAT[1] - 420, SEAT[1] - 14, land)
             mode = "flap" if land < 0.98 else ("one_leg" if t > 4.0 else "stand")
-            draw_pigeon(cv, bx, by, 0.9 * PS, t, flip=False, mode=mode, head_bob=0.2)
+            draw_pigeon(cv, bx, by, 1.5, t, flip=False, mode=mode, head_bob=0.2)
 
 
 def sh06(cv, c):
     """Far off, something small and grey drifts toward them."""
     t = c.t
-    cam = push(c, (1150, 360, 1.6), (1150, 380, 1.9))
-    roof_bg(cv, c, "night", cam)
+    cam = push(c, ccam(1100, 480, 1.25), ccam(1080, 500, 1.4))
+    parapet_comp(cv, c, cam)
+    k = K.ease_in_out(c.seg(0.0, 8.0))
     with K.camera(cv, *cam):
         with K.lit(cv, "night"):
-            draw(cv, "ishaan", x=PX, y=PY, s=PS, t=t, legs="sit", turn=0.1, expr="awe" if t > 3.5 else "sad",
-                 look=(0.2, -0.9), arms={"l": (18, 30), "r": (18, 30)}, extra={"swing": 0.3 * (1 - c.seg(3, 4))})
-            draw_pigeon(cv, PX - 80 * PS, PY - 2, 0.9 * PS, t, mode="stand", head_bob=0.1)
-        k = K.ease_in_out(c.seg(0.0, 8.0))
-        bx, by = lerp(1550, 1240, k), lerp(140, 380, k) + math.sin(t * 1.6) * 10
-        draw_bhaap(cv, bx, by, lerp(0.12, 0.38, k), t, mood="tired", grey=1.0, rain=0.2, glow=0.2)
+            draw_cooker_lid(cv, SEAT[0] + 150, SEAT[1] - 12, 0.6)
+            ishaan_on_wall(cv, c, expr="awe" if t > 4.5 else "sad", look=(0.7, -0.7) if t > 4 else (0.1, -1.0),
+                           extra={"swing": 0.3 * (1 - c.seg(4, 5))})
+            draw_pigeon(cv, SEAT[0] - 170, SEAT[1] - 14, 1.5, t, mode="stand", head_bob=0.1)
+        bx, by = lerp(1700, 1240, k), lerp(150, 430, k) + math.sin(t * 1.6) * 10
+        draw_bhaap(cv, bx, by, lerp(0.15, 0.55, k), t, mood="tired", grey=1.0, rain=0.2, glow=0.2)
 
 
 def sh07(cv, c):
     """Close on Ishaan: 'Bhaap.'"""
     t = c.t
-    hy = head_y("ishaan", PY, PS, sit=True)
-    cam = push(c, frame_head(PX, hy, 4.6, 0.42), frame_head(PX, hy, 5.0, 0.42))
-    roof_bg(cv, c, "night", cam)
+    hy = head_y("ishaan", SEAT[1], IS, sit=True)
+    cam = push(c, frame_head(SEAT[0], hy, 3.0, 0.42), frame_head(SEAT[0], hy, 3.3, 0.42))
+    parapet_comp(cv, c, cam)
     with K.camera(cv, *cam):
         with K.lit(cv, "night"):
-            draw(cv, "ishaan", x=PX, y=PY, s=PS, t=t, legs="sit", turn=0.15, expr="awe" if t < 2.2 else "happy",
-                 mouth=c.mouth("ishaan"), look=(0.4, -0.6), brow=0.4, arms={"l": (40, 80), "r": (40, 80)})
+            ishaan_on_wall(cv, c, expr="awe" if t < 2.2 else "happy", look=(0.5, -0.5), brow=0.4,
+                           arms={"l": (40, 80), "r": (40, 80)}, extra={})
 
 
 def sh08(cv, c):
     """The tiny grey cloud lands in his hands, shivering, drizzling. He hugs it."""
     t = c.t
-    hy = head_y("ishaan", PY, PS, sit=True)
-    cam = frame_head(PX, hy, 3.6, 0.35)
-    roof_bg(cv, c, "night", cam)
+    hy = head_y("ishaan", SEAT[1], IS, sit=True)
+    cam = frame_head(SEAT[0], hy, 2.6, 0.34)
+    parapet_comp(cv, c, cam)
     land = K.ease_out(c.seg(0.0, 1.8))
     hug = K.ease_in_out(c.seg(3.2, 4.4))
+    hx, hyy = SEAT[0], SEAT[1] - 92 * IS
     with K.camera(cv, *cam):
-        hx, hyy = PX, PY - 92 * PS
         with K.lit(cv, "night"):
-            draw(cv, "ishaan", x=PX, y=PY, s=PS, t=t, legs="sit", turn=0.1, expr="sad" if t < 3.2 else "happy",
-                 look=(0.0, 0.8), head_tilt=8 * hug,
-                 arms={"l": (lerp(30, 45, hug), lerp(100, 125, hug)), "r": (lerp(30, 45, hug), lerp(100, 125, hug))})
+            ishaan_on_wall(cv, c, expr="sad" if t < 3.2 else "happy", look=(0.0, 0.8), head_tilt=8 * hug,
+                           arms={"l": (lerp(30, 45, hug), lerp(100, 125, hug)),
+                                 "r": (lerp(30, 45, hug), lerp(100, 125, hug))}, extra={})
         shiver = math.sin(t * 40) * 1.5 * (1 - hug * 0.6)
-        bx = lerp(PX + 140, hx, land) + shiver
-        by = lerp(hyy - 120, hyy - 6, land)
-        draw_bhaap(cv, bx, by, 0.32 * PS * 1.4, t, mood="tired", grey=1.0, rain=0.6 * (1 - hug * 0.5),
-                   glow=0.15, squash=0.3 * hug)
+        bx = lerp(SEAT[0] + 260, hx, land) + shiver
+        by = lerp(hyy - 220, hyy - 6, land)
+        draw_bhaap(cv, bx, by, 0.55, t, mood="tired", grey=1.0, rain=0.6 * (1 - hug * 0.5), glow=0.15,
+                   squash=0.3 * hug)
 
 
 def sh09(cv, c):
     """Slowly he whitens and fluffs... Tzik: one small, happy spark."""
     t = c.t
-    hy = head_y("ishaan", PY, PS, sit=True)
-    cam = push(c, frame_head(PX, hy, 3.6, 0.35), frame_head(PX, hy, 3.9, 0.36))
-    roof_bg(cv, c, "night", cam)
+    hy = head_y("ishaan", SEAT[1], IS, sit=True)
+    cam = push(c, frame_head(SEAT[0], hy, 2.6, 0.34), frame_head(SEAT[0], hy, 2.85, 0.35))
+    parapet_comp(cv, c, cam)
     k = K.ease_in_out(c.seg(0.4, 5.0))
     with K.camera(cv, *cam):
         with K.lit(cv, "night"):
-            draw(cv, "ishaan", x=PX, y=PY, s=PS, t=t, legs="sit", turn=0.1,
-                 expr="happy" if t < 5.6 else "grin", look=(0.0, 0.8), head_tilt=6,
-                 arms={"l": (40, 118), "r": (40, 118)})
+            ishaan_on_wall(cv, c, expr="happy" if t < 5.6 else "grin", look=(0.0, 0.8), head_tilt=6,
+                           arms={"l": (40, 118), "r": (40, 118)}, extra={})
         spark = clamp(1 - abs(t - 5.8) / 0.25) if t > 5.5 else 0.0
-        draw_bhaap(cv, PX, PY - 98 * PS - 6 * k, lerp(0.45, 0.62, k) * PS, t,
+        draw_bhaap(cv, SEAT[0], SEAT[1] - 98 * IS - 8 * k, lerp(0.55, 0.85, k), t,
                    mood="happy" if t > 5.5 else "sleepy", grey=1 - k, mouth=0.4 if t > 5.6 else 0.0,
                    glow=k, spark=spark)
 
 
-def sh10(cv, c):
-    """Wider: Tara and Rehan have been standing there a while. The three apologies."""
+def _trio(cv, c, cam, speak_look=True, after=False):
     t = c.t
-    cam = push(c, (1170, 560, 2.0), (1170, 570, 2.1))
-    roof_bg(cv, c, "night", cam)
+    parapet_comp(cv, c, cam)
     with K.camera(cv, *cam):
         with K.lit(cv, "night"):
-            draw(cv, "ishaan", x=PX, y=PY, s=PS, t=t, legs="sit", turn=0.1, expr="happy",
-                 mouth=c.mouth("ishaan"), look=(-0.6, 0.4) if t < 4 else (0.6, 0.4),
-                 arms={"l": (40, 118), "r": (40, 118)}, extra={"swing": 0.4})
-            draw(cv, "rehan", x=PX - 230, y=PY + 110, s=1.0, t=t, turn=0.5, expr="sad",
-                 mouth=c.mouth("rehan"), look=(0.7, -0.3), hand={"r": "ball"}, head_tilt=-6)
-            draw(cv, "tara", x=PX + 250, y=PY + 110, s=1.0, t=t, flip=True, turn=0.5, expr="sad",
-                 mouth=c.mouth("tara"), look=(0.7, -0.3), hold="notebook", head_tilt=6)
-        draw_bhaap(cv, PX, PY - 98 * PS - 6, 0.6 * PS, t, mood="happy" if not c.speaking("ishaan") else "excited",
-                   mouth=0.3, spark=0.4 if c.speaking("ishaan") else 0.0)
+            ishaan_on_wall(cv, c, expr="happy", look=(-0.6, 0.4) if (t < 4 and not after) else (0.6, 0.4),
+                           arms={"l": (40, 118), "r": (40, 118)}, extra={"swing": 0.4})
+            # Tara and Rehan stand on the roof in front of the parapet (we see them from the waist up)
+            draw(cv, "rehan", x=560, y=1330, s=1.75, t=t, turn=0.5, mouth=c.mouth("rehan"),
+                 expr="determined" if after else "sad", look=(0.7, -0.4), hand={"r": "ball"}, head_tilt=-6)
+            draw(cv, "tara", x=1360, y=1330, s=1.7, t=t, flip=True, turn=0.5, mouth=c.mouth("tara"),
+                 expr="determined" if after else "sad", look=(0.7, -0.4), hold="notebook", head_tilt=6)
+        draw_bhaap(cv, SEAT[0], SEAT[1] - 98 * IS - 8, 0.85, t,
+                   mood="excited" if (c.speaking("ishaan") or after) else "happy",
+                   mouth=0.3, spark=0.5 if (c.speaking("ishaan") or (after and t > 2.8)) else 0.0)
+
+
+def sh10(cv, c):
+    """Tara and Rehan have been standing there a while. The three apologies."""
+    cam = push(c, ccam(960, 640, 1.18), ccam(960, 650, 1.25))
+    _trio(cv, c, cam)
 
 
 def sh11(cv, c):
     """They look at each other. Three of them."""
-    t = c.t
-    cam = push(c, (1170, 560, 2.1), (1170, 545, 2.35))
-    roof_bg(cv, c, "night", cam)
-    with K.camera(cv, *cam):
-        with K.lit(cv, "night"):
-            a = c.seg(0.4, 1.2)
-            draw(cv, "ishaan", x=PX, y=PY, s=PS, t=t, legs="sit", turn=0.1, expr="happy",
-                 look=(-0.7 if t < 2 else 0.7, 0.4), arms={"l": (40, 118), "r": (40, 118)})
-            draw(cv, "rehan", x=PX - 230, y=PY + 110, s=1.0, t=t, turn=0.5, expr="determined" if t > 2.2 else "sad",
-                 look=(0.8, -0.1) if t < 2.4 else (0.9, 0), hand={"r": "ball"})
-            draw(cv, "tara", x=PX + 250, y=PY + 110, s=1.0, t=t, flip=True, turn=0.5,
-                 expr="determined" if t > 2.2 else "sad", look=(0.8, -0.1), hold="notebook")
-        draw_bhaap(cv, PX, PY - 98 * PS - 6, 0.6 * PS, t, mood="excited" if t > 2.8 else "happy",
-                   spark=0.6 if t > 2.8 else 0.0)
+    cam = push(c, ccam(960, 650, 1.25), ccam(960, 620, 1.4))
+    _trio(cv, c, cam, after=c.t > 1.4)
 
 
 # ------------------------------------------------------------------ 3. the workshop: the plan
@@ -340,14 +357,12 @@ def sh16(cv, c):
             kx = lerp(KH[1][0] + 100, 1880, k)
             ky = lerp(KH[1][1] + 30, 1010, K.ease_in(c.seg(3.1, 3.7))) - abs(math.sin(t * 14)) * 10 * (1 - k)
             draw_key(cv, kx, ky, 0.5, rot=t * 900 * (1 - k) + 180)
-        if t > 3.0:
-            draw_bhaap(cv, 0, 0, 0, t) if False else None
 
 
 def sh17(cv, c):
     """Rehan dives. Gets it, right at the edge."""
     t = c.t
-    cam = ccam(1600, 820, 2.2)
+    cam = ccam(1560, 740, 1.6)
     roof_bg(cv, c, "night", cam)
     dive = K.ease_out(c.seg(0.2, 1.1))
     with K.camera(cv, *cam):
@@ -372,7 +387,7 @@ def sh18(cv, c):
         _trunk_people(cv, c, keys=(0.5, 0.5, 0.0),
                       poses={"tara": dict(expr="determined", arms={"l": (70, 20), "r": (88, 10)} if c.speaking("tara")
                                           else {"r": (88, 10)}, hand={"l": "point"}, look=(0.9, 0.3), lean=-6)},
-                      rehan=dict(x=KH[1][0] + 520, y=TY + 120, s=1.6, lean=-14, hold="key",
+                      rehan=dict(x=KH[1][0] + 300, y=TY + 120, s=1.6, lean=-14, hold="key",
                                  expr="angry" if c.speaking("rehan") else "worried",
                                  arms={"r": (60, 60), "l": (40, 40)} if c.speaking("rehan") else {"r": (30, 60)},
                                  look=(0.7, 0.0)))
@@ -414,7 +429,7 @@ def sh21(cv, c):
     ex, ey = KH[1]
     kx = lerp(sx, ex, k)
     ky = lerp(sy, ey, k) - math.sin(k * math.pi) * 170
-    cam = ccam(lerp(860, ex - 120, k), lerp(600, ey - 40, k), lerp(1.7, 2.6, k))
+    cam = ccam(lerp(sx + 120, ex - 60, k), lerp(sy, ey, k) - math.sin(k * math.pi) * 150, 2.3)
     roof_bg(cv, c, "night", cam)
     with K.camera(cv, *cam):
         r = K.rng(4)
@@ -428,7 +443,8 @@ def sh21(cv, c):
                 kk = max(0.0, k - g * 0.012)
                 gx = lerp(sx, ex, kk)
                 gy = lerp(sy, ey, kk) - math.sin(kk * math.pi) * 170
-                draw_key(cv, gx, gy, 0.55, rot=kk * 1440, glow=0.6 if g == 0 else 0.0)
+                with K.layer(cv, alpha=1.0 if g == 0 else 0.25):
+                    draw_key(cv, gx, gy, 1.0, rot=kk * 1440, glow=0.7 if g == 0 else 0.0)
         fx.glow_dot(cv, ex, ey, 40, "#bfe3ff", 0.5 + 0.5 * c.seg(5.8, 6.2))
     if 6.0 < t < 6.5:
         fx.flash(cv, "#e8f0ff", 0.35 * (1 - (t - 6.0) / 0.5))
@@ -462,7 +478,7 @@ def sh23(cv, c):
                                           look=(0.7, -0.1) if c.speaking("tara") else (0.6, 0.3)),
                              "ishaan": dict(expr="determined" if t < 4 else "grin",
                                             arms={"l": (40, 80), "r": (30 + 40 * (k2 - 0.5), 80)}, look=(0, 0.7))},
-                      rehan=dict(x=lerp(KH[1][0] + 520, KH[1][0] + 170, rehan_in), legs="walk" if rehan_in < 0.98 else "stand",
+                      rehan=dict(x=lerp(KH[1][0] + 300, KH[1][0] + 170, rehan_in), legs="walk" if rehan_in < 0.98 else "stand",
                                  phase=t * 2, arms={"r": (88 + 40 * (k3 - 0.5), 10)}, expr="determined"))
 
 
@@ -509,21 +525,53 @@ def sh26(cv, c):
         WF.lightning_flash(cv, 0.3)
 
 
+def _drop(cv, t, t0, x, y, big=1.0):
+    """A fat raindrop falling onto the tin at (x, y) at time t0: fall, splat crown, ring."""
+    k = t - t0
+    if k < -0.35 or k > 1.3:
+        return
+    if k < 0:
+        u = (k + 0.35) / 0.35
+        yy = lerp(y - 420, y - 6, u * u)
+        d = ellipse(x, yy, 9 * big, 15 * big)
+        cv.drawPath(d, fill("#d6ecf8")); cv.drawPath(d, stroke("line", 1.8))
+        cv.drawCircle(x - 3 * big, yy - 5 * big, 2.5 * big, fill("#ffffff"))
+        return
+    u = clamp(k / 1.0)
+    rr = (14 + 110 * u) * big
+    cv.drawPath(ellipse(x, y, rr, rr * 0.22), stroke("#e6f4fc", 4.5 * (1 - u), 1 - u))
+    for i in range(7):
+        a = math.pi * (0.1 + 0.8 * i / 6)
+        dist = (10 + 70 * u) * big
+        cv.drawCircle(x + math.cos(a) * dist * 1.3, y - math.sin(a) * dist * 0.9 * math.sin(u * math.pi) * 1.5,
+                      4.5 * big * (1 - u), fill("#d6ecf8"))
+    cv.drawPath(ellipse(x, y + 2, 26 * big * (1 - 0.5 * u), 6 * big), fill("#9fb6c8", 0.5 * (1 - u)))
+
+
+TIN = (roof.ANCHORS["tin_roof"][0] + roof.ANCHORS["tin_roof"][2]) / 2
+
+
 def sh27(cv, c):
     """Silence. On the tin roof of the stair hut, one fat raindrop. Tunk."""
     t = c.t
     x0, y0, x1, y1 = roof.ANCHORS["tin_roof"]
-    cam = push(c, ccam((x0 + x1) / 2, (y0 + y1) / 2 + 10, 3.6), ccam((x0 + x1) / 2, (y0 + y1) / 2 + 10, 3.9))
-    roof_bg(cv, c, "monsoon_night", cam, tin_drops=[2.4], rain=0.0, puddles=False)
+    cam = push(c, ccam(TIN, y0 + 30, 5.2), ccam(TIN, y0 + 26, 5.6))
+    roof_bg(cv, c, "monsoon_night", cam, rain=0.0, puddles=False)
+    with K.camera(cv, *cam):
+        _drop(cv, t, 2.4, TIN, y0 + 28, big=0.9)
 
 
 def sh28(cv, c):
     """Another. Tunk. Tunk-tunk."""
     t = c.t
     x0, y0, x1, y1 = roof.ANCHORS["tin_roof"]
-    cam = push(c, ccam((x0 + x1) / 2, (y0 + y1) / 2, 3.2), ccam((x0 + x1) / 2, (y0 + y1) / 2 - 20, 2.0))
-    roof_bg(cv, c, "monsoon_night", cam, tin_drops=[0.6, 2.0, 2.5, 3.1, 3.4, 3.8, 4.1, 4.3, 4.6, 4.8, 5.0],
-            rain=0.15 * c.seg(4.0, 6.0), puddles=False)
+    cam = push(c, ccam(TIN, y0 + 26, 5.0), ccam(TIN, y0 + 60, 2.2), ease=K.ease_in)
+    roof_bg(cv, c, "monsoon_night", cam, rain=0.2 * c.seg(4.0, 6.0), puddles=False)
+    with K.camera(cv, *cam):
+        r = K.rng(9)
+        for i, t0 in enumerate([0.6, 2.0, 2.5, 3.1, 3.4, 3.8, 4.1, 4.3, 4.6, 4.8, 5.0, 5.2, 5.4]):
+            x = TIN + (0 if i == 0 else r.uniform(-170, 170))
+            _drop(cv, t, t0, x, y0 + 28 + r.uniform(-8, 20) * (i > 0), big=0.9 if i == 0 else 0.6)
 
 
 # ------------------------------------------------------------------ shots
