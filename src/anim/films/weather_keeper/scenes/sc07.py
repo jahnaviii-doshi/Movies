@@ -182,7 +182,7 @@ def sh08(cv, c):
     parapet_comp(cv, c, cam)
     land = K.ease_out(c.seg(0.0, 1.8))
     hug = K.ease_in_out(c.seg(3.2, 4.4))
-    hx, hyy = SEAT[0], SEAT[1] - 92 * IS
+    hx, hyy = SEAT[0], SEAT[1] - 44 * IS
     with K.camera(cv, *cam):
         with K.lit(cv, "night"):
             ishaan_on_wall(cv, c, expr="sad" if t < 3.2 else "happy", look=(0.0, 0.8), head_tilt=8 * hug,
@@ -207,7 +207,7 @@ def sh09(cv, c):
             ishaan_on_wall(cv, c, expr="happy" if t < 5.6 else "grin", look=(0.0, 0.8), head_tilt=6,
                            arms={"l": (40, 118), "r": (40, 118)}, extra={})
         spark = clamp(1 - abs(t - 5.8) / 0.25) if t > 5.5 else 0.0
-        draw_bhaap(cv, SEAT[0], SEAT[1] - 98 * IS - 8 * k, lerp(0.55, 0.85, k), t,
+        draw_bhaap(cv, SEAT[0], SEAT[1] - 50 * IS - 8 * k, lerp(0.55, 0.85, k), t,
                    mood="happy" if t > 5.5 else "sleepy", grey=1 - k, mouth=0.4 if t > 5.6 else 0.0,
                    glow=k, spark=spark)
 
@@ -220,11 +220,11 @@ def _trio(cv, c, cam, speak_look=True, after=False):
             ishaan_on_wall(cv, c, expr="happy", look=(-0.6, 0.4) if (t < 4 and not after) else (0.6, 0.4),
                            arms={"l": (40, 118), "r": (40, 118)}, extra={"swing": 0.4})
             # Tara and Rehan stand on the roof in front of the parapet (we see them from the waist up)
-            draw(cv, "rehan", x=560, y=1330, s=1.75, t=t, turn=0.5, mouth=c.mouth("rehan"),
+            draw(cv, "rehan", x=560, y=1250, s=1.75, t=t, turn=0.5, mouth=c.mouth("rehan"),
                  expr="determined" if after else "sad", look=(0.7, -0.4), hand={"r": "ball"}, head_tilt=-6)
-            draw(cv, "tara", x=1360, y=1330, s=1.7, t=t, flip=True, turn=0.5, mouth=c.mouth("tara"),
+            draw(cv, "tara", x=1360, y=1250, s=1.7, t=t, flip=True, turn=0.5, mouth=c.mouth("tara"),
                  expr="determined" if after else "sad", look=(0.7, -0.4), hold="notebook", head_tilt=6)
-        draw_bhaap(cv, SEAT[0], SEAT[1] - 98 * IS - 8, 0.85, t,
+        draw_bhaap(cv, SEAT[0], SEAT[1] - 50 * IS - 8, 0.85, t,
                    mood="excited" if (c.speaking("ishaan") or after) else "happy",
                    mouth=0.3, spark=0.5 if (c.speaking("ishaan") or (after and t > 2.8)) else 0.0)
 
@@ -367,11 +367,11 @@ def sh17(cv, c):
     dive = K.ease_out(c.seg(0.2, 1.1))
     with K.camera(cv, *cam):
         wind_streaks(cv, t, 0.8)
-        kx = lerp(1840, 1872, c.seg(0, 1.1))
+        kx = lerp(1700, 1730, c.seg(0, 1.1))
         if t < 1.1:
             draw_key(cv, kx, 1012, 0.5, rot=200 + t * 200)
         with K.lit(cv, "night"):
-            draw(cv, "rehan", x=lerp(1380, 1680, dive), y=1030, s=1.8, t=t, turn=0.7,
+            draw(cv, "rehan", x=lerp(1250, 1500, dive), y=1030, s=1.8, t=t, turn=0.7,
                  lean=lerp(10, 62, dive) - 40 * c.seg(2.0, 3.0), legs="walk", phase=0.3,
                  expr="determined" if t < 1.6 else "grin", arms={"r": (lerp(80, 130, dive), 10), "l": (40, 20)},
                  hold="key" if t > 1.1 else None, look=(0.8, 0.6))
@@ -387,7 +387,7 @@ def sh18(cv, c):
         _trunk_people(cv, c, keys=(0.5, 0.5, 0.0),
                       poses={"tara": dict(expr="determined", arms={"l": (70, 20), "r": (88, 10)} if c.speaking("tara")
                                           else {"r": (88, 10)}, hand={"l": "point"}, look=(0.9, 0.3), lean=-6)},
-                      rehan=dict(x=KH[1][0] + 300, y=TY + 120, s=1.6, lean=-14, hold="key",
+                      rehan=dict(x=KH[1][0] + 230, y=TY + 120, s=1.6, lean=-14, hold="key",
                                  expr="angry" if c.speaking("rehan") else "worried",
                                  arms={"r": (60, 60), "l": (40, 40)} if c.speaking("rehan") else {"r": (30, 60)},
                                  look=(0.7, 0.0)))
