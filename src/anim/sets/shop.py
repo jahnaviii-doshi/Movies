@@ -115,8 +115,9 @@ def _bay(c, x0, x1, ytop, ybot, rows, jw, seed, fullness, out, jalebi=None, post
             if roll < 0.18 and x + jw * 2.2 < x1:
                 w_ = jw * 2.0
                 rank = rng.random()
+                pkind = rng.choice(["laddoo", "barfi", "jalebi"])   # always drawn: keeps the stream stable
                 if rank < fullness:
-                    _plate_sweets(c, x + w_ / 2, y, w_, rng.choice(["laddoo", "barfi", "jalebi"]), rng)
+                    _plate_sweets(c, x + w_ / 2, y, w_, pkind, K.rng(int(x * 13 + y * 7)))
                 else:
                     c.drawPath(ellipse(x + w_ / 2, y - 3, w_ / 2, w_ * 0.08), stroke("#a07858", 1.6, 0.6))
                 x += w_ + 10

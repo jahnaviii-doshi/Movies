@@ -76,6 +76,8 @@ class Human:
     skin = "skin"
     line_w = 3.2
     stoop = 0.0          # forward hunch (deg)
+    extra_knee_spread = 0
+    brow_base = 0.0
     name = "human"
     seed = 0
 
@@ -191,7 +193,7 @@ class Human:
         elif mode == "sit":
             # seated, facing camera: short foreshortened thighs, shins hanging, feet toward viewer
             for side in (-1, 1):
-                kx = side * 15 + p.turn * 10
+                kx = side * (15 + self.extra_knee_spread) + p.turn * 10
                 ky = hy + 22
                 th = limb(side * 11, hy + 4, kx, ky, lw * 2.3, lw * 2.3)
                 cv.drawPath(th, fill(trouser)); cv.drawPath(th, stroke("line", self.line_w))
@@ -407,7 +409,7 @@ class Human:
         e = p.expr
         raise_ = {"surprised": 9, "awe": 8, "worried": 3, "sad": 2, "angry": -4, "determined": -3,
                   "smug": 0, "happy": 3, "laugh": 4, "grin": 2, "cry": 3, "shy": 2, "wince": -2}.get(e, 0)
-        raise_ += p.brow * 6
+        raise_ += p.brow * 6 + self.brow_base
         for side in (-1, 1):
             far = side == 1
             bx = side * self.eye_dx * (1 - 0.25 * p.turn if far else 1) + ox

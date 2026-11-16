@@ -108,6 +108,7 @@ class Kabir(Human):
     thigh = 64
     shin = 60
     leg_w = 12
+    extra_knee_spread = 12
 
     def body_colors(self):
         return ("tee_blue", K.shade("tee_blue", -0.3))
@@ -135,8 +136,10 @@ class Kabir(Human):
         # shorts first (khaki), then skinny legs + sneakers via base
         Human.draw_legs(self, cv, p)
         hy = self.hip_y
-        if False:
-            pass
+        if p.legs == "sit":
+            # seated: shorts read as a wide lap; knees spread so the bent legs show
+            shorts = smooth_path([(-38, hy - 12), (38, hy - 12), (46, hy + 14), (30, hy + 26), (0, hy + 20),
+                                  (-30, hy + 26), (-46, hy + 14)], tension=0.25)
         else:
             shorts = smooth_path([(-37, hy - 12), (37, hy - 12), (40, hy + 34), (6, hy + 36), (0, hy + 16),
                                   (-6, hy + 36), (-40, hy + 34)], tension=0.2)
@@ -331,6 +334,7 @@ class Amma(Human):
     skin = "#c08a64"
     eye_rx = 8.5
     eye_ry = 10.5
+    brow_base = 6.0
 
     def body_colors(self):
         return ("shawl", K.shade("shawl", -0.18))

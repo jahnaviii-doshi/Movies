@@ -1,0 +1,5874 @@
+{
+ "fps": 24,
+ "duration": 1228.0,
+ "shots": [
+  {
+   "id": "S01_SH01",
+   "scene": 1,
+   "start": 0.0,
+   "duration": 14.5,
+   "transition": "fade_black"
+  },
+  {
+   "id": "S01_SH02",
+   "scene": 1,
+   "start": 14.5,
+   "duration": 7.5,
+   "transition": "cut"
+  },
+  {
+   "id": "S01_SH03",
+   "scene": 1,
+   "start": 22.0,
+   "duration": 6.0,
+   "transition": "dissolve"
+  },
+  {
+   "id": "S01_SH04",
+   "scene": 1,
+   "start": 28.0,
+   "duration": 7.416666666666667,
+   "transition": "cut"
+  },
+  {
+   "id": "S01_SH05",
+   "scene": 1,
+   "start": 35.4167,
+   "duration": 3.2083333333333335,
+   "transition": "cut"
+  },
+  {
+   "id": "S01_SH06",
+   "scene": 1,
+   "start": 38.625,
+   "duration": 5.916666666666667,
+   "transition": "cut"
+  },
+  {
+   "id": "S01_SH07",
+   "scene": 1,
+   "start": 44.5417,
+   "duration": 3.0,
+   "transition": "cut"
+  },
+  {
+   "id": "S01_SH08",
+   "scene": 1,
+   "start": 47.5417,
+   "duration": 9.208333333333334,
+   "transition": "cut"
+  },
+  {
+   "id": "S01_SH09",
+   "scene": 1,
+   "start": 56.75,
+   "duration": 3.9583333333333335,
+   "transition": "cut"
+  },
+  {
+   "id": "S01_SH10",
+   "scene": 1,
+   "start": 60.7083,
+   "duration": 9.0,
+   "transition": "cut"
+  },
+  {
+   "id": "S01_SH11",
+   "scene": 1,
+   "start": 69.7083,
+   "duration": 6.0,
+   "transition": "cut"
+  },
+  {
+   "id": "S01_SH12",
+   "scene": 1,
+   "start": 75.7083,
+   "duration": 7.0,
+   "transition": "cut"
+  },
+  {
+   "id": "S01_SH13",
+   "scene": 1,
+   "start": 82.7083,
+   "duration": 6.5,
+   "transition": "cut"
+  },
+  {
+   "id": "S02_SH01",
+   "scene": 2,
+   "start": 89.2083,
+   "duration": 8.5,
+   "transition": "fade_black"
+  },
+  {
+   "id": "S02_SH02",
+   "scene": 2,
+   "start": 97.7083,
+   "duration": 5.0,
+   "transition": "cut"
+  },
+  {
+   "id": "S02_SH03",
+   "scene": 2,
+   "start": 102.7083,
+   "duration": 5.0,
+   "transition": "cut"
+  },
+  {
+   "id": "S02_SH04",
+   "scene": 2,
+   "start": 107.7083,
+   "duration": 7.583333333333333,
+   "transition": "cut"
+  },
+  {
+   "id": "S02_SH05",
+   "scene": 2,
+   "start": 115.2917,
+   "duration": 9.0,
+   "transition": "cut"
+  },
+  {
+   "id": "S02_SH06",
+   "scene": 2,
+   "start": 124.2917,
+   "duration": 7.0,
+   "transition": "cut"
+  },
+  {
+   "id": "S02_SH07",
+   "scene": 2,
+   "start": 131.2917,
+   "duration": 6.416666666666667,
+   "transition": "cut"
+  },
+  {
+   "id": "S02_SH08",
+   "scene": 2,
+   "start": 137.7083,
+   "duration": 6.5,
+   "transition": "cut"
+  },
+  {
+   "id": "S02_SH09",
+   "scene": 2,
+   "start": 144.2083,
+   "duration": 3.0,
+   "transition": "cut"
+  },
+  {
+   "id": "S02_SH10",
+   "scene": 2,
+   "start": 147.2083,
+   "duration": 11.0,
+   "transition": "cut"
+  },
+  {
+   "id": "S02_SH11",
+   "scene": 2,
+   "start": 158.2083,
+   "duration": 3.5833333333333335,
+   "transition": "cut"
+  },
+  {
+   "id": "S02_SH11B",
+   "scene": 2,
+   "start": 161.7917,
+   "duration": 5.791666666666667,
+   "transition": "cut"
+  },
+  {
+   "id": "S02_SH12",
+   "scene": 2,
+   "start": 167.5833,
+   "duration": 4.208333333333333,
+   "transition": "cut"
+  },
+  {
+   "id": "S02_SH13",
+   "scene": 2,
+   "start": 171.7917,
+   "duration": 9.5,
+   "transition": "cut"
+  },
+  {
+   "id": "S02_SH14",
+   "scene": 2,
+   "start": 181.2917,
+   "duration": 4.208333333333333,
+   "transition": "cut"
+  },
+  {
+   "id": "S02_SH15",
+   "scene": 2,
+   "start": 185.5,
+   "duration": 3.875,
+   "transition": "cut"
+  },
+  {
+   "id": "S02_SH16",
+   "scene": 2,
+   "start": 189.375,
+   "duration": 6.125,
+   "transition": "cut"
+  },
+  {
+   "id": "S02_SH17",
+   "scene": 2,
+   "start": 195.5,
+   "duration": 3.0,
+   "transition": "cut"
+  },
+  {
+   "id": "S02_SH18",
+   "scene": 2,
+   "start": 198.5,
+   "duration": 5.416666666666667,
+   "transition": "cut"
+  },
+  {
+   "id": "S03_SH01",
+   "scene": 3,
+   "start": 203.9167,
+   "duration": 8.0,
+   "transition": "cut"
+  },
+  {
+   "id": "S03_SH02",
+   "scene": 3,
+   "start": 211.9167,
+   "duration": 6.083333333333333,
+   "transition": "cut"
+  },
+  {
+   "id": "S03_SH03",
+   "scene": 3,
+   "start": 218.0,
+   "duration": 4.958333333333333,
+   "transition": "cut"
+  },
+  {
+   "id": "S03_SH04",
+   "scene": 3,
+   "start": 222.9583,
+   "duration": 4.25,
+   "transition": "cut"
+  },
+  {
+   "id": "S03_SH05",
+   "scene": 3,
+   "start": 227.2083,
+   "duration": 6.541666666666667,
+   "transition": "cut"
+  },
+  {
+   "id": "S03_SH06",
+   "scene": 3,
+   "start": 233.75,
+   "duration": 7.041666666666667,
+   "transition": "cut"
+  },
+  {
+   "id": "S03_SH07",
+   "scene": 3,
+   "start": 240.7917,
+   "duration": 4.0,
+   "transition": "cut"
+  },
+  {
+   "id": "S03_SH08",
+   "scene": 3,
+   "start": 244.7917,
+   "duration": 4.583333333333333,
+   "transition": "cut"
+  },
+  {
+   "id": "S03_SH09",
+   "scene": 3,
+   "start": 249.375,
+   "duration": 7.0,
+   "transition": "dissolve"
+  },
+  {
+   "id": "S03_SH10",
+   "scene": 3,
+   "start": 256.375,
+   "duration": 4.583333333333333,
+   "transition": "dissolve"
+  },
+  {
+   "id": "S03_SH11",
+   "scene": 3,
+   "start": 260.9583,
+   "duration": 5.0,
+   "transition": "cut"
+  },
+  {
+   "id": "S03_SH12",
+   "scene": 3,
+   "start": 265.9583,
+   "duration": 5.375,
+   "transition": "cut"
+  },
+  {
+   "id": "S03_SH13",
+   "scene": 3,
+   "start": 271.3333,
+   "duration": 3.2083333333333335,
+   "transition": "cut"
+  },
+  {
+   "id": "S03_SH14",
+   "scene": 3,
+   "start": 274.5417,
+   "duration": 8.0,
+   "transition": "cut"
+  },
+  {
+   "id": "S03_SH15",
+   "scene": 3,
+   "start": 282.5417,
+   "duration": 8.0,
+   "transition": "cut"
+  },
+  {
+   "id": "S03_SH16",
+   "scene": 3,
+   "start": 290.5417,
+   "duration": 10.0,
+   "transition": "cut"
+  },
+  {
+   "id": "S03_SH16B",
+   "scene": 3,
+   "start": 300.5417,
+   "duration": 6.0,
+   "transition": "cut"
+  },
+  {
+   "id": "S03_SH17",
+   "scene": 3,
+   "start": 306.5417,
+   "duration": 8.0,
+   "transition": "cut"
+  },
+  {
+   "id": "S03_SH18",
+   "scene": 3,
+   "start": 314.5417,
+   "duration": 8.5,
+   "transition": "cut"
+  },
+  {
+   "id": "S03_SH19",
+   "scene": 3,
+   "start": 323.0417,
+   "duration": 9.0,
+   "transition": "cut"
+  },
+  {
+   "id": "S03_SH20",
+   "scene": 3,
+   "start": 332.0417,
+   "duration": 7.5,
+   "transition": "dissolve"
+  },
+  {
+   "id": "S03_SH21",
+   "scene": 3,
+   "start": 339.5417,
+   "duration": 8.5,
+   "transition": "cut"
+  },
+  {
+   "id": "S04_SH01",
+   "scene": 4,
+   "start": 348.0417,
+   "duration": 5.583333333333333,
+   "transition": "fade_black"
+  },
+  {
+   "id": "S04_SH02",
+   "scene": 4,
+   "start": 353.625,
+   "duration": 3.0416666666666665,
+   "transition": "cut"
+  },
+  {
+   "id": "S04_SH03",
+   "scene": 4,
+   "start": 356.6667,
+   "duration": 5.791666666666667,
+   "transition": "cut"
+  },
+  {
+   "id": "S04_SH04",
+   "scene": 4,
+   "start": 362.4583,
+   "duration": 2.7916666666666665,
+   "transition": "cut"
+  },
+  {
+   "id": "S04_SH05",
+   "scene": 4,
+   "start": 365.25,
+   "duration": 6.416666666666667,
+   "transition": "fade_black"
+  },
+  {
+   "id": "S04_SH06",
+   "scene": 4,
+   "start": 371.6667,
+   "duration": 6.208333333333333,
+   "transition": "dissolve"
+  },
+  {
+   "id": "S04_SH07",
+   "scene": 4,
+   "start": 377.875,
+   "duration": 7.0,
+   "transition": "cut"
+  },
+  {
+   "id": "S04_SH08",
+   "scene": 4,
+   "start": 384.875,
+   "duration": 3.0,
+   "transition": "cut"
+  },
+  {
+   "id": "S04_SH09",
+   "scene": 4,
+   "start": 387.875,
+   "duration": 7.416666666666667,
+   "transition": "dissolve"
+  },
+  {
+   "id": "S04_SH10",
+   "scene": 4,
+   "start": 395.2917,
+   "duration": 2.8333333333333335,
+   "transition": "cut"
+  },
+  {
+   "id": "S04_SH11",
+   "scene": 4,
+   "start": 398.125,
+   "duration": 3.2083333333333335,
+   "transition": "cut"
+  },
+  {
+   "id": "S04_SH12",
+   "scene": 4,
+   "start": 401.3333,
+   "duration": 6.791666666666667,
+   "transition": "cut"
+  },
+  {
+   "id": "S04_SH13",
+   "scene": 4,
+   "start": 408.125,
+   "duration": 7.0,
+   "transition": "cut"
+  },
+  {
+   "id": "S04_SH14",
+   "scene": 4,
+   "start": 415.125,
+   "duration": 2.7916666666666665,
+   "transition": "cut"
+  },
+  {
+   "id": "S04_SH15",
+   "scene": 4,
+   "start": 417.9167,
+   "duration": 6.208333333333333,
+   "transition": "cut"
+  },
+  {
+   "id": "S04_SH16",
+   "scene": 4,
+   "start": 424.125,
+   "duration": 2.5833333333333335,
+   "transition": "cut"
+  },
+  {
+   "id": "S04_SH17",
+   "scene": 4,
+   "start": 426.7083,
+   "duration": 3.5833333333333335,
+   "transition": "cut"
+  },
+  {
+   "id": "S04_SH18",
+   "scene": 4,
+   "start": 430.2917,
+   "duration": 6.458333333333333,
+   "transition": "cut"
+  },
+  {
+   "id": "S04_SH19",
+   "scene": 4,
+   "start": 436.75,
+   "duration": 3.2083333333333335,
+   "transition": "cut"
+  },
+  {
+   "id": "S04_SH20",
+   "scene": 4,
+   "start": 439.9583,
+   "duration": 4.583333333333333,
+   "transition": "cut"
+  },
+  {
+   "id": "S04_SH21",
+   "scene": 4,
+   "start": 444.5417,
+   "duration": 3.5833333333333335,
+   "transition": "cut"
+  },
+  {
+   "id": "S04_SH22",
+   "scene": 4,
+   "start": 448.125,
+   "duration": 5.666666666666667,
+   "transition": "cut"
+  },
+  {
+   "id": "S04_SH23",
+   "scene": 4,
+   "start": 453.7917,
+   "duration": 7.0,
+   "transition": "cut"
+  },
+  {
+   "id": "S05_SH01",
+   "scene": 5,
+   "start": 460.7917,
+   "duration": 4.0,
+   "transition": "fade_black"
+  },
+  {
+   "id": "S05_SH02",
+   "scene": 5,
+   "start": 464.7917,
+   "duration": 5.791666666666667,
+   "transition": "cut"
+  },
+  {
+   "id": "S05_SH03",
+   "scene": 5,
+   "start": 470.5833,
+   "duration": 4.416666666666667,
+   "transition": "cut"
+  },
+  {
+   "id": "S05_SH04",
+   "scene": 5,
+   "start": 475.0,
+   "duration": 6.791666666666667,
+   "transition": "dissolve"
+  },
+  {
+   "id": "S05_SH05",
+   "scene": 5,
+   "start": 481.7917,
+   "duration": 7.208333333333333,
+   "transition": "dissolve"
+  },
+  {
+   "id": "S05_SH06",
+   "scene": 5,
+   "start": 489.0,
+   "duration": 3.4166666666666665,
+   "transition": "dissolve"
+  },
+  {
+   "id": "S05_SH07",
+   "scene": 5,
+   "start": 492.4167,
+   "duration": 4.791666666666667,
+   "transition": "dissolve"
+  },
+  {
+   "id": "S05_SH08",
+   "scene": 5,
+   "start": 497.2083,
+   "duration": 3.5833333333333335,
+   "transition": "cut"
+  },
+  {
+   "id": "S05_SH09",
+   "scene": 5,
+   "start": 500.7917,
+   "duration": 3.7916666666666665,
+   "transition": "dissolve"
+  },
+  {
+   "id": "S05_SH10",
+   "scene": 5,
+   "start": 504.5833,
+   "duration": 4.208333333333333,
+   "transition": "cut"
+  },
+  {
+   "id": "S05_SH11",
+   "scene": 5,
+   "start": 508.7917,
+   "duration": 2.5833333333333335,
+   "transition": "cut"
+  },
+  {
+   "id": "S05_SH12",
+   "scene": 5,
+   "start": 511.375,
+   "duration": 6.416666666666667,
+   "transition": "cut"
+  },
+  {
+   "id": "S05_SH13",
+   "scene": 5,
+   "start": 517.7917,
+   "duration": 3.4166666666666665,
+   "transition": "cut"
+  },
+  {
+   "id": "S05_SH14",
+   "scene": 5,
+   "start": 521.2083,
+   "duration": 4.0,
+   "transition": "cut"
+  },
+  {
+   "id": "S05_SH15",
+   "scene": 5,
+   "start": 525.2083,
+   "duration": 5.0,
+   "transition": "cut"
+  },
+  {
+   "id": "S05_SH16",
+   "scene": 5,
+   "start": 530.2083,
+   "duration": 4.208333333333333,
+   "transition": "dissolve"
+  },
+  {
+   "id": "S05_SH17",
+   "scene": 5,
+   "start": 534.4167,
+   "duration": 4.791666666666667,
+   "transition": "dissolve"
+  },
+  {
+   "id": "S05_SH18",
+   "scene": 5,
+   "start": 539.2083,
+   "duration": 4.208333333333333,
+   "transition": "cut"
+  },
+  {
+   "id": "S05_SH19",
+   "scene": 5,
+   "start": 543.4167,
+   "duration": 3.5833333333333335,
+   "transition": "cut"
+  },
+  {
+   "id": "S05_SH20",
+   "scene": 5,
+   "start": 547.0,
+   "duration": 6.208333333333333,
+   "transition": "dissolve"
+  },
+  {
+   "id": "S05_SH21",
+   "scene": 5,
+   "start": 553.2083,
+   "duration": 2.5833333333333335,
+   "transition": "cut"
+  },
+  {
+   "id": "S05_SH22",
+   "scene": 5,
+   "start": 555.7917,
+   "duration": 9.541666666666666,
+   "transition": "cut"
+  },
+  {
+   "id": "S05_SH23",
+   "scene": 5,
+   "start": 565.3333,
+   "duration": 5.0,
+   "transition": "cut"
+  },
+  {
+   "id": "S05_SH24",
+   "scene": 5,
+   "start": 570.3333,
+   "duration": 4.416666666666667,
+   "transition": "cut"
+  },
+  {
+   "id": "S05_SH25",
+   "scene": 5,
+   "start": 574.75,
+   "duration": 4.791666666666667,
+   "transition": "dissolve"
+  },
+  {
+   "id": "S05_SH26",
+   "scene": 5,
+   "start": 579.5417,
+   "duration": 6.0,
+   "transition": "cut"
+  },
+  {
+   "id": "S05_SH27",
+   "scene": 5,
+   "start": 585.5417,
+   "duration": 5.0,
+   "transition": "cut"
+  },
+  {
+   "id": "S05_SH28",
+   "scene": 5,
+   "start": 590.5417,
+   "duration": 3.2083333333333335,
+   "transition": "cut"
+  },
+  {
+   "id": "S05_SH29",
+   "scene": 5,
+   "start": 593.75,
+   "duration": 4.166666666666667,
+   "transition": "cut"
+  },
+  {
+   "id": "S05_SH30",
+   "scene": 5,
+   "start": 597.9167,
+   "duration": 4.416666666666667,
+   "transition": "cut"
+  },
+  {
+   "id": "S06_SH01",
+   "scene": 6,
+   "start": 602.3333,
+   "duration": 6.0,
+   "transition": "fade_black"
+  },
+  {
+   "id": "S06_SH02",
+   "scene": 6,
+   "start": 608.3333,
+   "duration": 3.4166666666666665,
+   "transition": "cut"
+  },
+  {
+   "id": "S06_SH03",
+   "scene": 6,
+   "start": 611.75,
+   "duration": 4.583333333333333,
+   "transition": "cut"
+  },
+  {
+   "id": "S06_SH04",
+   "scene": 6,
+   "start": 616.3333,
+   "duration": 3.4166666666666665,
+   "transition": "cut"
+  },
+  {
+   "id": "S06_SH05",
+   "scene": 6,
+   "start": 619.75,
+   "duration": 6.0,
+   "transition": "cut"
+  },
+  {
+   "id": "S06_SH06",
+   "scene": 6,
+   "start": 625.75,
+   "duration": 3.0,
+   "transition": "cut"
+  },
+  {
+   "id": "S06_SH07",
+   "scene": 6,
+   "start": 628.75,
+   "duration": 3.2083333333333335,
+   "transition": "cut"
+  },
+  {
+   "id": "S06_SH08",
+   "scene": 6,
+   "start": 631.9583,
+   "duration": 3.2083333333333335,
+   "transition": "cut"
+  },
+  {
+   "id": "S06_SH09",
+   "scene": 6,
+   "start": 635.1667,
+   "duration": 2.7916666666666665,
+   "transition": "cut"
+  },
+  {
+   "id": "S06_SH10",
+   "scene": 6,
+   "start": 637.9583,
+   "duration": 3.0,
+   "transition": "cut"
+  },
+  {
+   "id": "S06_SH11",
+   "scene": 6,
+   "start": 640.9583,
+   "duration": 3.5833333333333335,
+   "transition": "cut"
+  },
+  {
+   "id": "S06_SH12",
+   "scene": 6,
+   "start": 644.5417,
+   "duration": 2.5833333333333335,
+   "transition": "fade_black"
+  },
+  {
+   "id": "S06_SH13",
+   "scene": 6,
+   "start": 647.125,
+   "duration": 3.9166666666666665,
+   "transition": "cut"
+  },
+  {
+   "id": "S06_SH14",
+   "scene": 6,
+   "start": 651.0417,
+   "duration": 4.75,
+   "transition": "cut"
+  },
+  {
+   "id": "S06_SH15",
+   "scene": 6,
+   "start": 655.7917,
+   "duration": 2.7916666666666665,
+   "transition": "cut"
+  },
+  {
+   "id": "S06_SH16",
+   "scene": 6,
+   "start": 658.5833,
+   "duration": 6.0,
+   "transition": "cut"
+  },
+  {
+   "id": "S06_SH17",
+   "scene": 6,
+   "start": 664.5833,
+   "duration": 4.791666666666667,
+   "transition": "cut"
+  },
+  {
+   "id": "S06_SH18",
+   "scene": 6,
+   "start": 669.375,
+   "duration": 3.8333333333333335,
+   "transition": "cut"
+  },
+  {
+   "id": "S06_SH19",
+   "scene": 6,
+   "start": 673.2083,
+   "duration": 5.416666666666667,
+   "transition": "cut"
+  },
+  {
+   "id": "S06_SH20",
+   "scene": 6,
+   "start": 678.625,
+   "duration": 4.0,
+   "transition": "cut"
+  },
+  {
+   "id": "S06_SH21",
+   "scene": 6,
+   "start": 682.625,
+   "duration": 3.2083333333333335,
+   "transition": "cut"
+  },
+  {
+   "id": "S06_SH22",
+   "scene": 6,
+   "start": 685.8333,
+   "duration": 3.0,
+   "transition": "cut"
+  },
+  {
+   "id": "S06_SH23",
+   "scene": 6,
+   "start": 688.8333,
+   "duration": 2.7916666666666665,
+   "transition": "cut"
+  },
+  {
+   "id": "S06_SH24",
+   "scene": 6,
+   "start": 691.625,
+   "duration": 4.583333333333333,
+   "transition": "cut"
+  },
+  {
+   "id": "S06_SH25",
+   "scene": 6,
+   "start": 696.2083,
+   "duration": 3.4166666666666665,
+   "transition": "cut"
+  },
+  {
+   "id": "S06_SH26",
+   "scene": 6,
+   "start": 699.625,
+   "duration": 3.7916666666666665,
+   "transition": "cut"
+  },
+  {
+   "id": "S06_SH27",
+   "scene": 6,
+   "start": 703.4167,
+   "duration": 3.5833333333333335,
+   "transition": "cut"
+  },
+  {
+   "id": "S06_SH28",
+   "scene": 6,
+   "start": 707.0,
+   "duration": 4.0,
+   "transition": "cut"
+  },
+  {
+   "id": "S06_SH29",
+   "scene": 6,
+   "start": 711.0,
+   "duration": 2.5833333333333335,
+   "transition": "cut"
+  },
+  {
+   "id": "S06_SH30",
+   "scene": 6,
+   "start": 713.5833,
+   "duration": 4.208333333333333,
+   "transition": "cut"
+  },
+  {
+   "id": "S07_SH01",
+   "scene": 7,
+   "start": 717.7917,
+   "duration": 7.5,
+   "transition": "fade_black"
+  },
+  {
+   "id": "S07_SH02",
+   "scene": 7,
+   "start": 725.2917,
+   "duration": 4.583333333333333,
+   "transition": "cut"
+  },
+  {
+   "id": "S07_SH03",
+   "scene": 7,
+   "start": 729.875,
+   "duration": 3.9583333333333335,
+   "transition": "cut"
+  },
+  {
+   "id": "S07_SH04",
+   "scene": 7,
+   "start": 733.8333,
+   "duration": 4.416666666666667,
+   "transition": "cut"
+  },
+  {
+   "id": "S07_SH05",
+   "scene": 7,
+   "start": 738.25,
+   "duration": 5.0,
+   "transition": "cut"
+  },
+  {
+   "id": "S07_SH05B",
+   "scene": 7,
+   "start": 743.25,
+   "duration": 4.208333333333333,
+   "transition": "cut"
+  },
+  {
+   "id": "S07_SH06",
+   "scene": 7,
+   "start": 747.4583,
+   "duration": 7.0,
+   "transition": "fade_black"
+  },
+  {
+   "id": "S07_SH07",
+   "scene": 7,
+   "start": 754.4583,
+   "duration": 5.5,
+   "transition": "cut"
+  },
+  {
+   "id": "S07_SH08",
+   "scene": 7,
+   "start": 759.9583,
+   "duration": 8.0,
+   "transition": "cut"
+  },
+  {
+   "id": "S07_SH09",
+   "scene": 7,
+   "start": 767.9583,
+   "duration": 4.208333333333333,
+   "transition": "cut"
+  },
+  {
+   "id": "S07_SH09B",
+   "scene": 7,
+   "start": 772.1667,
+   "duration": 5.0,
+   "transition": "cut"
+  },
+  {
+   "id": "S07_SH10",
+   "scene": 7,
+   "start": 777.1667,
+   "duration": 6.0,
+   "transition": "dissolve"
+  },
+  {
+   "id": "S07_SH11",
+   "scene": 7,
+   "start": 783.1667,
+   "duration": 4.5,
+   "transition": "cut"
+  },
+  {
+   "id": "S07_SH12",
+   "scene": 7,
+   "start": 787.6667,
+   "duration": 6.958333333333333,
+   "transition": "cut"
+  },
+  {
+   "id": "S07_SH13",
+   "scene": 7,
+   "start": 794.625,
+   "duration": 4.791666666666667,
+   "transition": "cut"
+  },
+  {
+   "id": "S07_SH14",
+   "scene": 7,
+   "start": 799.4167,
+   "duration": 4.583333333333333,
+   "transition": "cut"
+  },
+  {
+   "id": "S07_SH15",
+   "scene": 7,
+   "start": 804.0,
+   "duration": 4.208333333333333,
+   "transition": "cut"
+  },
+  {
+   "id": "S07_SH16",
+   "scene": 7,
+   "start": 808.2083,
+   "duration": 8.583333333333334,
+   "transition": "cut"
+  },
+  {
+   "id": "S07_SH16B",
+   "scene": 7,
+   "start": 816.7917,
+   "duration": 3.5833333333333335,
+   "transition": "cut"
+  },
+  {
+   "id": "S07_SH17",
+   "scene": 7,
+   "start": 820.375,
+   "duration": 4.583333333333333,
+   "transition": "cut"
+  },
+  {
+   "id": "S07_SH18",
+   "scene": 7,
+   "start": 824.9583,
+   "duration": 4.083333333333333,
+   "transition": "cut"
+  },
+  {
+   "id": "S07_SH19",
+   "scene": 7,
+   "start": 829.0417,
+   "duration": 7.375,
+   "transition": "cut"
+  },
+  {
+   "id": "S07_SH20",
+   "scene": 7,
+   "start": 836.4167,
+   "duration": 5.208333333333333,
+   "transition": "cut"
+  },
+  {
+   "id": "S07_SH21",
+   "scene": 7,
+   "start": 841.625,
+   "duration": 8.166666666666666,
+   "transition": "cut"
+  },
+  {
+   "id": "S07_SH22",
+   "scene": 7,
+   "start": 849.7917,
+   "duration": 4.208333333333333,
+   "transition": "cut"
+  },
+  {
+   "id": "S07_SH23",
+   "scene": 7,
+   "start": 854.0,
+   "duration": 3.7083333333333335,
+   "transition": "cut"
+  },
+  {
+   "id": "S07_SH24",
+   "scene": 7,
+   "start": 857.7083,
+   "duration": 4.791666666666667,
+   "transition": "cut"
+  },
+  {
+   "id": "S07_SH25",
+   "scene": 7,
+   "start": 862.5,
+   "duration": 5.5,
+   "transition": "cut"
+  },
+  {
+   "id": "S08_SH01",
+   "scene": 8,
+   "start": 868.0,
+   "duration": 5.5,
+   "transition": "fade_black"
+  },
+  {
+   "id": "S08_SH02",
+   "scene": 8,
+   "start": 873.5,
+   "duration": 3.9166666666666665,
+   "transition": "cut"
+  },
+  {
+   "id": "S08_SH03",
+   "scene": 8,
+   "start": 877.4167,
+   "duration": 5.791666666666667,
+   "transition": "cut"
+  },
+  {
+   "id": "S08_SH04",
+   "scene": 8,
+   "start": 883.2083,
+   "duration": 4.375,
+   "transition": "cut"
+  },
+  {
+   "id": "S08_SH05",
+   "scene": 8,
+   "start": 887.5833,
+   "duration": 9.5,
+   "transition": "fade_black"
+  },
+  {
+   "id": "S08_SH06",
+   "scene": 8,
+   "start": 897.0833,
+   "duration": 6.0,
+   "transition": "cut"
+  },
+  {
+   "id": "S08_SH07",
+   "scene": 8,
+   "start": 903.0833,
+   "duration": 5.25,
+   "transition": "cut"
+  },
+  {
+   "id": "S08_SH08",
+   "scene": 8,
+   "start": 908.3333,
+   "duration": 4.416666666666667,
+   "transition": "cut"
+  },
+  {
+   "id": "S08_SH09",
+   "scene": 8,
+   "start": 912.75,
+   "duration": 4.583333333333333,
+   "transition": "cut"
+  },
+  {
+   "id": "S08_SH10",
+   "scene": 8,
+   "start": 917.3333,
+   "duration": 6.5,
+   "transition": "fade_black"
+  },
+  {
+   "id": "S08_SH11",
+   "scene": 8,
+   "start": 923.8333,
+   "duration": 5.0,
+   "transition": "cut"
+  },
+  {
+   "id": "S08_SH12",
+   "scene": 8,
+   "start": 928.8333,
+   "duration": 9.0,
+   "transition": "cut"
+  },
+  {
+   "id": "S08_SH13",
+   "scene": 8,
+   "start": 937.8333,
+   "duration": 11.0,
+   "transition": "cut"
+  },
+  {
+   "id": "S08_SH14",
+   "scene": 8,
+   "start": 948.8333,
+   "duration": 6.25,
+   "transition": "cut"
+  },
+  {
+   "id": "S08_SH15",
+   "scene": 8,
+   "start": 955.0833,
+   "duration": 7.0,
+   "transition": "cut"
+  },
+  {
+   "id": "S08_SH16",
+   "scene": 8,
+   "start": 962.0833,
+   "duration": 6.5,
+   "transition": "dissolve"
+  },
+  {
+   "id": "S08_SH17",
+   "scene": 8,
+   "start": 968.5833,
+   "duration": 5.0,
+   "transition": "cut"
+  },
+  {
+   "id": "S08_SH18",
+   "scene": 8,
+   "start": 973.5833,
+   "duration": 4.208333333333333,
+   "transition": "cut"
+  },
+  {
+   "id": "S08_SH19",
+   "scene": 8,
+   "start": 977.7917,
+   "duration": 3.625,
+   "transition": "cut"
+  },
+  {
+   "id": "S08_SH20",
+   "scene": 8,
+   "start": 981.4167,
+   "duration": 6.333333333333333,
+   "transition": "cut"
+  },
+  {
+   "id": "S08_SH21",
+   "scene": 8,
+   "start": 987.75,
+   "duration": 6.0,
+   "transition": "cut"
+  },
+  {
+   "id": "S08_SH22",
+   "scene": 8,
+   "start": 993.75,
+   "duration": 4.208333333333333,
+   "transition": "cut"
+  },
+  {
+   "id": "S08_SH23",
+   "scene": 8,
+   "start": 997.9583,
+   "duration": 5.208333333333333,
+   "transition": "cut"
+  },
+  {
+   "id": "S08_SH24",
+   "scene": 8,
+   "start": 1003.1667,
+   "duration": 3.5833333333333335,
+   "transition": "cut"
+  },
+  {
+   "id": "S08_SH25",
+   "scene": 8,
+   "start": 1006.75,
+   "duration": 3.7083333333333335,
+   "transition": "cut"
+  },
+  {
+   "id": "S08_SH26",
+   "scene": 8,
+   "start": 1010.4583,
+   "duration": 5.0,
+   "transition": "cut"
+  },
+  {
+   "id": "S09_SH01",
+   "scene": 9,
+   "start": 1015.4583,
+   "duration": 7.0,
+   "transition": "dissolve"
+  },
+  {
+   "id": "S09_SH02",
+   "scene": 9,
+   "start": 1022.4583,
+   "duration": 5.0,
+   "transition": "cut"
+  },
+  {
+   "id": "S09_SH03",
+   "scene": 9,
+   "start": 1027.4583,
+   "duration": 6.0,
+   "transition": "cut"
+  },
+  {
+   "id": "S09_SH04",
+   "scene": 9,
+   "start": 1033.4583,
+   "duration": 8.041666666666666,
+   "transition": "cut"
+  },
+  {
+   "id": "S09_SH05",
+   "scene": 9,
+   "start": 1041.5,
+   "duration": 3.7083333333333335,
+   "transition": "cut"
+  },
+  {
+   "id": "S09_SH06",
+   "scene": 9,
+   "start": 1045.2083,
+   "duration": 4.791666666666667,
+   "transition": "cut"
+  },
+  {
+   "id": "S09_SH07",
+   "scene": 9,
+   "start": 1050.0,
+   "duration": 5.375,
+   "transition": "cut"
+  },
+  {
+   "id": "S09_SH08",
+   "scene": 9,
+   "start": 1055.375,
+   "duration": 8.0,
+   "transition": "cut"
+  },
+  {
+   "id": "S09_SH09",
+   "scene": 9,
+   "start": 1063.375,
+   "duration": 8.5,
+   "transition": "cut"
+  },
+  {
+   "id": "S09_SH10",
+   "scene": 9,
+   "start": 1071.875,
+   "duration": 6.5,
+   "transition": "cut"
+  },
+  {
+   "id": "S09_SH11",
+   "scene": 9,
+   "start": 1078.375,
+   "duration": 4.5,
+   "transition": "cut"
+  },
+  {
+   "id": "S09_SH12",
+   "scene": 9,
+   "start": 1082.875,
+   "duration": 9.5,
+   "transition": "dissolve"
+  },
+  {
+   "id": "S09_SH13",
+   "scene": 9,
+   "start": 1092.375,
+   "duration": 7.5,
+   "transition": "cut"
+  },
+  {
+   "id": "S09_SH14",
+   "scene": 9,
+   "start": 1099.875,
+   "duration": 9.0,
+   "transition": "cut"
+  },
+  {
+   "id": "S10_SH01",
+   "scene": 10,
+   "start": 1108.875,
+   "duration": 4.0,
+   "transition": "fade_black"
+  },
+  {
+   "id": "S10_SH02",
+   "scene": 10,
+   "start": 1112.875,
+   "duration": 11.0,
+   "transition": "dissolve"
+  },
+  {
+   "id": "S10_SH03",
+   "scene": 10,
+   "start": 1123.875,
+   "duration": 6.291666666666667,
+   "transition": "cut"
+  },
+  {
+   "id": "S10_SH04",
+   "scene": 10,
+   "start": 1130.1667,
+   "duration": 8.5,
+   "transition": "cut"
+  },
+  {
+   "id": "S10_SH05",
+   "scene": 10,
+   "start": 1138.6667,
+   "duration": 4.0,
+   "transition": "cut"
+  },
+  {
+   "id": "S10_SH06",
+   "scene": 10,
+   "start": 1142.6667,
+   "duration": 6.333333333333333,
+   "transition": "cut"
+  },
+  {
+   "id": "S10_SH07",
+   "scene": 10,
+   "start": 1149.0,
+   "duration": 8.5,
+   "transition": "dissolve"
+  },
+  {
+   "id": "S10_SH08",
+   "scene": 10,
+   "start": 1157.5,
+   "duration": 13.5,
+   "transition": "dissolve"
+  },
+  {
+   "id": "CR_SH01",
+   "scene": 99,
+   "start": 1171.0,
+   "duration": 46.0,
+   "transition": "fade_black"
+  },
+  {
+   "id": "CR_SH02",
+   "scene": 99,
+   "start": 1217.0,
+   "duration": 11.0,
+   "transition": "fade_black"
+  }
+ ],
+ "dialogue": [
+  {
+   "shot": "S01_SH04",
+   "char": "nani",
+   "text": "Once, in this very town, there was a sweet shop that opened only at midnight.",
+   "start": 28.6,
+   "duration": 5.815,
+   "wav": "/home/user/studio/films/midnight_sweet_shop/assets/voice/nani_cfc14dff28fd.wav"
+  },
+  {
+   "shot": "S01_SH06",
+   "char": "nani",
+   "text": "And you could not pay with money there.",
+   "start": 39.025,
+   "duration": 2.264,
+   "wav": "/home/user/studio/films/midnight_sweet_shop/assets/voice/nani_5b670ae67a93.wav"
+  },
+  {
+   "shot": "S01_SH06",
+   "char": "nani",
+   "text": "Only with goodness.",
+   "start": 41.925,
+   "duration": 1.615,
+   "wav": "/home/user/studio/films/midnight_sweet_shop/assets/voice/nani_37905f8bd902.wav"
+  },
+  {
+   "shot": "S01_SH07",
+   "char": "meher",
+   "text": "Then what happened?",
+   "start": 44.942,
+   "duration": 1.312,
+   "wav": "/home/user/studio/films/midnight_sweet_shop/assets/voice/meher_09bf948a7d22.wav"
+  },
+  {
+   "shot": "S01_SH08",
+   "char": "nani",
+   "text": "Then... hm. The ending's gone again. Like a sweet you left in your pocket.",
+   "start": 49.842,
+   "duration": 5.525,
+   "wav": "/home/user/studio/films/midnight_sweet_shop/assets/voice/nani_5c48bfff92fd.wav"
+  },
+  {
+   "shot": "S01_SH09",
+   "char": "kabir",
+   "text": "Because there is no ending. It's made up.",
+   "start": 57.25,
+   "duration": 2.449,
+   "wav": "/home/user/studio/films/midnight_sweet_shop/assets/voice/kabir_c09dfab239b7.wav"
+  },
+  {
+   "shot": "S02_SH07",
+   "char": "meher",
+   "text": "It's just a wall, Chutney.",
+   "start": 134.292,
+   "duration": 1.796,
+   "wav": "/home/user/studio/films/midnight_sweet_shop/assets/voice/meher_691ab31191b1.wav"
+  },
+  {
+   "shot": "S02_SH15",
+   "char": "amma",
+   "text": "You're late.",
+   "start": 186.9,
+   "duration": 1.064,
+   "wav": "/home/user/studio/films/midnight_sweet_shop/assets/voice/amma_dfcec66979da.wav"
+  },
+  {
+   "shot": "S02_SH16",
+   "char": "amma",
+   "text": "Eighty years late.",
+   "start": 192.975,
+   "duration": 1.519,
+   "wav": "/home/user/studio/films/midnight_sweet_shop/assets/voice/amma_f093cec16fa3.wav"
+  },
+  {
+   "shot": "S02_SH17",
+   "char": "meher",
+   "text": "I'm only nine.",
+   "start": 196.0,
+   "duration": 1.34,
+   "wav": "/home/user/studio/films/midnight_sweet_shop/assets/voice/meher_a3730de1d9c1.wav"
+  },
+  {
+   "shot": "S02_SH18",
+   "char": "amma",
+   "text": "Then you're very early for someone so late.",
+   "start": 199.5,
+   "duration": 2.829,
+   "wav": "/home/user/studio/films/midnight_sweet_shop/assets/voice/amma_c9f00f7bcd65.wav"
+  },
+  {
+   "shot": "S03_SH02",
+   "char": "amma",
+   "text": "Floating laddoo. Very popular.",
+   "start": 213.517,
+   "duration": 2.466,
+   "wav": "/home/user/studio/films/midnight_sweet_shop/assets/voice/amma_c9894e1adc22.wav"
+  },
+  {
+   "shot": "S03_SH03",
+   "char": "meher",
+   "text": "I don't have any money.",
+   "start": 220.5,
+   "duration": 1.467,
+   "wav": "/home/user/studio/films/midnight_sweet_shop/assets/voice/meher_c0d990bc6d6a.wav"
+  },
+  {
+   "shot": "S03_SH04",
+   "char": "amma",
+   "text": "Money?",
+   "start": 223.458,
+   "duration": 0.893,
+   "wav": "/home/user/studio/films/midnight_sweet_shop/assets/voice/amma_afec69aac74f.wav"
+  },
+  {
+   "shot": "S03_SH04",
+   "char": "amma",
+   "text": "Hee hee hee hee!",
+   "start": 224.558,
+   "duration": 1.45,
+   "wav": "/home/user/studio/films/midnight_sweet_shop/assets/voice/amma_8eb6a3569638.wav"
+  },
+  {
+   "shot": "S03_SH05",
+   "char": "amma",
+   "text": "We don't take money here.",
+   "start": 227.608,
+   "duration": 1.755,
+   "wav": "/home/user/studio/films/midnight_sweet_shop/assets/voice/amma_a89a5adda288.wav"
+  },
+  {
+   "shot": "S03_SH05",
+   "char": "amma",
+   "text": "Tola weighs something heavier.",
+   "start": 229.808,
+   "duration": 2.126,
+   "wav": "/home/user/studio/films/midnight_sweet_shop/assets/voice/amma_21ab8bae6d6f.wav"
+  },
+  {
+   "shot": "S03_SH06",
+   "char": "amma",
+   "text": "Put your hand on the pan.",
+   "start": 234.15,
+   "duration": 1.797,
+   "wav": "/home/user/studio/films/midnight_sweet_shop/assets/voice/amma_8cba65e17633.wav"
+  },
+  {
+   "shot": "S03_SH06",
+   "char": "amma",
+   "text": "Think of one kind thing you did today. A true one.",
+   "start": 236.35,
+   "duration": 3.442,
+   "wav": "/home/user/studio/films/midnight_sweet_shop/assets/voice/amma_e9c8ce5cfa8c.wav"
+  },
+  {
+   "shot": "S03_SH12",
+   "char": "amma",
+   "text": "One floating laddoo. It lasts until first light.",
+   "start": 266.758,
+   "duration": 3.755,
+   "wav": "/home/user/studio/films/midnight_sweet_shop/assets/voice/amma_d893cc781776.wav"
+  },
+  {
+   "shot": "S03_SH13",
+   "char": "amma",
+   "text": "Not one minute more.",
+   "start": 271.833,
+   "duration": 1.704,
+   "wav": "/home/user/studio/films/midnight_sweet_shop/assets/voice/amma_b049520f2fc5.wav"
+  },
+  {
+   "shot": "S04_SH02",
+   "char": "kabir",
+   "text": "You were floating. I saw you.",
+   "start": 354.125,
+   "duration": 1.624,
+   "wav": "/home/user/studio/films/midnight_sweet_shop/assets/voice/kabir_f648c4fc161b.wav"
+  },
+  {
+   "shot": "S04_SH06",
+   "char": "kabir",
+   "text": "If this is a joke—",
+   "start": 372.667,
+   "duration": 1.646,
+   "wav": "/home/user/studio/films/midnight_sweet_shop/assets/voice/kabir_1c0d6cbc7e29.wav"
+  },
+  {
+   "shot": "S04_SH10",
+   "char": "kabir",
+   "text": "I'll have the best thing you've got.",
+   "start": 395.692,
+   "duration": 1.735,
+   "wav": "/home/user/studio/films/midnight_sweet_shop/assets/voice/kabir_a5fb9163bd68.wav"
+  },
+  {
+   "shot": "S04_SH11",
+   "char": "amma",
+   "text": "Pay first.",
+   "start": 398.625,
+   "duration": 1.175,
+   "wav": "/home/user/studio/films/midnight_sweet_shop/assets/voice/amma_72b02954227c.wav"
+  },
+  {
+   "shot": "S04_SH12",
+   "char": "kabir",
+   "text": "Today I saved a whole busload of children from a flood. With a rope. And a helicopter.",
+   "start": 402.333,
+   "duration": 5.104,
+   "wav": "/home/user/studio/films/midnight_sweet_shop/assets/voice/kabir_098eafd311a3.wav"
+  },
+  {
+   "shot": "S04_SH14",
+   "char": "kabir",
+   "text": "It's broken.",
+   "start": 415.525,
+   "duration": 1.043,
+   "wav": "/home/user/studio/films/midnight_sweet_shop/assets/voice/kabir_0a0176216e34.wav"
+  },
+  {
+   "shot": "S04_SH18",
+   "char": "amma",
+   "text": "Tola only weighs what's true, little man. Come back when you've done something real.",
+   "start": 430.692,
+   "duration": 5.272,
+   "wav": "/home/user/studio/films/midnight_sweet_shop/assets/voice/amma_7e06ebe4b30f.wav"
+  },
+  {
+   "shot": "S04_SH20",
+   "char": "kabir",
+   "text": "It's a stupid shop anyway. A stupid sugar museum.",
+   "start": 440.258,
+   "duration": 3.296,
+   "wav": "/home/user/studio/films/midnight_sweet_shop/assets/voice/kabir_fce715d2d521.wav"
+  },
+  {
+   "shot": "S04_SH22",
+   "char": "amma",
+   "text": "That one's hungry for something. And it isn't sweets.",
+   "start": 448.925,
+   "duration": 3.487,
+   "wav": "/home/user/studio/films/midnight_sweet_shop/assets/voice/amma_91e83ae91fa0.wav"
+  },
+  {
+   "shot": "S05_SH22",
+   "char": "chutney",
+   "text": "You gave me your water when you were thirsty too, so I'll guard you forever... also I ate your slipper last week. Sorry.",
+   "start": 556.392,
+   "duration": 7.937,
+   "wav": "/home/user/studio/films/midnight_sweet_shop/assets/voice/chutney_67fa6d96bbf4.wav"
+  },
+  {
+   "shot": "S05_SH28",
+   "char": "meher",
+   "text": "Amma, where are all the sweets going?",
+   "start": 590.942,
+   "duration": 1.99,
+   "wav": "/home/user/studio/films/midnight_sweet_shop/assets/voice/meher_fc8d5d2e747c.wav"
+  },
+  {
+   "shot": "S05_SH29",
+   "char": "amma",
+   "text": "Oh, sweets come, sweets go.",
+   "start": 594.15,
+   "duration": 2.151,
+   "wav": "/home/user/studio/films/midnight_sweet_shop/assets/voice/amma_0cdf6a58312d.wav"
+  },
+  {
+   "shot": "S06_SH12",
+   "char": "kid1",
+   "text": "Show us!",
+   "start": 645.542,
+   "duration": 0.76,
+   "wav": "/home/user/studio/films/midnight_sweet_shop/assets/voice/kid1_c6c22dda6fc7.wav"
+  },
+  {
+   "shot": "S06_SH13",
+   "char": "kabir",
+   "text": "Wish jalebis. One coil, one wish. Watch this.",
+   "start": 647.425,
+   "duration": 3.024,
+   "wav": "/home/user/studio/films/midnight_sweet_shop/assets/voice/kabir_0b2e896ea514.wav"
+  },
+  {
+   "shot": "S06_SH14",
+   "char": "kabir",
+   "text": "I wish this gali was the sweetest place in the world!",
+   "start": 652.342,
+   "duration": 3.044,
+   "wav": "/home/user/studio/films/midnight_sweet_shop/assets/voice/kabir_0325842f5502.wav"
+  },
+  {
+   "shot": "S06_SH18",
+   "char": "kabir",
+   "text": "I wish I had the fastest ride in town!",
+   "start": 670.375,
+   "duration": 2.523,
+   "wav": "/home/user/studio/films/midnight_sweet_shop/assets/voice/kabir_2c89e66ce032.wav"
+  },
+  {
+   "shot": "S06_SH23",
+   "char": "kid2",
+   "text": "Make the buffalo pretty!",
+   "start": 689.133,
+   "duration": 1.341,
+   "wav": "/home/user/studio/films/midnight_sweet_shop/assets/voice/kid2_e5710ea8fdef.wav"
+  },
+  {
+   "shot": "S07_SH03",
+   "char": "nani",
+   "text": "Gloves? In this heat?",
+   "start": 730.475,
+   "duration": 1.775,
+   "wav": "/home/user/studio/films/midnight_sweet_shop/assets/voice/nani_e965409336d7.wav"
+  },
+  {
+   "shot": "S07_SH04",
+   "char": "kabir",
+   "text": "It's... fashion.",
+   "start": 734.233,
+   "duration": 0.987,
+   "wav": "/home/user/studio/films/midnight_sweet_shop/assets/voice/kabir_d9738791fe6b.wav"
+  },
+  {
+   "shot": "S07_SH11",
+   "char": "amma",
+   "text": "Ah. Both of you.",
+   "start": 784.167,
+   "duration": 1.508,
+   "wav": "/home/user/studio/films/midnight_sweet_shop/assets/voice/amma_d7fa2ab97ec5.wav"
+  },
+  {
+   "shot": "S07_SH12",
+   "char": "kabir",
+   "text": "I took it. I wanted them to think I was... somebody.",
+   "start": 789.267,
+   "duration": 3.151,
+   "wav": "/home/user/studio/films/midnight_sweet_shop/assets/voice/kabir_8b1103c75dcc.wav"
+  },
+  {
+   "shot": "S07_SH14",
+   "char": "kabir",
+   "text": "I'm sorry.",
+   "start": 800.217,
+   "duration": 0.968,
+   "wav": "/home/user/studio/films/midnight_sweet_shop/assets/voice/kabir_71282d3816b1.wav"
+  },
+  {
+   "shot": "S07_SH15",
+   "char": "amma",
+   "text": "Oh, little man.",
+   "start": 804.6,
+   "duration": 1.344,
+   "wav": "/home/user/studio/films/midnight_sweet_shop/assets/voice/amma_a435cb19dc6b.wav"
+  },
+  {
+   "shot": "S07_SH16",
+   "char": "kabir",
+   "text": "Then take my sorry.",
+   "start": 808.808,
+   "duration": 1.445,
+   "wav": "/home/user/studio/films/midnight_sweet_shop/assets/voice/kabir_fcb8d7d295a6.wav"
+  },
+  {
+   "shot": "S07_SH18",
+   "char": "meher",
+   "text": "Amma, why are you fading?",
+   "start": 825.658,
+   "duration": 1.579,
+   "wav": "/home/user/studio/films/midnight_sweet_shop/assets/voice/meher_2b60b835b12b.wav"
+  },
+  {
+   "shot": "S07_SH19",
+   "char": "amma",
+   "text": "A shop like this lives in people's remembering. When the last one forgets...",
+   "start": 829.642,
+   "duration": 4.975,
+   "wav": "/home/user/studio/films/midnight_sweet_shop/assets/voice/amma_77459e96ef59.wav"
+  },
+  {
+   "shot": "S07_SH20",
+   "char": "amma",
+   "text": "...poof. Sugar in the rain.",
+   "start": 837.117,
+   "duration": 1.894,
+   "wav": "/home/user/studio/films/midnight_sweet_shop/assets/voice/amma_f38bbe806c92.wav"
+  },
+  {
+   "shot": "S07_SH21",
+   "char": "meher",
+   "text": "Nani's story. She forgot the ending... and you started to fade.",
+   "start": 844.025,
+   "duration": 3.984,
+   "wav": "/home/user/studio/films/midnight_sweet_shop/assets/voice/meher_d185502ef7f4.wav"
+  },
+  {
+   "shot": "S07_SH22",
+   "char": "amma",
+   "text": "Who's Nani?",
+   "start": 850.492,
+   "duration": 1.249,
+   "wav": "/home/user/studio/films/midnight_sweet_shop/assets/voice/amma_8a48fa6a66cb.wav"
+  },
+  {
+   "shot": "S07_SH23",
+   "char": "meher",
+   "text": "We need Nani.",
+   "start": 854.9,
+   "duration": 1.207,
+   "wav": "/home/user/studio/films/midnight_sweet_shop/assets/voice/meher_0df3945fe15f.wav"
+  },
+  {
+   "shot": "S08_SH02",
+   "char": "meher",
+   "text": "Nani. Wake up. It's your story. It's real.",
+   "start": 874.0,
+   "duration": 2.615,
+   "wav": "/home/user/studio/films/midnight_sweet_shop/assets/voice/meher_4581689ff17e.wav"
+  },
+  {
+   "shot": "S08_SH03",
+   "char": "nani",
+   "text": "At my age? Down all those stairs?",
+   "start": 879.417,
+   "duration": 2.791,
+   "wav": "/home/user/studio/films/midnight_sweet_shop/assets/voice/nani_382e367e9588.wav"
+  },
+  {
+   "shot": "S08_SH04",
+   "char": "kabir",
+   "text": "I'll take you, Nani.",
+   "start": 884.708,
+   "duration": 1.267,
+   "wav": "/home/user/studio/films/midnight_sweet_shop/assets/voice/kabir_fa2d1590acfa.wav"
+  },
+  {
+   "shot": "S08_SH07",
+   "char": "kabir",
+   "text": "One more, Nani. I've got you.",
+   "start": 904.083,
+   "duration": 1.846,
+   "wav": "/home/user/studio/films/midnight_sweet_shop/assets/voice/kabir_005b9e0ae69a.wav"
+  },
+  {
+   "shot": "S08_SH14",
+   "char": "nani",
+   "text": "I was the girl. I was the girl in the story.",
+   "start": 950.033,
+   "duration": 3.047,
+   "wav": "/home/user/studio/films/midnight_sweet_shop/assets/voice/nani_512b6b74b6c0.wav"
+  },
+  {
+   "shot": "S08_SH18",
+   "char": "amma",
+   "text": "There you are, Sharda.",
+   "start": 974.283,
+   "duration": 1.706,
+   "wav": "/home/user/studio/films/midnight_sweet_shop/assets/voice/amma_a89d6c3dd0e5.wav"
+  },
+  {
+   "shot": "S08_SH19",
+   "char": "nani",
+   "text": "I forgot you.",
+   "start": 978.392,
+   "duration": 1.414,
+   "wav": "/home/user/studio/films/midnight_sweet_shop/assets/voice/nani_5875609b5b0c.wav"
+  },
+  {
+   "shot": "S08_SH20",
+   "char": "amma",
+   "text": "Everybody forgets. The trick is remembering again.",
+   "start": 982.017,
+   "duration": 3.721,
+   "wav": "/home/user/studio/films/midnight_sweet_shop/assets/voice/amma_3a9107cad207.wav"
+  },
+  {
+   "shot": "S08_SH25",
+   "char": "amma",
+   "text": "Now that... is heavy.",
+   "start": 1007.35,
+   "duration": 1.713,
+   "wav": "/home/user/studio/films/midnight_sweet_shop/assets/voice/amma_4b50f135dd30.wav"
+  },
+  {
+   "shot": "S09_SH04",
+   "char": "amma",
+   "text": "The job of remembering. It's yours now.",
+   "start": 1037.358,
+   "duration": 2.962,
+   "wav": "/home/user/studio/films/midnight_sweet_shop/assets/voice/amma_f4cc9d82535e.wav"
+  },
+  {
+   "shot": "S09_SH05",
+   "char": "meher",
+   "text": "Will you be here next summer?",
+   "start": 1042.5,
+   "duration": 1.827,
+   "wav": "/home/user/studio/films/midnight_sweet_shop/assets/voice/meher_d87f196c6408.wav"
+  },
+  {
+   "shot": "S09_SH06",
+   "char": "amma",
+   "text": "If somebody tells the story right.",
+   "start": 1045.708,
+   "duration": 2.473,
+   "wav": "/home/user/studio/films/midnight_sweet_shop/assets/voice/amma_444a187a273a.wav"
+  },
+  {
+   "shot": "S09_SH07",
+   "char": "amma",
+   "text": "Don't let the story lose its ending.",
+   "start": 1051.0,
+   "duration": 2.386,
+   "wav": "/home/user/studio/films/midnight_sweet_shop/assets/voice/amma_602cd7772d7f.wav"
+  },
+  {
+   "shot": "S10_SH03",
+   "char": "meher",
+   "text": "...and the shop stayed, as long as someone remembered it. That's the ending.",
+   "start": 1124.675,
+   "duration": 4.11,
+   "wav": "/home/user/studio/films/midnight_sweet_shop/assets/voice/meher_343dda30771c.wav"
+  },
+  {
+   "shot": "S10_SH06",
+   "char": "meher",
+   "text": "Well. That's how it ends. And that's how it begins.",
+   "start": 1143.567,
+   "duration": 3.028,
+   "wav": "/home/user/studio/films/midnight_sweet_shop/assets/voice/meher_e33b03c8d5c1.wav"
+  }
+ ],
+ "sfx": [
+  {
+   "shot": "S01_SH01",
+   "name": "heat_cicadas",
+   "start": 0.0,
+   "gain_db": -16,
+   "dur": 14.5,
+   "params": {}
+  },
+  {
+   "shot": "S01_SH01",
+   "name": "day_bed",
+   "start": 0.0,
+   "gain_db": -20,
+   "dur": 14.5,
+   "params": {}
+  },
+  {
+   "shot": "S01_SH02",
+   "name": "heat_cicadas",
+   "start": 14.5,
+   "gain_db": -16,
+   "dur": 2.2,
+   "params": {}
+  },
+  {
+   "shot": "S01_SH02",
+   "name": "fans_wind_down",
+   "start": 16.4,
+   "gain_db": -6,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S01_SH02",
+   "name": "town_groan",
+   "start": 17.4,
+   "gain_db": -10,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S01_SH02",
+   "name": "train_horn_distant",
+   "start": 19.5,
+   "gain_db": -14,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S01_SH02",
+   "name": "crickets_bed",
+   "start": 17.0,
+   "gain_db": -18,
+   "dur": 5.0,
+   "params": {}
+  },
+  {
+   "shot": "S01_SH03",
+   "name": "night_bed",
+   "start": 22.0,
+   "gain_db": -14.0,
+   "dur": 6.0,
+   "params": {}
+  },
+  {
+   "shot": "S01_SH04",
+   "name": "night_bed",
+   "start": 28.0,
+   "gain_db": -14.0,
+   "dur": 9.0,
+   "params": {}
+  },
+  {
+   "shot": "S01_SH05",
+   "name": "night_bed",
+   "start": 35.417,
+   "gain_db": -14.0,
+   "dur": 3.2,
+   "params": {}
+  },
+  {
+   "shot": "S01_SH06",
+   "name": "night_bed",
+   "start": 38.625,
+   "gain_db": -14.0,
+   "dur": 8.0,
+   "params": {}
+  },
+  {
+   "shot": "S01_SH07",
+   "name": "night_bed",
+   "start": 44.542,
+   "gain_db": -14.0,
+   "dur": 4.0,
+   "params": {}
+  },
+  {
+   "shot": "S01_SH08",
+   "name": "night_bed",
+   "start": 47.542,
+   "gain_db": -14.0,
+   "dur": 12.0,
+   "params": {}
+  },
+  {
+   "shot": "S01_SH09",
+   "name": "night_bed",
+   "start": 56.75,
+   "gain_db": -14.0,
+   "dur": 5.0,
+   "params": {}
+  },
+  {
+   "shot": "S01_SH10",
+   "name": "night_bed",
+   "start": 60.708,
+   "gain_db": -18,
+   "dur": 9.0,
+   "params": {}
+  },
+  {
+   "shot": "S01_SH10",
+   "name": "hum_lullaby",
+   "start": 62.308,
+   "gain_db": -6,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S01_SH11",
+   "name": "night_bed",
+   "start": 69.708,
+   "gain_db": -14.0,
+   "dur": 6.0,
+   "params": {}
+  },
+  {
+   "shot": "S01_SH11",
+   "name": "footsteps_soft",
+   "start": 70.708,
+   "gain_db": -14,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S01_SH12",
+   "name": "night_bed",
+   "start": 75.708,
+   "gain_db": -16,
+   "dur": 7.0,
+   "params": {}
+  },
+  {
+   "shot": "S01_SH13",
+   "name": "night_bed",
+   "start": 82.708,
+   "gain_db": -14.0,
+   "dur": 6.5,
+   "params": {}
+  },
+  {
+   "shot": "S02_SH01",
+   "name": "crickets_bed",
+   "start": 89.208,
+   "gain_db": -16,
+   "dur": 8.5,
+   "params": {}
+  },
+  {
+   "shot": "S02_SH01",
+   "name": "clock_strike",
+   "start": 90.208,
+   "gain_db": -8,
+   "dur": null,
+   "params": {
+    "n": 12,
+    "interval": 1.7
+   }
+  },
+  {
+   "shot": "S02_SH02",
+   "name": "crickets_bed",
+   "start": 97.708,
+   "gain_db": -18,
+   "dur": 5.0,
+   "params": {}
+  },
+  {
+   "shot": "S02_SH03",
+   "name": "crickets_bed",
+   "start": 102.708,
+   "gain_db": -18,
+   "dur": 5.0,
+   "params": {}
+  },
+  {
+   "shot": "S02_SH03",
+   "name": "dog_whine",
+   "start": 103.708,
+   "gain_db": -6,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S02_SH04",
+   "name": "night_bed",
+   "start": 107.708,
+   "gain_db": -16,
+   "dur": 7.6,
+   "params": {}
+  },
+  {
+   "shot": "S02_SH04",
+   "name": "dog_whine",
+   "start": 108.108,
+   "gain_db": -10,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S02_SH04",
+   "name": "footsteps_soft",
+   "start": 110.408,
+   "gain_db": -18,
+   "dur": null,
+   "params": {
+    "rate": 4
+   }
+  },
+  {
+   "shot": "S02_SH05",
+   "name": "night_bed",
+   "start": 115.292,
+   "gain_db": -22,
+   "dur": 9.0,
+   "params": {}
+  },
+  {
+   "shot": "S02_SH05",
+   "name": "footsteps_soft",
+   "start": 115.692,
+   "gain_db": -18,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S02_SH05",
+   "name": "stair_creak",
+   "start": 118.942,
+   "gain_db": -6,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S02_SH06",
+   "name": "night_bed",
+   "start": 124.292,
+   "gain_db": -16,
+   "dur": 7.0,
+   "params": {}
+  },
+  {
+   "shot": "S02_SH06",
+   "name": "footsteps_soft",
+   "start": 124.292,
+   "gain_db": -16,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S02_SH07",
+   "name": "night_bed",
+   "start": 131.292,
+   "gain_db": -16,
+   "dur": 7.0,
+   "params": {}
+  },
+  {
+   "shot": "S02_SH08",
+   "name": "night_bed",
+   "start": 137.708,
+   "gain_db": -20,
+   "dur": 6.5,
+   "params": {}
+  },
+  {
+   "shot": "S02_SH08",
+   "name": "wall_glow",
+   "start": 138.508,
+   "gain_db": -6,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S02_SH09",
+   "name": "wind_chime_hello",
+   "start": 144.508,
+   "gain_db": -4,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S02_SH10",
+   "name": "shop_unfold",
+   "start": 147.608,
+   "gain_db": -4,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S02_SH10",
+   "name": "awning_snap",
+   "start": 150.608,
+   "gain_db": -6,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S02_SH10",
+   "name": "lantern_light",
+   "start": 152.208,
+   "gain_db": -8,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S02_SH10",
+   "name": "lantern_light",
+   "start": 152.708,
+   "gain_db": -8,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S02_SH10",
+   "name": "lantern_light",
+   "start": 153.208,
+   "gain_db": -8,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S02_SH10",
+   "name": "lantern_light",
+   "start": 153.708,
+   "gain_db": -8,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S02_SH10",
+   "name": "sparkle",
+   "start": 154.808,
+   "gain_db": -8,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S02_SH10",
+   "name": "jar_chord",
+   "start": 155.808,
+   "gain_db": -10,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S02_SH11",
+   "name": "dog_sneeze",
+   "start": 159.408,
+   "gain_db": -4,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S02_SH11B",
+   "name": "footsteps_soft",
+   "start": 162.292,
+   "gain_db": -18,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S02_SH11B",
+   "name": "floor_creak",
+   "start": 166.392,
+   "gain_db": -12,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S02_SH12",
+   "name": "floor_creak",
+   "start": 169.383,
+   "gain_db": -8,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S02_SH12",
+   "name": "night_bed",
+   "start": 167.583,
+   "gain_db": -28,
+   "dur": 4.2,
+   "params": {}
+  },
+  {
+   "shot": "S02_SH13",
+   "name": "sparkle",
+   "start": 172.792,
+   "gain_db": -18,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S02_SH14",
+   "name": "tola_tink",
+   "start": 181.892,
+   "gain_db": -18,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S02_SH14",
+   "name": "tola_tink",
+   "start": 184.492,
+   "gain_db": -20,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S02_SH16",
+   "name": "sparkle",
+   "start": 189.875,
+   "gain_db": -16,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S03_SH01",
+   "name": "night_bed",
+   "start": 203.917,
+   "gain_db": -30,
+   "dur": 8.0,
+   "params": {}
+  },
+  {
+   "shot": "S03_SH01",
+   "name": "floor_creak",
+   "start": 206.117,
+   "gain_db": -18,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S03_SH02",
+   "name": "magic_float",
+   "start": 212.317,
+   "gain_db": -16,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S03_SH04",
+   "name": "tola_laugh",
+   "start": 224.958,
+   "gain_db": -6,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S03_SH05",
+   "name": "tola_tink",
+   "start": 229.708,
+   "gain_db": -10,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S03_SH05",
+   "name": "tola_clank",
+   "start": 231.808,
+   "gain_db": -12,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S03_SH07",
+   "name": "tola_tink",
+   "start": 243.592,
+   "gain_db": -12,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S03_SH08",
+   "name": "bubble_rise",
+   "start": 245.092,
+   "gain_db": -6,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S03_SH09",
+   "name": "day_bed",
+   "start": 249.375,
+   "gain_db": -20,
+   "dur": 7.0,
+   "params": {}
+  },
+  {
+   "shot": "S03_SH09",
+   "name": "dog_pant",
+   "start": 249.875,
+   "gain_db": -12,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S03_SH09",
+   "name": "water_pour",
+   "start": 250.775,
+   "gain_db": -10,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S03_SH10",
+   "name": "bubble_settle",
+   "start": 257.775,
+   "gain_db": -8,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S03_SH10",
+   "name": "tola_clonk",
+   "start": 258.775,
+   "gain_db": -2,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S03_SH11",
+   "name": "jar_chord",
+   "start": 261.008,
+   "gain_db": -4,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S03_SH11",
+   "name": "dog_bark",
+   "start": 261.508,
+   "gain_db": -8,
+   "dur": null,
+   "params": {
+    "n": 2
+   }
+  },
+  {
+   "shot": "S03_SH12",
+   "name": "sparkle",
+   "start": 266.358,
+   "gain_db": -14,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S03_SH14",
+   "name": "munch",
+   "start": 275.242,
+   "gain_db": -6,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S03_SH14",
+   "name": "swallow_gulp",
+   "start": 276.042,
+   "gain_db": -10,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S03_SH14",
+   "name": "magic_float",
+   "start": 276.542,
+   "gain_db": -6,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S03_SH15",
+   "name": "night_bed",
+   "start": 282.542,
+   "gain_db": -18,
+   "dur": 8.0,
+   "params": {}
+  },
+  {
+   "shot": "S03_SH15",
+   "name": "dog_bark",
+   "start": 283.542,
+   "gain_db": -10,
+   "dur": null,
+   "params": {
+    "n": 3
+   }
+  },
+  {
+   "shot": "S03_SH15",
+   "name": "whoosh",
+   "start": 282.942,
+   "gain_db": -12,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S03_SH16",
+   "name": "wind_flight",
+   "start": 290.542,
+   "gain_db": -12,
+   "dur": 10.0,
+   "params": {}
+  },
+  {
+   "shot": "S03_SH16B",
+   "name": "wind_flight",
+   "start": 300.542,
+   "gain_db": -10,
+   "dur": 6.0,
+   "params": {}
+  },
+  {
+   "shot": "S03_SH16B",
+   "name": "whoosh",
+   "start": 301.542,
+   "gain_db": -10,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S03_SH17",
+   "name": "wind_flight",
+   "start": 306.542,
+   "gain_db": -12,
+   "dur": 8.0,
+   "params": {}
+  },
+  {
+   "shot": "S03_SH17",
+   "name": "whoosh",
+   "start": 309.142,
+   "gain_db": -8,
+   "dur": null,
+   "params": {
+    "intensity": 1.0
+   }
+  },
+  {
+   "shot": "S03_SH17",
+   "name": "clock_strike",
+   "start": 309.742,
+   "gain_db": -18,
+   "dur": null,
+   "params": {
+    "n": 1
+   }
+  },
+  {
+   "shot": "S03_SH18",
+   "name": "wind_flight",
+   "start": 314.542,
+   "gain_db": -18,
+   "dur": 8.5,
+   "params": {}
+  },
+  {
+   "shot": "S03_SH18",
+   "name": "crickets_bed",
+   "start": 314.542,
+   "gain_db": -22,
+   "dur": 8.5,
+   "params": {}
+  },
+  {
+   "shot": "S03_SH19",
+   "name": "wind_flight",
+   "start": 323.042,
+   "gain_db": -20,
+   "dur": 9.0,
+   "params": {}
+  },
+  {
+   "shot": "S03_SH19",
+   "name": "sparkle",
+   "start": 326.442,
+   "gain_db": -12,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S03_SH20",
+   "name": "wind_flight",
+   "start": 332.042,
+   "gain_db": -16,
+   "dur": 7.5,
+   "params": {}
+  },
+  {
+   "shot": "S03_SH20",
+   "name": "koel_call",
+   "start": 336.042,
+   "gain_db": -18,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S03_SH21",
+   "name": "sparrows_dawn",
+   "start": 339.542,
+   "gain_db": -16,
+   "dur": 8.5,
+   "params": {}
+  },
+  {
+   "shot": "S03_SH21",
+   "name": "koel_call",
+   "start": 340.542,
+   "gain_db": -16,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S04_SH01",
+   "name": "sparrows_dawn",
+   "start": 348.042,
+   "gain_db": -12,
+   "dur": 6.199999999999999,
+   "params": {}
+  },
+  {
+   "shot": "S04_SH01",
+   "name": "koel_call",
+   "start": 348.842,
+   "gain_db": -14,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S04_SH01",
+   "name": "whoosh",
+   "start": 350.792,
+   "gain_db": -14,
+   "dur": null,
+   "params": {
+    "intensity": 0.3
+   }
+  },
+  {
+   "shot": "S04_SH02",
+   "name": "sparrows_dawn",
+   "start": 353.625,
+   "gain_db": -16,
+   "dur": 3.6416666666666666,
+   "params": {}
+  },
+  {
+   "shot": "S04_SH03",
+   "name": "sparrows_dawn",
+   "start": 356.667,
+   "gain_db": -16,
+   "dur": 6.3999999999999995,
+   "params": {}
+  },
+  {
+   "shot": "S04_SH03",
+   "name": "sparkle",
+   "start": 359.817,
+   "gain_db": -10,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S04_SH04",
+   "name": "sparrows_dawn",
+   "start": 362.458,
+   "gain_db": -16,
+   "dur": 3.4,
+   "params": {}
+  },
+  {
+   "shot": "S04_SH04",
+   "name": "koel_call",
+   "start": 363.658,
+   "gain_db": -16,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S04_SH05",
+   "name": "night_bed",
+   "start": 365.25,
+   "gain_db": -14,
+   "dur": 7.0,
+   "params": {}
+  },
+  {
+   "shot": "S04_SH05",
+   "name": "footsteps_soft",
+   "start": 365.45,
+   "gain_db": -12,
+   "dur": 6.0,
+   "params": {}
+  },
+  {
+   "shot": "S04_SH06",
+   "name": "night_bed",
+   "start": 371.667,
+   "gain_db": -14,
+   "dur": 6.8,
+   "params": {}
+  },
+  {
+   "shot": "S04_SH06",
+   "name": "wall_glow",
+   "start": 374.067,
+   "gain_db": -6,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S04_SH06",
+   "name": "wind_chime_hello",
+   "start": 376.267,
+   "gain_db": -8,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S04_SH07",
+   "name": "night_bed",
+   "start": 377.875,
+   "gain_db": -18,
+   "dur": 7.6,
+   "params": {}
+  },
+  {
+   "shot": "S04_SH07",
+   "name": "shop_unfold",
+   "start": 378.175,
+   "gain_db": -4,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S04_SH07",
+   "name": "awning_snap",
+   "start": 380.575,
+   "gain_db": -6,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S04_SH07",
+   "name": "lantern_light",
+   "start": 381.275,
+   "gain_db": -8,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S04_SH07",
+   "name": "lantern_light",
+   "start": 381.775,
+   "gain_db": -9,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S04_SH07",
+   "name": "sparkle",
+   "start": 382.875,
+   "gain_db": -8,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S04_SH07",
+   "name": "dog_bark",
+   "start": 383.475,
+   "gain_db": -10,
+   "dur": null,
+   "params": {
+    "n": 1
+   }
+  },
+  {
+   "shot": "S04_SH08",
+   "name": "night_bed",
+   "start": 384.875,
+   "gain_db": -20,
+   "dur": 3.6,
+   "params": {}
+  },
+  {
+   "shot": "S04_SH09",
+   "name": "crickets_bed",
+   "start": 387.875,
+   "gain_db": -24,
+   "dur": 8.0,
+   "params": {}
+  },
+  {
+   "shot": "S04_SH09",
+   "name": "footsteps_soft",
+   "start": 388.275,
+   "gain_db": -10,
+   "dur": 5.8,
+   "params": {}
+  },
+  {
+   "shot": "S04_SH09",
+   "name": "floor_creak",
+   "start": 390.075,
+   "gain_db": -12,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S04_SH10",
+   "name": "crickets_bed",
+   "start": 395.292,
+   "gain_db": -24,
+   "dur": 3.4333333333333336,
+   "params": {}
+  },
+  {
+   "shot": "S04_SH11",
+   "name": "crickets_bed",
+   "start": 398.125,
+   "gain_db": -24,
+   "dur": 3.8083333333333336,
+   "params": {}
+  },
+  {
+   "shot": "S04_SH12",
+   "name": "crickets_bed",
+   "start": 401.333,
+   "gain_db": -24,
+   "dur": 7.391666666666667,
+   "params": {}
+  },
+  {
+   "shot": "S04_SH12",
+   "name": "tola_clank",
+   "start": 401.753,
+   "gain_db": -6,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S04_SH13",
+   "name": "crickets_bed",
+   "start": 408.125,
+   "gain_db": -24,
+   "dur": 7.6,
+   "params": {}
+  },
+  {
+   "shot": "S04_SH13",
+   "name": "bubble_rise",
+   "start": 408.225,
+   "gain_db": -6,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S04_SH13",
+   "name": "bubble_settle",
+   "start": 412.825,
+   "gain_db": -8,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S04_SH13",
+   "name": "tola_tink",
+   "start": 413.325,
+   "gain_db": -4,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S04_SH14",
+   "name": "crickets_bed",
+   "start": 415.125,
+   "gain_db": -24,
+   "dur": 3.3916666666666666,
+   "params": {}
+  },
+  {
+   "shot": "S04_SH15",
+   "name": "crickets_bed",
+   "start": 417.917,
+   "gain_db": -24,
+   "dur": 6.8,
+   "params": {}
+  },
+  {
+   "shot": "S04_SH15",
+   "name": "tola_clank",
+   "start": 419.017,
+   "gain_db": -12,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S04_SH15",
+   "name": "boing",
+   "start": 420.377,
+   "gain_db": -2,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S04_SH15",
+   "name": "pop",
+   "start": 420.417,
+   "gain_db": -6,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S04_SH15",
+   "name": "sparkle",
+   "start": 420.817,
+   "gain_db": -12,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S04_SH16",
+   "name": "crickets_bed",
+   "start": 424.125,
+   "gain_db": -24,
+   "dur": 3.2,
+   "params": {}
+  },
+  {
+   "shot": "S04_SH16",
+   "name": "tola_laugh",
+   "start": 424.375,
+   "gain_db": -8,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S04_SH17",
+   "name": "crickets_bed",
+   "start": 426.708,
+   "gain_db": -24,
+   "dur": 4.2,
+   "params": {}
+  },
+  {
+   "shot": "S04_SH17",
+   "name": "pop",
+   "start": 427.208,
+   "gain_db": -10,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S04_SH18",
+   "name": "crickets_bed",
+   "start": 430.292,
+   "gain_db": -24,
+   "dur": 7.058333333333333,
+   "params": {}
+  },
+  {
+   "shot": "S04_SH19",
+   "name": "crickets_bed",
+   "start": 436.75,
+   "gain_db": -24,
+   "dur": 3.8000000000000003,
+   "params": {}
+  },
+  {
+   "shot": "S04_SH19",
+   "name": "iron_steam",
+   "start": 438.15,
+   "gain_db": -16,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S04_SH20",
+   "name": "crickets_bed",
+   "start": 439.958,
+   "gain_db": -24,
+   "dur": 5.183333333333333,
+   "params": {}
+  },
+  {
+   "shot": "S04_SH21",
+   "name": "crickets_bed",
+   "start": 444.542,
+   "gain_db": -24,
+   "dur": 4.2,
+   "params": {}
+  },
+  {
+   "shot": "S04_SH21",
+   "name": "footsteps_soft",
+   "start": 444.742,
+   "gain_db": -6,
+   "dur": 2.4,
+   "params": {
+    "rate": 2.2
+   }
+  },
+  {
+   "shot": "S04_SH22",
+   "name": "crickets_bed",
+   "start": 448.125,
+   "gain_db": -24,
+   "dur": 6.266666666666667,
+   "params": {}
+  },
+  {
+   "shot": "S04_SH23",
+   "name": "crickets_bed",
+   "start": 453.792,
+   "gain_db": -24,
+   "dur": 7.6,
+   "params": {}
+  },
+  {
+   "shot": "S04_SH23",
+   "name": "sparkle",
+   "start": 456.792,
+   "gain_db": -18,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S05_SH01",
+   "name": "day_bed",
+   "start": 460.792,
+   "gain_db": -14,
+   "dur": 4.6,
+   "params": {}
+  },
+  {
+   "shot": "S05_SH01",
+   "name": "heat_cicadas",
+   "start": 460.792,
+   "gain_db": -16,
+   "dur": 4.6,
+   "params": {}
+  },
+  {
+   "shot": "S05_SH02",
+   "name": "day_bed",
+   "start": 464.792,
+   "gain_db": -14,
+   "dur": 6.3999999999999995,
+   "params": {}
+  },
+  {
+   "shot": "S05_SH02",
+   "name": "footsteps_soft",
+   "start": 464.992,
+   "gain_db": -10,
+   "dur": 4.2,
+   "params": {}
+  },
+  {
+   "shot": "S05_SH03",
+   "name": "day_bed",
+   "start": 470.583,
+   "gain_db": -14,
+   "dur": 5.0,
+   "params": {}
+  },
+  {
+   "shot": "S05_SH03",
+   "name": "iron_steam",
+   "start": 472.483,
+   "gain_db": -8,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S05_SH03",
+   "name": "pop",
+   "start": 472.683,
+   "gain_db": -10,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S05_SH04",
+   "name": "day_bed",
+   "start": 475.0,
+   "gain_db": -14,
+   "dur": 7.3999999999999995,
+   "params": {}
+  },
+  {
+   "shot": "S05_SH04",
+   "name": "water_pour",
+   "start": 475.4,
+   "gain_db": -8,
+   "dur": 5.2,
+   "params": {}
+  },
+  {
+   "shot": "S05_SH04",
+   "name": "sparkle",
+   "start": 480.0,
+   "gain_db": -14,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S05_SH05",
+   "name": "day_bed",
+   "start": 481.792,
+   "gain_db": -18,
+   "dur": 7.8,
+   "params": {}
+  },
+  {
+   "shot": "S05_SH05",
+   "name": "page_turn",
+   "start": 482.392,
+   "gain_db": -10,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S05_SH05",
+   "name": "page_turn",
+   "start": 484.992,
+   "gain_db": -14,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S05_SH06",
+   "name": "night_bed",
+   "start": 489.0,
+   "gain_db": -14,
+   "dur": 4.0,
+   "params": {}
+  },
+  {
+   "shot": "S05_SH06",
+   "name": "train_horn_distant",
+   "start": 489.5,
+   "gain_db": -18,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S05_SH07",
+   "name": "crickets_bed",
+   "start": 492.417,
+   "gain_db": -24,
+   "dur": 5.3999999999999995,
+   "params": {}
+  },
+  {
+   "shot": "S05_SH07",
+   "name": "bubble_rise",
+   "start": 492.717,
+   "gain_db": -8,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S05_SH07",
+   "name": "tola_clonk",
+   "start": 495.017,
+   "gain_db": -4,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S05_SH07",
+   "name": "jar_chord",
+   "start": 495.117,
+   "gain_db": -6,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S05_SH08",
+   "name": "crickets_bed",
+   "start": 497.208,
+   "gain_db": -24,
+   "dur": 4.2,
+   "params": {}
+  },
+  {
+   "shot": "S05_SH08",
+   "name": "sparkle",
+   "start": 497.708,
+   "gain_db": -10,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S05_SH09",
+   "name": "night_bed",
+   "start": 500.792,
+   "gain_db": -14,
+   "dur": 4.3999999999999995,
+   "params": {}
+  },
+  {
+   "shot": "S05_SH09",
+   "name": "footsteps_soft",
+   "start": 501.092,
+   "gain_db": -14,
+   "dur": 3.0,
+   "params": {}
+  },
+  {
+   "shot": "S05_SH10",
+   "name": "night_bed",
+   "start": 504.583,
+   "gain_db": -14,
+   "dur": 4.8,
+   "params": {}
+  },
+  {
+   "shot": "S05_SH10",
+   "name": "monkey_chatter",
+   "start": 505.083,
+   "gain_db": -6,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S05_SH11",
+   "name": "night_bed",
+   "start": 508.792,
+   "gain_db": -14,
+   "dur": 3.2,
+   "params": {}
+  },
+  {
+   "shot": "S05_SH12",
+   "name": "night_bed",
+   "start": 511.375,
+   "gain_db": -18,
+   "dur": 7.0,
+   "params": {}
+  },
+  {
+   "shot": "S05_SH12",
+   "name": "munch",
+   "start": 511.675,
+   "gain_db": -6,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S05_SH12",
+   "name": "swallow_gulp",
+   "start": 512.675,
+   "gain_db": -8,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S05_SH12",
+   "name": "shadow_grow",
+   "start": 512.975,
+   "gain_db": -3,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S05_SH13",
+   "name": "night_bed",
+   "start": 517.792,
+   "gain_db": -18,
+   "dur": 4.0,
+   "params": {}
+  },
+  {
+   "shot": "S05_SH13",
+   "name": "monkey_chatter",
+   "start": 518.092,
+   "gain_db": -2,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S05_SH13",
+   "name": "whoosh",
+   "start": 518.792,
+   "gain_db": -8,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S05_SH14",
+   "name": "night_bed",
+   "start": 521.208,
+   "gain_db": -18,
+   "dur": 4.6,
+   "params": {}
+  },
+  {
+   "shot": "S05_SH14",
+   "name": "pop",
+   "start": 521.708,
+   "gain_db": -8,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S05_SH14",
+   "name": "sparkle",
+   "start": 523.108,
+   "gain_db": -8,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S05_SH15",
+   "name": "night_bed",
+   "start": 525.208,
+   "gain_db": -16,
+   "dur": 5.6,
+   "params": {}
+  },
+  {
+   "shot": "S05_SH15",
+   "name": "sparkle",
+   "start": 527.508,
+   "gain_db": -16,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S05_SH16",
+   "name": "sparrows_dawn",
+   "start": 530.208,
+   "gain_db": -16,
+   "dur": 4.8,
+   "params": {}
+  },
+  {
+   "shot": "S05_SH17",
+   "name": "crickets_bed",
+   "start": 534.417,
+   "gain_db": -24,
+   "dur": 5.3999999999999995,
+   "params": {}
+  },
+  {
+   "shot": "S05_SH17",
+   "name": "bubble_rise",
+   "start": 534.717,
+   "gain_db": -8,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S05_SH17",
+   "name": "tola_clonk",
+   "start": 537.017,
+   "gain_db": -8,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S05_SH17",
+   "name": "jar_chord",
+   "start": 537.117,
+   "gain_db": -12,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S05_SH18",
+   "name": "crickets_bed",
+   "start": 539.208,
+   "gain_db": -22,
+   "dur": 4.8,
+   "params": {}
+  },
+  {
+   "shot": "S05_SH19",
+   "name": "crickets_bed",
+   "start": 543.417,
+   "gain_db": -24,
+   "dur": 4.2,
+   "params": {}
+  },
+  {
+   "shot": "S05_SH19",
+   "name": "sparkle",
+   "start": 543.917,
+   "gain_db": -12,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S05_SH20",
+   "name": "night_bed",
+   "start": 547.0,
+   "gain_db": -14,
+   "dur": 6.8,
+   "params": {}
+  },
+  {
+   "shot": "S05_SH20",
+   "name": "dog_pant",
+   "start": 548.8,
+   "gain_db": -12,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S05_SH20",
+   "name": "sparkle",
+   "start": 550.6,
+   "gain_db": -10,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S05_SH21",
+   "name": "night_bed",
+   "start": 553.208,
+   "gain_db": -14,
+   "dur": 3.2,
+   "params": {}
+  },
+  {
+   "shot": "S05_SH22",
+   "name": "night_bed",
+   "start": 555.792,
+   "gain_db": -18,
+   "dur": 10.141666666666666,
+   "params": {}
+  },
+  {
+   "shot": "S05_SH23",
+   "name": "night_bed",
+   "start": 565.333,
+   "gain_db": -14,
+   "dur": 5.6,
+   "params": {}
+  },
+  {
+   "shot": "S05_SH23",
+   "name": "kids_laugh",
+   "start": 565.433,
+   "gain_db": -14,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S05_SH24",
+   "name": "night_bed",
+   "start": 570.333,
+   "gain_db": -14,
+   "dur": 5.0,
+   "params": {}
+  },
+  {
+   "shot": "S05_SH24",
+   "name": "footsteps_soft",
+   "start": 570.533,
+   "gain_db": -12,
+   "dur": 4.0,
+   "params": {}
+  },
+  {
+   "shot": "S05_SH25",
+   "name": "crickets_bed",
+   "start": 574.75,
+   "gain_db": -24,
+   "dur": 5.3999999999999995,
+   "params": {}
+  },
+  {
+   "shot": "S05_SH25",
+   "name": "bubble_rise",
+   "start": 575.05,
+   "gain_db": -10,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S05_SH25",
+   "name": "tola_clonk",
+   "start": 577.35,
+   "gain_db": -12,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S05_SH25",
+   "name": "jar_chord",
+   "start": 577.45,
+   "gain_db": -18,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S05_SH26",
+   "name": "crickets_bed",
+   "start": 579.542,
+   "gain_db": -24,
+   "dur": 6.6,
+   "params": {}
+  },
+  {
+   "shot": "S05_SH27",
+   "name": "crickets_bed",
+   "start": 585.542,
+   "gain_db": -24,
+   "dur": 5.6,
+   "params": {}
+  },
+  {
+   "shot": "S05_SH27",
+   "name": "sparkle",
+   "start": 586.542,
+   "gain_db": -16,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S05_SH28",
+   "name": "crickets_bed",
+   "start": 590.542,
+   "gain_db": -24,
+   "dur": 3.8083333333333336,
+   "params": {}
+  },
+  {
+   "shot": "S05_SH29",
+   "name": "crickets_bed",
+   "start": 593.75,
+   "gain_db": -24,
+   "dur": 4.766666666666667,
+   "params": {}
+  },
+  {
+   "shot": "S05_SH29",
+   "name": "shop_flicker",
+   "start": 595.35,
+   "gain_db": -14,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S05_SH30",
+   "name": "crickets_bed",
+   "start": 597.917,
+   "gain_db": -24,
+   "dur": 5.0,
+   "params": {}
+  },
+  {
+   "shot": "S06_SH01",
+   "name": "crickets_bed",
+   "start": 602.333,
+   "gain_db": -22,
+   "dur": 6.6,
+   "params": {}
+  },
+  {
+   "shot": "S06_SH01",
+   "name": "dog_pant",
+   "start": 603.333,
+   "gain_db": -14,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S06_SH02",
+   "name": "crickets_bed",
+   "start": 608.333,
+   "gain_db": -22,
+   "dur": 4.0,
+   "params": {}
+  },
+  {
+   "shot": "S06_SH03",
+   "name": "crickets_bed",
+   "start": 611.75,
+   "gain_db": -22,
+   "dur": 5.199999999999999,
+   "params": {}
+  },
+  {
+   "shot": "S06_SH03",
+   "name": "floor_creak",
+   "start": 613.85,
+   "gain_db": -14,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S06_SH04",
+   "name": "crickets_bed",
+   "start": 616.333,
+   "gain_db": -22,
+   "dur": 4.0,
+   "params": {}
+  },
+  {
+   "shot": "S06_SH04",
+   "name": "sparkle",
+   "start": 617.333,
+   "gain_db": -10,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S06_SH05",
+   "name": "crickets_bed",
+   "start": 619.75,
+   "gain_db": -22,
+   "dur": 6.6,
+   "params": {}
+  },
+  {
+   "shot": "S06_SH05",
+   "name": "floor_creak",
+   "start": 621.25,
+   "gain_db": -16,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S06_SH05",
+   "name": "floor_creak",
+   "start": 623.55,
+   "gain_db": -16,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S06_SH06",
+   "name": "crickets_bed",
+   "start": 625.75,
+   "gain_db": -22,
+   "dur": 3.6,
+   "params": {}
+  },
+  {
+   "shot": "S06_SH06",
+   "name": "pop",
+   "start": 627.05,
+   "gain_db": -12,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S06_SH07",
+   "name": "crickets_bed",
+   "start": 628.75,
+   "gain_db": -22,
+   "dur": 3.8000000000000003,
+   "params": {}
+  },
+  {
+   "shot": "S06_SH07",
+   "name": "tola_alarm",
+   "start": 629.25,
+   "gain_db": -2,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S06_SH08",
+   "name": "crickets_bed",
+   "start": 631.958,
+   "gain_db": -22,
+   "dur": 3.8000000000000003,
+   "params": {}
+  },
+  {
+   "shot": "S06_SH08",
+   "name": "tola_alarm",
+   "start": 631.958,
+   "gain_db": -12,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S06_SH09",
+   "name": "crickets_bed",
+   "start": 635.167,
+   "gain_db": -22,
+   "dur": 3.4,
+   "params": {}
+  },
+  {
+   "shot": "S06_SH10",
+   "name": "crickets_bed",
+   "start": 637.958,
+   "gain_db": -20,
+   "dur": 3.6,
+   "params": {}
+  },
+  {
+   "shot": "S06_SH11",
+   "name": "crickets_bed",
+   "start": 640.958,
+   "gain_db": -20,
+   "dur": 4.2,
+   "params": {}
+  },
+  {
+   "shot": "S06_SH12",
+   "name": "day_bed",
+   "start": 644.542,
+   "gain_db": -14,
+   "dur": 3.1833333333333336,
+   "params": {}
+  },
+  {
+   "shot": "S06_SH12",
+   "name": "kids_gasp",
+   "start": 644.742,
+   "gain_db": -16,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S06_SH13",
+   "name": "day_bed",
+   "start": 647.125,
+   "gain_db": -14,
+   "dur": 4.516666666666667,
+   "params": {}
+  },
+  {
+   "shot": "S06_SH14",
+   "name": "day_bed",
+   "start": 651.042,
+   "gain_db": -14,
+   "dur": 5.35,
+   "params": {}
+  },
+  {
+   "shot": "S06_SH14",
+   "name": "munch",
+   "start": 651.342,
+   "gain_db": -6,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S06_SH15",
+   "name": "day_bed",
+   "start": 655.792,
+   "gain_db": -18,
+   "dur": 3.4,
+   "params": {}
+  },
+  {
+   "shot": "S06_SH16",
+   "name": "day_bed",
+   "start": 658.583,
+   "gain_db": -18,
+   "dur": 6.6,
+   "params": {}
+  },
+  {
+   "shot": "S06_SH16",
+   "name": "syrup_gush",
+   "start": 658.783,
+   "gain_db": -2,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S06_SH16",
+   "name": "kids_gasp",
+   "start": 659.383,
+   "gain_db": -10,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S06_SH16",
+   "name": "slosh",
+   "start": 661.583,
+   "gain_db": -8,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S06_SH17",
+   "name": "day_bed",
+   "start": 664.583,
+   "gain_db": -18,
+   "dur": 5.3999999999999995,
+   "params": {}
+  },
+  {
+   "shot": "S06_SH17",
+   "name": "slosh",
+   "start": 665.083,
+   "gain_db": -8,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S06_SH17",
+   "name": "slosh",
+   "start": 666.783,
+   "gain_db": -8,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S06_SH17",
+   "name": "kids_laugh",
+   "start": 665.583,
+   "gain_db": -12,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S06_SH18",
+   "name": "day_bed",
+   "start": 669.375,
+   "gain_db": -14,
+   "dur": 4.433333333333334,
+   "params": {}
+  },
+  {
+   "shot": "S06_SH18",
+   "name": "munch",
+   "start": 669.625,
+   "gain_db": -6,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S06_SH19",
+   "name": "day_bed",
+   "start": 673.208,
+   "gain_db": -18,
+   "dur": 6.0,
+   "params": {}
+  },
+  {
+   "shot": "S06_SH19",
+   "name": "magic_float",
+   "start": 673.508,
+   "gain_db": -6,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S06_SH19",
+   "name": "rickshaw_bell",
+   "start": 675.008,
+   "gain_db": -8,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S06_SH19",
+   "name": "whoosh",
+   "start": 677.108,
+   "gain_db": -4,
+   "dur": null,
+   "params": {
+    "intensity": 1.0
+   }
+  },
+  {
+   "shot": "S06_SH20",
+   "name": "rickshaw_zoom",
+   "start": 678.625,
+   "gain_db": -3,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S06_SH20",
+   "name": "whoosh",
+   "start": 680.225,
+   "gain_db": -6,
+   "dur": null,
+   "params": {
+    "intensity": 0.8
+   }
+  },
+  {
+   "shot": "S06_SH20",
+   "name": "rickshaw_bell",
+   "start": 681.225,
+   "gain_db": -8,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S06_SH21",
+   "name": "day_bed",
+   "start": 682.625,
+   "gain_db": -18,
+   "dur": 3.8000000000000003,
+   "params": {}
+  },
+  {
+   "shot": "S06_SH21",
+   "name": "sploosh",
+   "start": 683.125,
+   "gain_db": 0,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S06_SH21",
+   "name": "kids_laugh",
+   "start": 683.825,
+   "gain_db": -10,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S06_SH22",
+   "name": "day_bed",
+   "start": 685.833,
+   "gain_db": -18,
+   "dur": 3.6,
+   "params": {}
+  },
+  {
+   "shot": "S06_SH22",
+   "name": "pop",
+   "start": 686.683,
+   "gain_db": -10,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S06_SH22",
+   "name": "kids_laugh",
+   "start": 687.133,
+   "gain_db": -12,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S06_SH23",
+   "name": "day_bed",
+   "start": 688.833,
+   "gain_db": -14,
+   "dur": 3.3916666666666666,
+   "params": {}
+  },
+  {
+   "shot": "S06_SH24",
+   "name": "day_bed",
+   "start": 691.625,
+   "gain_db": -18,
+   "dur": 5.199999999999999,
+   "params": {}
+  },
+  {
+   "shot": "S06_SH24",
+   "name": "munch",
+   "start": 691.975,
+   "gain_db": -8,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S06_SH24",
+   "name": "sparkle",
+   "start": 693.225,
+   "gain_db": -4,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S06_SH24",
+   "name": "magic_float",
+   "start": 693.225,
+   "gain_db": -10,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S06_SH25",
+   "name": "day_bed",
+   "start": 696.208,
+   "gain_db": -18,
+   "dur": 4.0,
+   "params": {}
+  },
+  {
+   "shot": "S06_SH25",
+   "name": "buffalo_moo",
+   "start": 697.408,
+   "gain_db": -2,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S06_SH26",
+   "name": "day_bed",
+   "start": 699.625,
+   "gain_db": -18,
+   "dur": 4.3999999999999995,
+   "params": {}
+  },
+  {
+   "shot": "S06_SH26",
+   "name": "kids_laugh",
+   "start": 699.925,
+   "gain_db": -8,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S06_SH27",
+   "name": "day_bed",
+   "start": 703.417,
+   "gain_db": -18,
+   "dur": 4.2,
+   "params": {}
+  },
+  {
+   "shot": "S06_SH27",
+   "name": "kids_laugh",
+   "start": 703.417,
+   "gain_db": -4,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S06_SH28",
+   "name": "day_bed",
+   "start": 707.0,
+   "gain_db": -20,
+   "dur": 4.6,
+   "params": {}
+  },
+  {
+   "shot": "S06_SH28",
+   "name": "kids_laugh",
+   "start": 707.0,
+   "gain_db": -14,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S06_SH28",
+   "name": "crystal_spread",
+   "start": 708.2,
+   "gain_db": -6,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S06_SH29",
+   "name": "day_bed",
+   "start": 711.0,
+   "gain_db": -20,
+   "dur": 3.2,
+   "params": {}
+  },
+  {
+   "shot": "S06_SH29",
+   "name": "crystal_tink",
+   "start": 711.8,
+   "gain_db": -4,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S06_SH29",
+   "name": "crystal_tink",
+   "start": 712.5,
+   "gain_db": -6,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S06_SH30",
+   "name": "day_bed",
+   "start": 713.583,
+   "gain_db": -20,
+   "dur": 4.8,
+   "params": {}
+  },
+  {
+   "shot": "S06_SH30",
+   "name": "kids_laugh",
+   "start": 713.783,
+   "gain_db": -16,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S07_SH01",
+   "name": "night_bed",
+   "start": 717.792,
+   "gain_db": -20,
+   "dur": 7.5,
+   "params": {}
+  },
+  {
+   "shot": "S07_SH01",
+   "name": "crickets_bed",
+   "start": 717.792,
+   "gain_db": -24,
+   "dur": 6.5,
+   "params": {}
+  },
+  {
+   "shot": "S07_SH02",
+   "name": "night_bed",
+   "start": 725.292,
+   "gain_db": -20,
+   "dur": 4.583,
+   "params": {}
+  },
+  {
+   "shot": "S07_SH03",
+   "name": "night_bed",
+   "start": 729.875,
+   "gain_db": -20,
+   "dur": 3.958,
+   "params": {}
+  },
+  {
+   "shot": "S07_SH04",
+   "name": "night_bed",
+   "start": 733.833,
+   "gain_db": -20,
+   "dur": 4.417,
+   "params": {}
+  },
+  {
+   "shot": "S07_SH05",
+   "name": "night_bed",
+   "start": 738.25,
+   "gain_db": -18.0,
+   "dur": 5.0,
+   "params": {}
+  },
+  {
+   "shot": "S07_SH05B",
+   "name": "night_bed",
+   "start": 743.25,
+   "gain_db": -18.0,
+   "dur": 4.208,
+   "params": {}
+  },
+  {
+   "shot": "S07_SH06",
+   "name": "night_bed",
+   "start": 747.458,
+   "gain_db": -16,
+   "dur": 7.0,
+   "params": {}
+  },
+  {
+   "shot": "S07_SH06",
+   "name": "dog_whine",
+   "start": 751.458,
+   "gain_db": -14,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S07_SH07",
+   "name": "night_bed",
+   "start": 754.458,
+   "gain_db": -16,
+   "dur": 5.5,
+   "params": {}
+  },
+  {
+   "shot": "S07_SH07",
+   "name": "footsteps_soft",
+   "start": 754.758,
+   "gain_db": -14,
+   "dur": 3.2,
+   "params": {}
+  },
+  {
+   "shot": "S07_SH08",
+   "name": "night_bed",
+   "start": 759.958,
+   "gain_db": -18,
+   "dur": 8.0,
+   "params": {}
+  },
+  {
+   "shot": "S07_SH08",
+   "name": "clock_strike",
+   "start": 759.958,
+   "gain_db": -8,
+   "dur": null,
+   "params": {
+    "n": 3,
+    "interval": 1.5
+   }
+  },
+  {
+   "shot": "S07_SH08",
+   "name": "shop_flicker",
+   "start": 761.758,
+   "gain_db": -8,
+   "dur": 6.0,
+   "params": {}
+  },
+  {
+   "shot": "S07_SH09",
+   "name": "night_bed",
+   "start": 767.958,
+   "gain_db": -18,
+   "dur": 4.208,
+   "params": {}
+  },
+  {
+   "shot": "S07_SH09",
+   "name": "shop_flicker",
+   "start": 767.958,
+   "gain_db": -10,
+   "dur": 4.2,
+   "params": {}
+  },
+  {
+   "shot": "S07_SH09B",
+   "name": "night_bed",
+   "start": 772.167,
+   "gain_db": -18.0,
+   "dur": 5.0,
+   "params": {}
+  },
+  {
+   "shot": "S07_SH09B",
+   "name": "shop_flicker",
+   "start": 772.167,
+   "gain_db": -12,
+   "dur": 5.0,
+   "params": {}
+  },
+  {
+   "shot": "S07_SH09B",
+   "name": "footsteps_soft",
+   "start": 772.567,
+   "gain_db": -16,
+   "dur": 4.0,
+   "params": {}
+  },
+  {
+   "shot": "S07_SH10",
+   "name": "crickets_bed",
+   "start": 777.167,
+   "gain_db": -26,
+   "dur": 6.0,
+   "params": {}
+  },
+  {
+   "shot": "S07_SH10",
+   "name": "floor_creak",
+   "start": 778.367,
+   "gain_db": -12,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S07_SH10",
+   "name": "shop_flicker",
+   "start": 777.167,
+   "gain_db": -18,
+   "dur": 6.0,
+   "params": {}
+  },
+  {
+   "shot": "S07_SH11",
+   "name": "crickets_bed",
+   "start": 783.167,
+   "gain_db": -26,
+   "dur": 4.5,
+   "params": {}
+  },
+  {
+   "shot": "S07_SH12",
+   "name": "crickets_bed",
+   "start": 787.667,
+   "gain_db": -26,
+   "dur": 6.958,
+   "params": {}
+  },
+  {
+   "shot": "S07_SH12",
+   "name": "tola_tink",
+   "start": 788.567,
+   "gain_db": -16,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S07_SH13",
+   "name": "crickets_bed",
+   "start": 794.625,
+   "gain_db": -26,
+   "dur": 4.792,
+   "params": {}
+  },
+  {
+   "shot": "S07_SH13",
+   "name": "crystal_tink",
+   "start": 796.925,
+   "gain_db": -8,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S07_SH13",
+   "name": "crystal_spread",
+   "start": 797.025,
+   "gain_db": -14,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S07_SH14",
+   "name": "crickets_bed",
+   "start": 799.417,
+   "gain_db": -26,
+   "dur": 4.583,
+   "params": {}
+  },
+  {
+   "shot": "S07_SH15",
+   "name": "crickets_bed",
+   "start": 804.0,
+   "gain_db": -26,
+   "dur": 4.208,
+   "params": {}
+  },
+  {
+   "shot": "S07_SH16",
+   "name": "crickets_bed",
+   "start": 808.208,
+   "gain_db": -26,
+   "dur": 8.583,
+   "params": {}
+  },
+  {
+   "shot": "S07_SH16",
+   "name": "bubble_rise",
+   "start": 811.808,
+   "gain_db": -10,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S07_SH16",
+   "name": "bubble_fizzle",
+   "start": 814.208,
+   "gain_db": -8,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S07_SH16",
+   "name": "tola_tink",
+   "start": 813.008,
+   "gain_db": -18,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S07_SH16B",
+   "name": "crickets_bed",
+   "start": 816.792,
+   "gain_db": -26,
+   "dur": 3.583,
+   "params": {}
+  },
+  {
+   "shot": "S07_SH16B",
+   "name": "tola_clank",
+   "start": 817.292,
+   "gain_db": -16,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S07_SH16B",
+   "name": "tola_tink",
+   "start": 818.092,
+   "gain_db": -18,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S07_SH17",
+   "name": "crickets_bed",
+   "start": 820.375,
+   "gain_db": -26,
+   "dur": 4.583,
+   "params": {}
+  },
+  {
+   "shot": "S07_SH18",
+   "name": "crickets_bed",
+   "start": 824.958,
+   "gain_db": -26,
+   "dur": 4.083,
+   "params": {}
+  },
+  {
+   "shot": "S07_SH19",
+   "name": "crickets_bed",
+   "start": 829.042,
+   "gain_db": -26,
+   "dur": 7.375,
+   "params": {}
+  },
+  {
+   "shot": "S07_SH20",
+   "name": "crickets_bed",
+   "start": 836.417,
+   "gain_db": -26,
+   "dur": 5.208,
+   "params": {}
+  },
+  {
+   "shot": "S07_SH20",
+   "name": "sparkle",
+   "start": 837.217,
+   "gain_db": -14,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S07_SH21",
+   "name": "crickets_bed",
+   "start": 841.625,
+   "gain_db": -26,
+   "dur": 8.167,
+   "params": {}
+  },
+  {
+   "shot": "S07_SH22",
+   "name": "crickets_bed",
+   "start": 849.792,
+   "gain_db": -26,
+   "dur": 4.208,
+   "params": {}
+  },
+  {
+   "shot": "S07_SH23",
+   "name": "crickets_bed",
+   "start": 854.0,
+   "gain_db": -26,
+   "dur": 3.708,
+   "params": {}
+  },
+  {
+   "shot": "S07_SH24",
+   "name": "night_bed",
+   "start": 857.708,
+   "gain_db": -18,
+   "dur": 4.792,
+   "params": {}
+  },
+  {
+   "shot": "S07_SH24",
+   "name": "shop_flicker",
+   "start": 857.708,
+   "gain_db": -10,
+   "dur": 1.6,
+   "params": {}
+  },
+  {
+   "shot": "S07_SH24",
+   "name": "shop_shut",
+   "start": 859.328,
+   "gain_db": -2,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S07_SH25",
+   "name": "night_bed",
+   "start": 862.5,
+   "gain_db": -18,
+   "dur": 5.5,
+   "params": {}
+  },
+  {
+   "shot": "S08_SH01",
+   "name": "night_bed",
+   "start": 868.0,
+   "gain_db": -18,
+   "dur": 5.5,
+   "params": {}
+  },
+  {
+   "shot": "S08_SH01",
+   "name": "crickets_bed",
+   "start": 868.0,
+   "gain_db": -24,
+   "dur": 5.5,
+   "params": {}
+  },
+  {
+   "shot": "S08_SH02",
+   "name": "night_bed",
+   "start": 873.5,
+   "gain_db": -18,
+   "dur": 3.917,
+   "params": {}
+  },
+  {
+   "shot": "S08_SH03",
+   "name": "night_bed",
+   "start": 877.417,
+   "gain_db": -18,
+   "dur": 5.792,
+   "params": {}
+  },
+  {
+   "shot": "S08_SH04",
+   "name": "night_bed",
+   "start": 883.208,
+   "gain_db": -18,
+   "dur": 4.375,
+   "params": {}
+  },
+  {
+   "shot": "S08_SH05",
+   "name": "crickets_bed",
+   "start": 887.583,
+   "gain_db": -28,
+   "dur": 9.5,
+   "params": {}
+  },
+  {
+   "shot": "S08_SH05",
+   "name": "stair_creak",
+   "start": 888.783,
+   "gain_db": -12,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S08_SH05",
+   "name": "stair_creak",
+   "start": 890.983,
+   "gain_db": -14,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S08_SH05",
+   "name": "footsteps_soft",
+   "start": 888.583,
+   "gain_db": -18,
+   "dur": 8.0,
+   "params": {}
+  },
+  {
+   "shot": "S08_SH05",
+   "name": "stair_creak",
+   "start": 893.183,
+   "gain_db": -12,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S08_SH05",
+   "name": "stair_creak",
+   "start": 895.383,
+   "gain_db": -14,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S08_SH06",
+   "name": "crickets_bed",
+   "start": 897.083,
+   "gain_db": -28,
+   "dur": 6.0,
+   "params": {}
+  },
+  {
+   "shot": "S08_SH06",
+   "name": "stair_creak",
+   "start": 897.683,
+   "gain_db": -14,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S08_SH06",
+   "name": "stair_creak",
+   "start": 900.083,
+   "gain_db": -12,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S08_SH06",
+   "name": "stair_creak",
+   "start": 902.483,
+   "gain_db": -14,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S08_SH07",
+   "name": "crickets_bed",
+   "start": 903.083,
+   "gain_db": -28,
+   "dur": 5.25,
+   "params": {}
+  },
+  {
+   "shot": "S08_SH07",
+   "name": "stair_creak",
+   "start": 904.683,
+   "gain_db": -14,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S08_SH07",
+   "name": "stair_creak",
+   "start": 907.283,
+   "gain_db": -14,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S08_SH08",
+   "name": "crickets_bed",
+   "start": 908.333,
+   "gain_db": -28,
+   "dur": 4.417,
+   "params": {}
+  },
+  {
+   "shot": "S08_SH08",
+   "name": "stair_creak",
+   "start": 909.733,
+   "gain_db": -16,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S08_SH09",
+   "name": "crickets_bed",
+   "start": 912.75,
+   "gain_db": -28,
+   "dur": 4.583,
+   "params": {}
+  },
+  {
+   "shot": "S08_SH09",
+   "name": "footsteps_soft",
+   "start": 913.05,
+   "gain_db": -16,
+   "dur": 2.8,
+   "params": {}
+  },
+  {
+   "shot": "S08_SH10",
+   "name": "night_bed",
+   "start": 917.333,
+   "gain_db": -18,
+   "dur": 6.5,
+   "params": {}
+  },
+  {
+   "shot": "S08_SH10",
+   "name": "clock_strike",
+   "start": 917.333,
+   "gain_db": -8,
+   "dur": null,
+   "params": {
+    "n": 3,
+    "interval": 1.4
+   }
+  },
+  {
+   "shot": "S08_SH10",
+   "name": "shop_flicker",
+   "start": 919.733,
+   "gain_db": -20,
+   "dur": 4.0,
+   "params": {}
+  },
+  {
+   "shot": "S08_SH11",
+   "name": "night_bed",
+   "start": 923.833,
+   "gain_db": -18,
+   "dur": 5.0,
+   "params": {}
+  },
+  {
+   "shot": "S08_SH11",
+   "name": "footsteps_soft",
+   "start": 924.133,
+   "gain_db": -18,
+   "dur": 2.6,
+   "params": {}
+  },
+  {
+   "shot": "S08_SH12",
+   "name": "night_bed",
+   "start": 928.833,
+   "gain_db": -22,
+   "dur": 9.0,
+   "params": {}
+  },
+  {
+   "shot": "S08_SH12",
+   "name": "hum_lullaby",
+   "start": 929.633,
+   "gain_db": -4,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S08_SH12",
+   "name": "wall_echo_lullaby",
+   "start": 932.433,
+   "gain_db": -8,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S08_SH13",
+   "name": "night_bed",
+   "start": 937.833,
+   "gain_db": -24,
+   "dur": 11.0,
+   "params": {}
+  },
+  {
+   "shot": "S08_SH13",
+   "name": "bubble_rise",
+   "start": 937.833,
+   "gain_db": -8,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S08_SH13",
+   "name": "sung_lullaby_child",
+   "start": 939.333,
+   "gain_db": -6,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S08_SH13",
+   "name": "sparkle",
+   "start": 944.333,
+   "gain_db": -14,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S08_SH14",
+   "name": "night_bed",
+   "start": 948.833,
+   "gain_db": -24,
+   "dur": 6.25,
+   "params": {}
+  },
+  {
+   "shot": "S08_SH15",
+   "name": "night_bed",
+   "start": 955.083,
+   "gain_db": -24,
+   "dur": 7.0,
+   "params": {}
+  },
+  {
+   "shot": "S08_SH15",
+   "name": "bubble_settle",
+   "start": 956.683,
+   "gain_db": -8,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S08_SH15",
+   "name": "wall_glow",
+   "start": 955.483,
+   "gain_db": -8,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S08_SH15",
+   "name": "shop_unfold",
+   "start": 957.083,
+   "gain_db": -2,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S08_SH15",
+   "name": "awning_snap",
+   "start": 958.683,
+   "gain_db": -6,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S08_SH15",
+   "name": "lantern_light",
+   "start": 959.283,
+   "gain_db": -8,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S08_SH15",
+   "name": "dog_bark",
+   "start": 959.883,
+   "gain_db": -10,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S08_SH16",
+   "name": "crickets_bed",
+   "start": 962.083,
+   "gain_db": -30,
+   "dur": 6.5,
+   "params": {}
+  },
+  {
+   "shot": "S08_SH16",
+   "name": "tola_clonng",
+   "start": 963.683,
+   "gain_db": 0,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S08_SH16",
+   "name": "jars_refill",
+   "start": 964.083,
+   "gain_db": -4,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S08_SH16",
+   "name": "jar_chord",
+   "start": 964.483,
+   "gain_db": -6,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S08_SH16",
+   "name": "lantern_light",
+   "start": 964.283,
+   "gain_db": -10,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S08_SH17",
+   "name": "crickets_bed",
+   "start": 968.583,
+   "gain_db": -30,
+   "dur": 5.0,
+   "params": {}
+  },
+  {
+   "shot": "S08_SH17",
+   "name": "sparkle",
+   "start": 968.983,
+   "gain_db": -16,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S08_SH18",
+   "name": "crickets_bed",
+   "start": 973.583,
+   "gain_db": -30,
+   "dur": 4.208,
+   "params": {}
+  },
+  {
+   "shot": "S08_SH19",
+   "name": "crickets_bed",
+   "start": 977.792,
+   "gain_db": -30,
+   "dur": 3.625,
+   "params": {}
+  },
+  {
+   "shot": "S08_SH20",
+   "name": "crickets_bed",
+   "start": 981.417,
+   "gain_db": -30,
+   "dur": 6.333,
+   "params": {}
+  },
+  {
+   "shot": "S08_SH21",
+   "name": "crickets_bed",
+   "start": 987.75,
+   "gain_db": -30,
+   "dur": 6.0,
+   "params": {}
+  },
+  {
+   "shot": "S08_SH21",
+   "name": "bubble_rise",
+   "start": 990.15,
+   "gain_db": -8,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S08_SH22",
+   "name": "crickets_bed",
+   "start": 993.75,
+   "gain_db": -30,
+   "dur": 4.208,
+   "params": {}
+  },
+  {
+   "shot": "S08_SH22",
+   "name": "tola_thunk",
+   "start": 994.47,
+   "gain_db": 0,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S08_SH22",
+   "name": "jar_chord",
+   "start": 994.65,
+   "gain_db": -4,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S08_SH22",
+   "name": "jar_chord",
+   "start": 995.35,
+   "gain_db": -8,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S08_SH23",
+   "name": "crickets_bed",
+   "start": 997.958,
+   "gain_db": -30,
+   "dur": 5.208,
+   "params": {}
+  },
+  {
+   "shot": "S08_SH23",
+   "name": "crystal_melt",
+   "start": 998.558,
+   "gain_db": -4,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S08_SH23",
+   "name": "sparkle",
+   "start": 1000.558,
+   "gain_db": -14,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S08_SH24",
+   "name": "crickets_bed",
+   "start": 1003.167,
+   "gain_db": -30,
+   "dur": 3.583,
+   "params": {}
+  },
+  {
+   "shot": "S08_SH25",
+   "name": "crickets_bed",
+   "start": 1006.75,
+   "gain_db": -30,
+   "dur": 3.708,
+   "params": {}
+  },
+  {
+   "shot": "S08_SH26",
+   "name": "crickets_bed",
+   "start": 1010.458,
+   "gain_db": -30,
+   "dur": 5.0,
+   "params": {}
+  },
+  {
+   "shot": "S08_SH26",
+   "name": "dog_howl",
+   "start": 1011.258,
+   "gain_db": -4,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S08_SH26",
+   "name": "jar_chord",
+   "start": 1011.058,
+   "gain_db": -14,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S09_SH01",
+   "name": "sparrows_dawn",
+   "start": 1015.458,
+   "gain_db": -14,
+   "dur": 7.0,
+   "params": {}
+  },
+  {
+   "shot": "S09_SH01",
+   "name": "koel_call",
+   "start": 1017.958,
+   "gain_db": -12,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S09_SH02",
+   "name": "sparrows_dawn",
+   "start": 1022.458,
+   "gain_db": -16,
+   "dur": 5.0,
+   "params": {}
+  },
+  {
+   "shot": "S09_SH02",
+   "name": "footsteps_soft",
+   "start": 1023.058,
+   "gain_db": -12,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S09_SH03",
+   "name": "sparrows_dawn",
+   "start": 1027.458,
+   "gain_db": -17,
+   "dur": 6.0,
+   "params": {}
+  },
+  {
+   "shot": "S09_SH03",
+   "name": "sparkle",
+   "start": 1028.458,
+   "gain_db": -6,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S09_SH03",
+   "name": "magic_float",
+   "start": 1028.858,
+   "gain_db": -12,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S09_SH04",
+   "name": "sparrows_dawn",
+   "start": 1033.458,
+   "gain_db": -17,
+   "dur": 8.5,
+   "params": {}
+  },
+  {
+   "shot": "S09_SH04",
+   "name": "sparkle",
+   "start": 1036.558,
+   "gain_db": -6,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S09_SH05",
+   "name": "sparrows_dawn",
+   "start": 1041.5,
+   "gain_db": -17,
+   "dur": 5.0,
+   "params": {}
+  },
+  {
+   "shot": "S09_SH06",
+   "name": "sparrows_dawn",
+   "start": 1045.208,
+   "gain_db": -17,
+   "dur": 6.0,
+   "params": {}
+  },
+  {
+   "shot": "S09_SH06",
+   "name": "sparkle",
+   "start": 1048.408,
+   "gain_db": -12,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S09_SH07",
+   "name": "sparrows_dawn",
+   "start": 1050.0,
+   "gain_db": -17,
+   "dur": 6.5,
+   "params": {}
+  },
+  {
+   "shot": "S09_SH08",
+   "name": "sparrows_dawn",
+   "start": 1055.375,
+   "gain_db": -16,
+   "dur": 8.0,
+   "params": {}
+  },
+  {
+   "shot": "S09_SH08",
+   "name": "wind_chime_hello",
+   "start": 1055.975,
+   "gain_db": -10,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S09_SH08",
+   "name": "whoosh",
+   "start": 1058.375,
+   "gain_db": -14,
+   "dur": null,
+   "params": {
+    "intensity": 0.4
+   }
+  },
+  {
+   "shot": "S09_SH08",
+   "name": "lantern_light",
+   "start": 1060.375,
+   "gain_db": -16,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S09_SH09",
+   "name": "sparrows_dawn",
+   "start": 1063.375,
+   "gain_db": -16,
+   "dur": 8.5,
+   "params": {}
+  },
+  {
+   "shot": "S09_SH09",
+   "name": "whoosh",
+   "start": 1064.375,
+   "gain_db": -14,
+   "dur": null,
+   "params": {
+    "intensity": 0.5
+   }
+  },
+  {
+   "shot": "S09_SH09",
+   "name": "floor_creak",
+   "start": 1067.375,
+   "gain_db": -14,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S09_SH09",
+   "name": "whoosh",
+   "start": 1069.775,
+   "gain_db": -12,
+   "dur": null,
+   "params": {
+    "intensity": 0.6
+   }
+  },
+  {
+   "shot": "S09_SH10",
+   "name": "sparrows_dawn",
+   "start": 1071.875,
+   "gain_db": -15,
+   "dur": 6.5,
+   "params": {}
+  },
+  {
+   "shot": "S09_SH10",
+   "name": "wall_glow",
+   "start": 1073.275,
+   "gain_db": -14,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S09_SH10",
+   "name": "sparkle",
+   "start": 1074.875,
+   "gain_db": -10,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S09_SH11",
+   "name": "sparrows_dawn",
+   "start": 1078.375,
+   "gain_db": -15,
+   "dur": 4.5,
+   "params": {}
+  },
+  {
+   "shot": "S09_SH11",
+   "name": "sparkle",
+   "start": 1079.175,
+   "gain_db": -14,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S09_SH12",
+   "name": "sparrows_dawn",
+   "start": 1082.875,
+   "gain_db": -12,
+   "dur": 9.5,
+   "params": {}
+  },
+  {
+   "shot": "S09_SH12",
+   "name": "koel_call",
+   "start": 1084.375,
+   "gain_db": -10,
+   "dur": null,
+   "params": {
+    "n_calls": 3
+   }
+  },
+  {
+   "shot": "S09_SH12",
+   "name": "footsteps_soft",
+   "start": 1082.875,
+   "gain_db": -16,
+   "dur": 9.5,
+   "params": {}
+  },
+  {
+   "shot": "S09_SH13",
+   "name": "sparrows_dawn",
+   "start": 1092.375,
+   "gain_db": -13,
+   "dur": 7.5,
+   "params": {}
+  },
+  {
+   "shot": "S09_SH13",
+   "name": "footsteps_soft",
+   "start": 1092.375,
+   "gain_db": -14,
+   "dur": 7.5,
+   "params": {}
+  },
+  {
+   "shot": "S09_SH13",
+   "name": "dog_pant",
+   "start": 1093.375,
+   "gain_db": -14,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S09_SH14",
+   "name": "sparrows_dawn",
+   "start": 1099.875,
+   "gain_db": -12,
+   "dur": 9.0,
+   "params": {}
+  },
+  {
+   "shot": "S09_SH14",
+   "name": "koel_call",
+   "start": 1102.875,
+   "gain_db": -12,
+   "dur": null,
+   "params": {
+    "n_calls": 2
+   }
+  },
+  {
+   "shot": "S10_SH01",
+   "name": "crickets_bed",
+   "start": 1108.875,
+   "gain_db": -24,
+   "dur": 4.0,
+   "params": {}
+  },
+  {
+   "shot": "S10_SH02",
+   "name": "night_bed",
+   "start": 1112.875,
+   "gain_db": -14,
+   "dur": 11.0,
+   "params": {}
+  },
+  {
+   "shot": "S10_SH02",
+   "name": "train_horn_distant",
+   "start": 1116.375,
+   "gain_db": -20,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S10_SH03",
+   "name": "night_bed",
+   "start": 1123.875,
+   "gain_db": -15,
+   "dur": 9.0,
+   "params": {}
+  },
+  {
+   "shot": "S10_SH04",
+   "name": "night_bed",
+   "start": 1130.167,
+   "gain_db": -18,
+   "dur": 8.5,
+   "params": {}
+  },
+  {
+   "shot": "S10_SH04",
+   "name": "hum_lullaby",
+   "start": 1131.167,
+   "gain_db": -4,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S10_SH05",
+   "name": "night_bed",
+   "start": 1138.667,
+   "gain_db": -15,
+   "dur": 4.0,
+   "params": {}
+  },
+  {
+   "shot": "S10_SH06",
+   "name": "night_bed",
+   "start": 1142.667,
+   "gain_db": -15,
+   "dur": 8.0,
+   "params": {}
+  },
+  {
+   "shot": "S10_SH06",
+   "name": "kids_laugh",
+   "start": 1148.067,
+   "gain_db": -16,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S10_SH07",
+   "name": "night_bed",
+   "start": 1149.0,
+   "gain_db": -14,
+   "dur": 8.5,
+   "params": {}
+  },
+  {
+   "shot": "S10_SH07",
+   "name": "crickets_bed",
+   "start": 1149.0,
+   "gain_db": -20,
+   "dur": 8.5,
+   "params": {}
+  },
+  {
+   "shot": "S10_SH08",
+   "name": "night_bed",
+   "start": 1157.5,
+   "gain_db": -14,
+   "dur": 13.5,
+   "params": {}
+  },
+  {
+   "shot": "S10_SH08",
+   "name": "wall_glow",
+   "start": 1159.5,
+   "gain_db": -10,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "S10_SH08",
+   "name": "wind_chime_hello",
+   "start": 1160.5,
+   "gain_db": -16,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "CR_SH01",
+   "name": "night_bed",
+   "start": 1171.0,
+   "gain_db": -16,
+   "dur": 46,
+   "params": {}
+  },
+  {
+   "shot": "CR_SH02",
+   "name": "crickets_bed",
+   "start": 1217.0,
+   "gain_db": -26,
+   "dur": 11.0,
+   "params": {}
+  },
+  {
+   "shot": "CR_SH02",
+   "name": "floor_creak",
+   "start": 1217.3,
+   "gain_db": -14,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "CR_SH02",
+   "name": "tola_tink",
+   "start": 1218.0,
+   "gain_db": -18,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "CR_SH02",
+   "name": "tola_tink",
+   "start": 1219.2,
+   "gain_db": -18,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "CR_SH02",
+   "name": "pop",
+   "start": 1220.4,
+   "gain_db": -10,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "CR_SH02",
+   "name": "munch",
+   "start": 1220.5,
+   "gain_db": -4,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "CR_SH02",
+   "name": "swallow_gulp",
+   "start": 1221.3,
+   "gain_db": -8,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "CR_SH02",
+   "name": "magic_float",
+   "start": 1221.7,
+   "gain_db": -6,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "CR_SH02",
+   "name": "dog_whine",
+   "start": 1223.2,
+   "gain_db": -8,
+   "dur": null,
+   "params": {}
+  },
+  {
+   "shot": "CR_SH02",
+   "name": "pop",
+   "start": 1226.8,
+   "gain_db": -14,
+   "dur": null,
+   "params": {}
+  }
+ ],
+ "music": [
+  {
+   "cue": "dusk",
+   "start": 0.0,
+   "hits": [
+    16.5
+   ]
+  },
+  {
+   "cue": "rooftop_story",
+   "start": 22.0,
+   "hits": []
+  },
+  {
+   "cue": "midnight_mystery",
+   "start": 89.2083,
+   "hits": []
+  },
+  {
+   "cue": "wonder_unfold",
+   "start": 137.7083,
+   "hits": [
+    138.508,
+    148.508,
+    151.708,
+    155.808
+   ]
+  },
+  {
+   "cue": "shop_warm",
+   "start": 167.5833,
+   "hits": []
+  },
+  {
+   "cue": "memory",
+   "start": 244.7917,
+   "hits": []
+  },
+  {
+   "cue": "shop_warm",
+   "start": 256.375,
+   "hits": []
+  },
+  {
+   "cue": "flight",
+   "start": 282.5417,
+   "hits": []
+  },
+  {
+   "cue": "dawn_soft",
+   "start": 339.5417,
+   "hits": []
+  },
+  {
+   "cue": "",
+   "start": 353.625,
+   "hits": []
+  },
+  {
+   "cue": "midnight_mystery",
+   "start": 365.25,
+   "hits": []
+  },
+  {
+   "cue": "wonder_unfold",
+   "start": 377.875,
+   "hits": [
+    378.275,
+    380.675,
+    382.475
+   ]
+  },
+  {
+   "cue": "swagger",
+   "start": 387.875,
+   "hits": []
+  },
+  {
+   "cue": "deflate",
+   "start": 444.5417,
+   "hits": []
+  },
+  {
+   "cue": "montage",
+   "start": 460.7917,
+   "hits": []
+  },
+  {
+   "cue": "brave",
+   "start": 511.375,
+   "hits": [
+    512.975,
+    515.675
+   ]
+  },
+  {
+   "cue": "montage",
+   "start": 525.2083,
+   "hits": []
+  },
+  {
+   "cue": "chutney_tender",
+   "start": 547.0,
+   "hits": []
+  },
+  {
+   "cue": "fading",
+   "start": 574.75,
+   "hits": []
+  },
+  {
+   "cue": "sneak",
+   "start": 602.3333,
+   "hits": []
+  },
+  {
+   "cue": "",
+   "start": 637.9583,
+   "hits": []
+  },
+  {
+   "cue": "wish_chaos",
+   "start": 651.0417,
+   "hits": []
+  },
+  {
+   "cue": "crystal_sting",
+   "start": 707.0,
+   "hits": [
+    708.4
+   ]
+  },
+  {
+   "cue": "fading",
+   "start": 717.7917,
+   "hits": []
+  },
+  {
+   "cue": "",
+   "start": 747.4583,
+   "hits": []
+  },
+  {
+   "cue": "low_point",
+   "start": 759.9583,
+   "hits": [
+    761.558
+   ]
+  },
+  {
+   "cue": "",
+   "start": 862.5,
+   "hits": []
+  },
+  {
+   "cue": "stairs_tender",
+   "start": 887.5833,
+   "hits": []
+  },
+  {
+   "cue": "wall_hum",
+   "start": 917.3333,
+   "hits": []
+  },
+  {
+   "cue": "memory",
+   "start": 937.8333,
+   "hits": []
+  },
+  {
+   "cue": "blaze",
+   "start": 955.0833,
+   "hits": [
+    957.083,
+    959.083
+   ]
+  },
+  {
+   "cue": "heavy",
+   "start": 987.75,
+   "hits": []
+  },
+  {
+   "cue": "dawn_farewell",
+   "start": 1015.4583,
+   "hits": []
+  },
+  {
+   "cue": "walk_home",
+   "start": 1082.875,
+   "hits": []
+  },
+  {
+   "cue": "coda",
+   "start": 1108.875,
+   "hits": []
+  },
+  {
+   "cue": "credits",
+   "start": 1171.0,
+   "hits": []
+  },
+  {
+   "cue": "postcredits",
+   "start": 1217.0,
+   "hits": []
+  }
+ ]
+}

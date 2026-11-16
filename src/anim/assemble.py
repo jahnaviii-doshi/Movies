@@ -111,10 +111,14 @@ def main():
     mix16 = FILM_DIR / "edit" / "audio" / "mix_16lufs.wav"
     mix23 = FILM_DIR / "edit" / "audio" / "mix_23lufs.wav"
     film = FINAL / f"{TITLE}_1080p.mp4"
-    run("-i", str(pic), "-i", str(mix16), "-map", "0:v", "-map", "1:a", "-c:v", "copy", "-c:a", "aac",
+    run("-i", str(pic), "-i", str(mix16), "-map", "0:v", "-map", "1:a", "-c:v", "libx264", "-crf", "19",
+        "-preset", "slow", "-tune", "animation", "-pix_fmt", "yuv420p", "-c:a", "aac",
         "-b:a", "256k", "-ar", "48000", "-shortest", "-movflags", "+faststart", str(film))
+    run("-i", str(film), "-vf", "scale=1280:720:flags=lanczos", "-c:v", "libx264", "-crf", "22", "-preset", "slow",
+        "-tune", "animation", "-c:a", "aac", "-b:a", "192k", "-movflags", "+faststart",
+        str(FINAL / f"{TITLE}_720p_share.mp4"))
     if mix23.exists():
-        run("-i", str(pic), "-i", str(mix23), "-map", "0:v", "-map", "1:a", "-c:v", "copy", "-c:a", "aac",
+        run("-i", str(film), "-i", str(mix23), "-map", "0:v", "-map", "1:a", "-c:v", "copy", "-c:a", "aac",
             "-b:a", "256k", "-ar", "48000", "-shortest", "-movflags", "+faststart",
             str(FINAL / f"{TITLE}_1080p_broadcast_-23LUFS.mp4"))
     write_srt(tl, FINAL / f"{TITLE}_en.srt")

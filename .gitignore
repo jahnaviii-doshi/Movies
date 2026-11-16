@@ -11,3 +11,9 @@ films/*/assets/**/*.wav
 films/*/edit/**/*.mp4
 !films/*/.env.example
 models/
+# generated audio/video renders (regenerable; videos are published as GitHub release assets)
+films/*/edit/audio/
+films/*/edit/segments/
+films/*/edit/rough/
+films/*/assets/voice/
+*.npy
