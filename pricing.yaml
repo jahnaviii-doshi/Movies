@@ -1,0 +1,98 @@
+# Unit prices used by `python -m film estimate` and by the budget guard.
+# Researched 2026-11-16 (see docs/tooling.md for sources). Prices change monthly:
+# `python -m film doctor` re-checks endpoints once keys exist, and any price
+# marked verified: false must be confirmed on the vendor's pricing page before
+# a paid phase starts.
+#
+# unit types: image | second (of generated video/audio) | kchar (1,000 characters)
+#             | minute | call
+
+image:
+  nano_banana_pro:            # Google Gemini 3 Pro Image, up to 14 reference images
+    unit: image
+    usd: 0.15                 # Google direct $0.134 (1K/2K); fal resale ~0.15
+    batch_usd: 0.067          # Gemini Batch API, 50% off (slow; fine for bible/keyframes)
+    verified: true
+  seedream_4_5:               # ByteDance Seedream 4.5, up to 10 refs. Budget fallback
+    unit: image
+    usd: 0.04
+    verified: false
+  flux2_pro:                  # Black Forest Labs FLUX.2 [pro], up to 10 refs
+    unit: image
+    usd: 0.07
+    verified: false
+
+video:                        # silent video: we do our own sound design
+  kling_v3_pro:               # Kling 3.0 Pro image-to-video, 1080p, 3-15 s, start+end frame
+    unit: second
+    usd: 0.112
+    verified: false
+  kling_v3_std:               # 720p tier
+    unit: second
+    usd: 0.084
+    verified: false
+  veo_3_1:                    # Google Veo 3.1 standard, 1080p, 4/6/8 s, first+last frame, ref images
+    unit: second
+    usd: 0.20                 # $0.40 with audio; video-only is about half
+    verified: false
+  veo_3_1_fast:
+    unit: second
+    usd: 0.10
+    verified: true
+  veo_3_1_lite:
+    unit: second
+    usd: 0.05
+    verified: true
+  seedance_2:
+    unit: second
+    usd: 0.37                 # 1080p, quotes vary widely between resellers
+    verified: false
+
+lipsync:
+  sync_lipsync_v2:
+    unit: second
+    usd: 0.05
+    verified: false
+  sync_3:                     # top-tier, ~5x lipsync-1.9
+    unit: second
+    usd: 0.125
+    verified: false
+
+voice:
+  eleven_v3:                  # expressive TTS, 70+ languages incl. Hindi, audio tags
+    unit: kchar
+    usd: 0.08
+    verified: true
+  eleven_flash:               # scratch voices for the animatic
+    unit: kchar
+    usd: 0.04
+    verified: true
+
+music:
+  eleven_music:
+    unit: minute
+    usd: 0.15                 # some sources still list $0.30/min; "high" scenario uses that
+    high_usd: 0.30
+    verified: false
+
+sfx:
+  eleven_sfx:
+    unit: minute
+    usd: 0.12
+    verified: false
+
+qc:
+  session:                    # Claude Code reviews contact sheets inside this session: no API spend
+    unit: call
+    usd: 0.0
+    verified: true
+  claude_api_judge:           # optional unattended judge: claude-opus-5-5, ~11k in / ~1k out per take
+    unit: call
+    usd: 0.06
+    verified: true
+
+mock:                         # offline placeholder generator for testing the pipeline
+  any:
+    unit: call
+    usd: 0.0
+    verified: true

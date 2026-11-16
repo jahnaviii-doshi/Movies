@@ -1,0 +1,53 @@
+# The Midnight Sweet Shop: production config. Values marked GATE 0 are confirmed by the producer at GATE 0.
+title: "The Midnight Sweet Shop"
+slug: midnight_sweet_shop
+
+budget_usd: null              # GATE 0. Hard cap. Paid commands refuse to run while this is null.
+contingency_pct: 15           # shown in the estimate; not spendable without approval
+
+runtime_target_s: 1200
+runtime_tolerance_s: 30
+resolution: [1920, 1080]      # GATE 0
+fps: 24                       # GATE 0
+language:                     # GATE 0
+  dialogue: en
+  hindi_mix: light            # natural Hindi words/phrases inside English lines
+  subtitles: [en, hi]
+
+takes_per_shot: 2
+max_retakes: 2                # extra attempts with an adjusted prompt when no take scores >= 4
+qc_pass_score: 4
+qc_floor_score: 3             # nothing below this may appear in the final cut
+keyframe_candidates: 2
+bible_candidates: 4
+
+# Planning assumptions for the estimate (replaced by real numbers once shots.json exists)
+plan:
+  shots: {low: 180, expected: 200, high: 220}
+  avg_shot_s: 6
+  dialogue_lines: 250
+  avg_line_chars: 40
+  lipsync_on_fraction: 0.25
+  hero_shot_fraction: {low: 0.0, expected: 0.15, high: 0.30}   # shots routed to video_hero
+  retake_rate: {low: 0.15, expected: 0.30, high: 0.60}
+  keyframe_regen_rate: {low: 0.15, expected: 0.30, high: 0.60} # animatic notes -> new keyframes
+  music_minutes_generated: {low: 50, expected: 100, high: 160}
+  sfx_minutes_generated: {low: 15, expected: 30, high: 60}
+
+characters: [meher, kabir, chutney, mishri_amma, tola, nani]
+locations: [rooftop_night, gali_night, gali_day, blue_wall, sweet_shop_interior, chandpur_aerial]
+
+# Provider routing. Swap a model by editing one line; adapters live in src/film/providers/.
+providers:
+  image:         {adapter: fal,        model: "fal-ai/nano-banana-pro/edit",               price: image.nano_banana_pro}
+  video:         {adapter: fal,        model: "fal-ai/kling-video/v3/pro/image-to-video",  price: video.kling_v3_pro}
+  video_hero:    {adapter: fal,        model: "fal-ai/veo3.1/image-to-video",              price: video.veo_3_1}
+  lipsync:       {adapter: fal,        model: "fal-ai/sync-lipsync/v2",                    price: lipsync.sync_lipsync_v2}
+  voice:         {adapter: elevenlabs, model: eleven_v3,                                   price: voice.eleven_v3}
+  voice_scratch: {adapter: elevenlabs, model: eleven_flash_v2_5,                           price: voice.eleven_flash}
+  music:         {adapter: elevenlabs, model: music_v1,                                    price: music.eleven_music}
+  sfx:           {adapter: elevenlabs, model: eleven_text_to_sound_v2,                     price: sfx.eleven_sfx}
+  qc:            {adapter: session,                                                        price: qc.session}
+
+concurrency: {video: 4, image: 6, voice: 4}
+retry: {attempts: 5, base_delay_s: 4, max_delay_s: 120}

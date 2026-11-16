@@ -1,0 +1,12 @@
+.env
+.venv/
+__pycache__/
+*.egg-info/
+# heavy generated media stays out of git; manifests, sidecars and logs are tracked
+films/*/assets/**/*.png
+films/*/assets/**/*.jpg
+films/*/assets/**/*.mp4
+films/*/assets/**/*.mp3
+films/*/assets/**/*.wav
+films/*/edit/**/*.mp4
+!films/*/.env.example
